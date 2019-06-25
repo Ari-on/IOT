@@ -1,0 +1,730 @@
+basePath: /iot2/example
+consumes:
+- application/json
+definitions:
+  MAF-FQDN:
+    description: MAF-FQDN
+    type: string
+  MAFBaseInfo:
+    description: information of MAFBase resource
+    example:
+      MAFBaseInfo:
+        creationTime: ''
+        labels: ''
+        resourceID: ''
+        resourceName: ''
+        resourceType: ''
+    properties:
+      creationTime:
+        $ref: '#/definitions/creationTime'
+      labels:
+        $ref: '#/definitions/labels'
+      resourceID:
+        $ref: '#/definitions/resourceID'
+      resourceName:
+        $ref: '#/definitions/resourceName'
+      resourceType:
+        $ref: '#/definitions/resourceType'
+    type: object
+  MEF-FQDN:
+    description: MEF-FQDN
+    type: string
+  MEFBaseInfo:
+    description: information of MEFBase resource
+    example:
+      MEFBaseInfo:
+        creationTime: ''
+        labels: ''
+        resourceID: ''
+        resourceName: ''
+        resourceType: ''
+    properties:
+      creationTime:
+        $ref: '#/definitions/creationTime'
+      labels:
+        $ref: '#/definitions/labels'
+      resourceID:
+        $ref: '#/definitions/resourceID'
+      resourceName:
+        $ref: '#/definitions/resourceName'
+      resourceType:
+        $ref: '#/definitions/resourceType'
+    type: object
+  MEFClientRegID:
+    description: MEFClientRegID
+    type: string
+  RelativeKeyID:
+    description: RelativeKeyID
+    type: string
+  SUID:
+    description: SUID
+    type: string
+  adminFQDN:
+    description: adminFQDN
+    type: string
+  cmdID:
+    description: cmdID
+    type: string
+  cmdStatusCode:
+    description: cmdStatusCode
+    type: string
+  creationTime:
+    description: creationTime
+    type: string
+  expirationTime:
+    description: expirationTime
+    type: string
+  inline_response_200_MAFBase:
+    example:
+      MAFBaseInfo:
+        creationTime: ''
+        labels: ''
+        resourceID: ''
+        resourceName: ''
+        resourceType: ''
+    properties:
+      MAFBaseInfo:
+        $ref: '#/definitions/MAFBaseInfo'
+  inline_response_200_MEFBase:
+    example:
+      MEFBaseInfo:
+        creationTime: ''
+        labels: ''
+        resourceID: ''
+        resourceName: ''
+        resourceType: ''
+    properties:
+      MEFBaseInfo:
+        $ref: '#/definitions/MEFBaseInfo'
+  inline_response_200_mafClientReg:
+    example:
+      mafClientRegInfo:
+        MAF-FQDN: ''
+        adminFQDN: ''
+        expirationTime: ''
+        labels: ''
+        mafClientRegID: ''
+    properties:
+      mafClientRegInfo:
+        $ref: '#/definitions/mafClientRegInfo'
+  inline_response_200_mefClientCmd:
+    example:
+      mefClientCmdInfo:
+        MEFClientRegID: ''
+        cmdID: ''
+        cmdStatusCode: ''
+    properties:
+      mefClientCmdInfo:
+        $ref: '#/definitions/mefClientCmdInfo'
+  inline_response_200_mefClientReg:
+    example:
+      mefClientRegInfo:
+        MEF-FQDN: ''
+        MEFClientRegID: ''
+        adminFQDN: ''
+        expirationTime: ''
+        labels: ''
+    properties:
+      mefClientRegInfo:
+        $ref: '#/definitions/mefClientRegInfo'
+  inline_response_200_symmKeyReg:
+    example:
+      symmKeyRegInfo:
+        MAF-FQDN: ''
+        MEF-FQDN: ''
+        RelativeKeyID: ''
+        SUID: ''
+        adminFQDN: ''
+        expirationTime: ''
+        keyValue: ''
+        labels: ''
+        targetIDs: ''
+    properties:
+      symmKeyRegInfo:
+        $ref: '#/definitions/symmKeyRegInfo'
+  keyValue:
+    description: keyValue
+    type: string
+  labels:
+    description: labels
+    type: string
+  mafClientRegID:
+    description: mafClientRegID
+    type: string
+  mafClientRegInfo:
+    description: information of mafClientReg resource
+    example:
+      mafClientRegInfo:
+        MAF-FQDN: '{{MAF-FQDN}}'
+        adminFQDN: '{{adminFQDN}}'
+        expirationTime: '{{expirationTime}}'
+        labels: '{{labels}}'
+        mafClientRegID: '{{mafClientRegID}}'
+    properties:
+      MAF-FQDN:
+        $ref: '#/definitions/MAF-FQDN'
+      adminFQDN:
+        $ref: '#/definitions/adminFQDN'
+      expirationTime:
+        $ref: '#/definitions/expirationTime'
+      labels:
+        $ref: '#/definitions/labels'
+      mafClientRegID:
+        $ref: '#/definitions/mafClientRegID'
+    type: object
+  mefClientCmdInfo:
+    description: information of symmKeyReg resource
+    example:
+      mefClientCmdInfo:
+        MEFClientRegID: '{{MEFClientRegID}}'
+        cmdID: '{{cmdID}}'
+        cmdStatusCode: '{{cmdStatusCode}}'
+    properties:
+      MEFClientRegID:
+        $ref: '#/definitions/MEFClientRegID'
+      cmdID:
+        $ref: '#/definitions/cmdID'
+      cmdStatusCode:
+        $ref: '#/definitions/cmdStatusCode'
+    type: object
+  mefClientRegInfo:
+    description: information of mefClientReg resource
+    example:
+      mefClientRegInfo:
+        MEF-FQDN: '{{MEF-FQDN}}'
+        MEFClientRegID: '{{MEFClientRegID}}'
+        adminFQDN: '{{adminFQDN}}'
+        expirationTime: '{{expirationTime}}'
+        labels: '{{labels}}'
+    properties:
+      MEF-FQDN:
+        $ref: '#/definitions/MEF-FQDN'
+      MEFClientRegID:
+        $ref: '#/definitions/MEFClientRegID'
+      adminFQDN:
+        $ref: '#/definitions/adminFQDN'
+      expirationTime:
+        $ref: '#/definitions/expirationTime'
+      labels:
+        $ref: '#/definitions/labels'
+    type: object
+  resourceID:
+    description: resourceID
+    type: string
+  resourceName:
+    description: resourceName
+    type: string
+  resourceType:
+    description: resourceType
+    type: string
+  symmKeyRegInfo:
+    description: information of symmKeyReg resource
+    example:
+      symmKeyRegInfo:
+        MAF-FQDN: '{{MAF-FQDN}}'
+        MEF-FQDN: '{{MEF-FQDN}}'
+        RelativeKeyID: '{{RelativeKeyID}}'
+        SUID: '{{SUID}}'
+        adminFQDN: '{{adminFQDN}}'
+        expirationTime: '{{expirationTime}}'
+        keyValue: '{{keyValue}}'
+        labels: '{{labels}}'
+        targetIDs: '{{targetIDs}}'
+    properties:
+      MAF-FQDN:
+        $ref: '#/definitions/MAF-FQDN'
+      MEF-FQDN:
+        $ref: '#/definitions/MEF-FQDN'
+      RelativeKeyID:
+        $ref: '#/definitions/RelativeKeyID'
+      SUID:
+        $ref: '#/definitions/SUID'
+      adminFQDN:
+        $ref: '#/definitions/adminFQDN'
+      expirationTime:
+        $ref: '#/definitions/expirationTime'
+      keyValue:
+        $ref: '#/definitions/keyValue'
+      labels:
+        $ref: '#/definitions/labels'
+      targetIDs:
+        $ref: '#/definitions/targetIDs'
+    type: object
+  targetIDs:
+    description: targetIDs
+    type: string
+externalDocs:
+  description: ETSI MEC015 V1.1.1 Bandwidth Management API
+  url: http://www.etsi.org/deliver/etsi_gs/MEC/001_099/015/01.01.01_60/gs_MEC015v010101p.pdf
+host: 127.0.0.1:8080
+info:
+  description: The ETSI IOT Bandwidth Management API described using OpenAPI
+  title: IOT3_API2
+  version: 1.1.1
+parameters:
+  Body.mafClientRegInfo:
+    description: mafClientRegInfo with updated information is included as entity body
+      of the request
+    in: body
+    name: mafClientRegInfo
+    required: true
+    schema:
+      $ref: '#/definitions/mafClientRegInfo'
+  Body.mefClientCmdInfo:
+    description: mefClientCmdInfo with updated information is included as entity body
+      of the request
+    in: body
+    name: mefClientCmdInfo
+    required: true
+    schema:
+      $ref: '#/definitions/mefClientCmdInfo'
+  Body.mefClientRegInfo:
+    description: mefClientRegInfo with updated information is included as entity body
+      of the request
+    in: body
+    name: mefClientRegInfo
+    required: true
+    schema:
+      $ref: '#/definitions/mefClientRegInfo'
+  Body.symmKeyRegInfo:
+    description: symmKeyRegInfo with updated information is included as entity body
+      of the request
+    in: body
+    name: symmKeyRegInfo
+    required: true
+    schema:
+      $ref: '#/definitions/symmKeyRegInfo'
+paths:
+  /MAFBase:
+    get:
+      description: This method retrieves information about a list of MAFBase resources
+      operationId: MAFBaseGET
+      parameters:
+      - in: query
+        name: resourceType
+        required: false
+        type: string
+      - in: query
+        name: resourceID
+        required: false
+        type: string
+      - in: query
+        name: resourceName
+        required: false
+        type: string
+      - in: query
+        name: creationTime
+        required: false
+        type: string
+      - in: query
+        name: labels
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, a response body containing an array of the MAFBase
+            is returned.
+          schema:
+            $ref: '#/definitions/inline_response_200_MAFBase'
+      x-swagger-router-controller: Default
+  /MEFBase:
+    get:
+      description: This method retrieves information about a list of MEFBase resources
+      operationId: MEFBaseGET
+      parameters:
+      - in: query
+        name: resourceType
+        required: false
+        type: string
+      - in: query
+        name: resourceID
+        required: false
+        type: string
+      - in: query
+        name: resourceName
+        required: false
+        type: string
+      - in: query
+        name: creationTime
+        required: false
+        type: string
+      - in: query
+        name: labels
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, a response body containing an array of the MEFBase
+            is returned.
+          schema:
+            $ref: '#/definitions/inline_response_200_MEFBase'
+      x-swagger-router-controller: Default
+  /mafClientReg:
+    delete:
+      description: 'This method delete the information about a specific mafClientRegInfo
+        resource. '
+      operationId: mafClientRegDELETE
+      parameters:
+      - in: query
+        name: MAF-FQDN
+        required: false
+        type: string
+      - in: query
+        name: mafClientRegID
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        204:
+          description: No Content
+      x-swagger-router-controller: Default
+    get:
+      description: This method retrieves information about a list of mafClientReg
+        resources
+      operationId: mafClientRegGET
+      parameters:
+      - in: query
+        name: MAF-FQDN
+        required: false
+        type: string
+      - in: query
+        name: mafClientRegID
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, a response body containing an array of the mafClientReg
+            is returned.
+          schema:
+            $ref: '#/definitions/inline_response_200_mafClientReg'
+      x-swagger-router-controller: Default
+    post:
+      description: This method is used to create a mafClientReg resource.
+      operationId: mafClientRegPOST
+      parameters:
+      - description: mafClientRegInfo with updated information is included as entity
+          body of the request
+        in: body
+        name: mafClientRegInfo
+        required: true
+        schema:
+          $ref: '#/definitions/mafClientRegInfo'
+      produces:
+      - application/json
+      responses:
+        201:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_mafClientReg'
+      x-swagger-router-controller: Default
+    put:
+      description: 'This method updates the information about a specific mafClientRegInfo
+        resource. '
+      operationId: mafClientRegPUT
+      parameters:
+      - description: mafClientRegInfo with updated information is included as entity
+          body of the request
+        in: body
+        name: mafClientRegInfo
+        required: true
+        schema:
+          $ref: '#/definitions/mafClientRegInfo'
+      - in: query
+        name: MAF-FQDN
+        required: false
+        type: string
+      - in: query
+        name: mafClientRegID
+        required: false
+        type: string
+      - in: query
+        name: expirationTime
+        required: false
+        type: string
+      - in: query
+        name: labels
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_mafClientReg'
+      x-swagger-router-controller: Default
+  /mefClientCmd:
+    get:
+      description: This method retrieves information about a list of mefClientCmd
+        resources
+      operationId: mefClientCmdGET
+      parameters:
+      - in: query
+        name: MEFClientRegID
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, a response body containing an array of the mefClientCmd
+            is returned.
+          schema:
+            $ref: '#/definitions/inline_response_200_mefClientCmd'
+      x-swagger-router-controller: Default
+    put:
+      description: 'This method updates the information about a specific mefClientCmdInfo
+        resource. '
+      operationId: mefClientCmdPUT
+      parameters:
+      - description: mefClientCmdInfo with updated information is included as entity
+          body of the request
+        in: body
+        name: mefClientCmdInfo
+        required: true
+        schema:
+          $ref: '#/definitions/mefClientCmdInfo'
+      - in: query
+        name: MEFClientRegID
+        required: false
+        type: string
+      - in: query
+        name: cmdID
+        required: false
+        type: string
+      - in: query
+        name: cmdStatusCode
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_mefClientCmd'
+      x-swagger-router-controller: Default
+  /mefClientReg:
+    delete:
+      description: 'This method delete the information about a specific mefClientRegInfo
+        resource. '
+      operationId: mefClientRegDELETE
+      parameters:
+      - in: query
+        name: MEF-FQDN
+        required: false
+        type: string
+      - in: query
+        name: MEFClientRegID
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        204:
+          description: No Content
+      x-swagger-router-controller: Default
+    get:
+      description: This method retrieves information about a list of mefClientReg
+        resources
+      operationId: mefClientRegGET
+      parameters:
+      - in: query
+        name: MEF-FQDN
+        required: false
+        type: string
+      - in: query
+        name: MEFClientRegID
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, a response body containing an array of the mefClientReg
+            is returned.
+          schema:
+            $ref: '#/definitions/inline_response_200_mefClientReg'
+      x-swagger-router-controller: Default
+    post:
+      description: This method is used to create a mefClientReg resource.
+      operationId: mefClientRegPOST
+      parameters:
+      - description: mefClientRegInfo with updated information is included as entity
+          body of the request
+        in: body
+        name: mefClientRegInfo
+        required: true
+        schema:
+          $ref: '#/definitions/mefClientRegInfo'
+      produces:
+      - application/json
+      responses:
+        201:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_mefClientReg'
+      x-swagger-router-controller: Default
+    put:
+      description: 'This method updates the information about a specific mefClientRegInfo
+        resource. '
+      operationId: mefClientRegPUT
+      parameters:
+      - description: mefClientRegInfo with updated information is included as entity
+          body of the request
+        in: body
+        name: mefClientRegInfo
+        required: true
+        schema:
+          $ref: '#/definitions/mefClientRegInfo'
+      - in: query
+        name: MEF-FQDN
+        required: false
+        type: string
+      - in: query
+        name: MEFClientRegID
+        required: false
+        type: string
+      - in: query
+        name: expirationTime
+        required: false
+        type: string
+      - in: query
+        name: labels
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_mefClientReg'
+      x-swagger-router-controller: Default
+  /symmKeyReg:
+    delete:
+      description: 'This method delete the information about a specific symmKeyRegInfo
+        resource. '
+      operationId: symmKeyRegDELETE
+      parameters:
+      - in: query
+        name: MAF-FQDN
+        required: false
+        type: string
+      - in: query
+        name: MEF-FQDN
+        required: false
+        type: string
+      - in: query
+        name: RelativeKeyID
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        204:
+          description: No Content
+      x-swagger-router-controller: Default
+    get:
+      description: This method retrieves information about a list of symmKeyReg resources
+      operationId: symmKeyRegGET
+      parameters:
+      - in: query
+        name: RelativeKeyID
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, a response body containing an array of the symmKeyReg
+            is returned.
+          schema:
+            $ref: '#/definitions/inline_response_200_symmKeyReg'
+      x-swagger-router-controller: Default
+    post:
+      description: This method is used to create a symmKeyReg resource.
+      operationId: symmKeyRegPOST
+      parameters:
+      - description: symmKeyRegInfo with updated information is included as entity
+          body of the request
+        in: body
+        name: symmKeyRegInfo
+        required: true
+        schema:
+          $ref: '#/definitions/symmKeyRegInfo'
+      produces:
+      - application/json
+      responses:
+        201:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_symmKeyReg'
+      x-swagger-router-controller: Default
+    put:
+      description: 'This method updates the information about a specific symmKeyRegInfo
+        resource. '
+      operationId: symmKeyRegPUT
+      parameters:
+      - description: symmKeyRegInfo with updated information is included as entity
+          body of the request
+        in: body
+        name: symmKeyRegInfo
+        required: true
+        schema:
+          $ref: '#/definitions/symmKeyRegInfo'
+      - in: query
+        name: MAF-FQDN
+        required: false
+        type: string
+      - in: query
+        name: MEF-FQDN
+        required: false
+        type: string
+      - in: query
+        name: RelativeKeyID
+        required: false
+        type: string
+      - in: query
+        name: labels
+        required: false
+        type: string
+      - in: query
+        name: expirationTime
+        required: false
+        type: string
+      - in: query
+        name: targetIDs
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_symmKeyReg'
+      x-swagger-router-controller: Default
+produces:
+- application/json
+schemes:
+- http
+- https
+security:
+- OauthSecurity:
+  - all
+swagger: '2.0'

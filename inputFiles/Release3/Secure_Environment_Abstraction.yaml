@@ -1,0 +1,4678 @@
+---
+swagger: "2.0"
+info:
+  description: "The ETSI IOT Bandwidth Management API described using OpenAPI"
+  version: "1.1.1"
+  title: "IOT3_API3"
+host: "127.0.0.1:8080"
+basePath: "/iot3/example"
+schemes:
+- "http"
+- "https"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+security:
+- OauthSecurity:
+  - "all"
+paths:
+  /sensitiveDataObject:
+    post:
+      description: "This method is used to create a sensitiveDataObject resource."
+      operationId: "sensitiveDataObjectPOST"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "sensitiveDataObjectInfo"
+        description: "sensitiveDataObjectInfo with updated information is included as entity body of\
+          \ the request"
+        required: true
+        schema:
+          $ref: "#/definitions/sensitiveDataObjectInfo"
+      responses:
+        201:
+          description: "Upon success, the HTTP response shall include a \"Location\"\
+            \ HTTP header that contains the resource URI of the created resource."
+          schema:
+            $ref: "#/definitions/inline_response_200_sensitiveDataObject"
+      x-swagger-router-controller: "Default"
+    put:
+      description: "This method updates the information about a specific sensitiveDataObjectInfo\
+        \ resource. "
+      operationId: "sensitiveDataObjectPUT"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "sensitiveDataObjectInfo"
+        description: "sensitiveDataObjectInfo with updated information is included as entity body of\
+          \ the request"
+        required: true
+        schema:
+          $ref: "#/definitions/sensitiveDataObjectInfo"
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "resourceName"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Upon success, the HTTP response shall include a \"Location\"\
+            \ HTTP header that contains the resource URI of the created resource."
+          schema:
+            $ref: "#/definitions/inline_response_200_sensitiveDataObject"
+      x-swagger-router-controller: "Default"
+    delete:
+      description: "This method delete the information about a specific sensitiveDataObjectInfo\
+        \ resource. "
+      operationId: "sensitiveDataObjectDELETE"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "resourceName"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        204:
+          description: "No Content"
+      x-swagger-router-controller: "Default"
+    get:
+      description: "This method retrieves information about a list of sensitiveDataObject\
+        \ resources"
+      operationId: "sensitiveDataObjectGET"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Upon success, a response body containing an array of the semanticDescriptor\
+            \ is returned."
+          schema:
+            $ref: "#/definitions/inline_response_200_sensitiveDataObject"
+      x-swagger-router-controller: "Default"
+  /cipher:
+    post:
+      description: "This method is used to create a cipher resource."
+      operationId: "cipherPOST"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "cipherInfo"
+        description: "cipherInfo with updated information is included as entity body of\
+          \ the request"
+        required: true
+        schema:
+          $ref: "#/definitions/cipherInfo"
+      responses:
+        201:
+          description: "Upon success, the HTTP response shall include a \"Location\"\
+            \ HTTP header that contains the resource URI of the created resource."
+          schema:
+            $ref: "#/definitions/inline_response_200_cipher"
+      x-swagger-router-controller: "Default"
+    put:
+      description: "This method updates the information about a specific cipherInfo\
+        \ resource. "
+      operationId: "cipherPUT"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "cipherInfo"
+        description: "cipherInfo with updated information is included as entity body of\
+          \ the request"
+        required: true
+        schema:
+          $ref: "#/definitions/cipherInfo"
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Upon success, the HTTP response shall include a \"Location\"\
+            \ HTTP header that contains the resource URI of the created resource."
+          schema:
+            $ref: "#/definitions/inline_response_200_cipher"
+      x-swagger-router-controller: "Default"
+    delete:
+      description: "This method delete the information about a specific cipherInfo\
+        \ resource. "
+      operationId: "cipherDELETE"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        204:
+          description: "No Content"
+      x-swagger-router-controller: "Default"
+    get:
+      description: "This method retrieves information about a list of cipher\
+        \ resources"
+      operationId: "cipherGET"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Upon success, a response body containing an array of the cipher\
+            \ is returned."
+          schema:
+            $ref: "#/definitions/inline_response_200_cipher"
+      x-swagger-router-controller: "Default"
+  /rand:
+    post:
+      description: "This method is used to create a rand resource."
+      operationId: "randPOST"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "randInfo"
+        description: "randInfo with updated information is included as entity body of\
+          \ the request"
+        required: true
+        schema:
+          $ref: "#/definitions/randInfo"
+      responses:
+        201:
+          description: "Upon success, the HTTP response shall include a \"Location\"\
+            \ HTTP header that contains the resource URI of the created resource."
+          schema:
+            $ref: "#/definitions/inline_response_200_rand"
+      x-swagger-router-controller: "Default"
+    put:
+      description: "This method updates the information about a specific randInfo\
+        \ resource. "
+      operationId: "randPUT"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "randInfo"
+        description: "randInfo with updated information is included as entity body of\
+          \ the request"
+        required: true
+        schema:
+          $ref: "#/definitions/randInfo"
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Upon success, the HTTP response shall include a \"Location\"\
+            \ HTTP header that contains the resource URI of the created resource."
+          schema:
+            $ref: "#/definitions/inline_response_200_rand"
+      x-swagger-router-controller: "Default"
+    delete:
+      description: "This method delete the information about a specific randInfo\
+        \ resource. "
+      operationId: "randDELETE"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        204:
+          description: "No Content"
+      x-swagger-router-controller: "Default"
+    get:
+      description: "This method retrieves information about a list of rand\
+        \ resources"
+      operationId: "randGET"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Upon success, a response body containing an array of the rand\
+            \ is returned."
+          schema:
+            $ref: "#/definitions/inline_response_200_rand"
+      x-swagger-router-controller: "Default"
+  /hash:
+    post:
+      description: "This method is used to create a hash resource."
+      operationId: "hashPOST"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "hashInfo"
+        description: "hashInfo with updated information is included as entity body of\
+          \ the request"
+        required: true
+        schema:
+          $ref: "#/definitions/hashInfo"
+      responses:
+        201:
+          description: "Upon success, the HTTP response shall include a \"Location\"\
+            \ HTTP header that contains the resource URI of the created resource."
+          schema:
+            $ref: "#/definitions/inline_response_200_hash"
+      x-swagger-router-controller: "Default"
+    put:
+      description: "This method updates the information about a specific hashInfo\
+        \ resource. "
+      operationId: "hashPUT"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "hashInfo"
+        description: "hashInfo with updated information is included as entity body of\
+          \ the request"
+        required: true
+        schema:
+          $ref: "#/definitions/hashInfo"
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Upon success, the HTTP response shall include a \"Location\"\
+            \ HTTP header that contains the resource URI of the created resource."
+          schema:
+            $ref: "#/definitions/inline_response_200_hash"
+      x-swagger-router-controller: "Default"
+    delete:
+      description: "This method delete the information about a specific hashInfo\
+        \ resource. "
+      operationId: "hashDELETE"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        204:
+          description: "No Content"
+      x-swagger-router-controller: "Default"
+    get:
+      description: "This method retrieves information about a list of hash\
+        \ resources"
+      operationId: "hashGET"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Upon success, a response body containing an array of the hash\
+            \ is returned."
+          schema:
+            $ref: "#/definitions/inline_response_200_hash"
+      x-swagger-router-controller: "Default"
+  /signature:
+    post:
+      description: "This method is used to create a signature resource."
+      operationId: "signaturePOST"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "signatureInfo"
+        description: "signatureInfo with updated information is included as entity body of\
+          \ the request"
+        required: true
+        schema:
+          $ref: "#/definitions/signatureInfo"
+      responses:
+        201:
+          description: "Upon success, the HTTP response shall include a \"Location\"\
+            \ HTTP header that contains the resource URI of the created resource."
+          schema:
+            $ref: "#/definitions/inline_response_200_signature"
+      x-swagger-router-controller: "Default"
+    put:
+      description: "This method updates the information about a specific signatureInfo\
+        \ resource. "
+      operationId: "signaturePUT"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "signatureInfo"
+        description: "signatureInfo with updated information is included as entity body of\
+          \ the request"
+        required: true
+        schema:
+          $ref: "#/definitions/signatureInfo"
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Upon success, the HTTP response shall include a \"Location\"\
+            \ HTTP header that contains the resource URI of the created resource."
+          schema:
+            $ref: "#/definitions/inline_response_200_signature"
+      x-swagger-router-controller: "Default"
+    delete:
+      description: "This method delete the information about a specific signatureInfo\
+        \ resource. "
+      operationId: "signatureDELETE"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        204:
+          description: "No Content"
+      x-swagger-router-controller: "Default"
+    get:
+      description: "This method retrieves information about a list of signature\
+        \ resources"
+      operationId: "signatureGET"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Upon success, a response body containing an array of the hash\
+            \ is returned."
+          schema:
+            $ref: "#/definitions/inline_response_200_signature"
+      x-swagger-router-controller: "Default"
+  /secureConnection:
+    post:
+      description: "This method is used to create a secureConnection resource."
+      operationId: "secureConnectionPOST"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "secureConnectionInfo"
+        description: "secureConnectionInfo with updated information is included as entity body of\
+          \ the request"
+        required: true
+        schema:
+          $ref: "#/definitions/secureConnectionInfo"
+      responses:
+        201:
+          description: "Upon success, the HTTP response shall include a \"Location\"\
+            \ HTTP header that contains the resource URI of the created resource."
+          schema:
+            $ref: "#/definitions/inline_response_200_secureConnection"
+      x-swagger-router-controller: "Default"
+    put:
+      description: "This method updates the information about a specific secureConnectionInfo\
+        \ resource. "
+      operationId: "secureConnectionPUT"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "secureConnectionInfo"
+        description: "secureConnectionInfo with updated information is included as entity body of\
+          \ the request"
+        required: true
+        schema:
+          $ref: "#/definitions/secureConnectionInfo"
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Upon success, the HTTP response shall include a \"Location\"\
+            \ HTTP header that contains the resource URI of the created resource."
+          schema:
+            $ref: "#/definitions/inline_response_200_secureConnection"
+      x-swagger-router-controller: "Default"
+    delete:
+      description: "This method delete the information about a specific secureConnectionInfo\
+        \ resource. "
+      operationId: "secureConnectionDELETE"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        204:
+          description: "No Content"
+      x-swagger-router-controller: "Default"
+    get:
+      description: "This method retrieves information about a list of secureConnection\
+        \ resources"
+      operationId: "secureConnectionGET"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Upon success, a response body containing an array of the secureConnection\
+            \ is returned."
+          schema:
+            $ref: "#/definitions/inline_response_200_secureConnection"
+      x-swagger-router-controller: "Default"
+  /connectionInstance:
+    post:
+      description: "This method is used to create a connectionInstance resource."
+      operationId: "connectionInstancePOST"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "connectionInstanceInfo"
+        description: "connectionInstanceInfo with updated information is included as entity body of\
+          \ the request"
+        required: true
+        schema:
+          $ref: "#/definitions/connectionInstanceInfo"
+      responses:
+        201:
+          description: "Upon success, the HTTP response shall include a \"Location\"\
+            \ HTTP header that contains the resource URI of the created resource."
+          schema:
+            $ref: "#/definitions/inline_response_200_connectionInstance"
+      x-swagger-router-controller: "Default"
+    put:
+      description: "This method updates the information about a specific connectionInstanceInfo\
+        \ resource. "
+      operationId: "connectionInstancePUT"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "connectionInstanceInfo"
+        description: "connectionInstanceInfo with updated information is included as entity body of\
+          \ the request"
+        required: true
+        schema:
+          $ref: "#/definitions/connectionInstanceInfo"
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Upon success, the HTTP response shall include a \"Location\"\
+            \ HTTP header that contains the resource URI of the created resource."
+          schema:
+            $ref: "#/definitions/inline_response_200_connectionInstance"
+      x-swagger-router-controller: "Default"
+    delete:
+      description: "This method delete the information about a specific connectionInstanceInfo\
+        \ resource. "
+      operationId: "connectionInstanceDELETE"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        204:
+          description: "No Content"
+      x-swagger-router-controller: "Default"
+    get:
+      description: "This method retrieves information about a list of connectionInstance\
+        \ resources"
+      operationId: "connectionInstanceGET"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Upon success, a response body containing an array of the connectionInstance\
+            \ is returned."
+          schema:
+            $ref: "#/definitions/inline_response_200_connectionInstance"
+      x-swagger-router-controller: "Default"
+  /identity:
+    post:
+      description: "This method is used to create a identity resource."
+      operationId: "identityPOST"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "identityInfo"
+        description: "identityInfo with updated information is included as entity body of\
+          \ the request"
+        required: true
+        schema:
+          $ref: "#/definitions/identityInfo"
+      responses:
+        201:
+          description: "Upon success, the HTTP response shall include a \"Location\"\
+            \ HTTP header that contains the resource URI of the created resource."
+          schema:
+            $ref: "#/definitions/inline_response_200_identity"
+      x-swagger-router-controller: "Default"
+    put:
+      description: "This method updates the information about a specific identityInfo\
+        \ resource. "
+      operationId: "identityPUT"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "identityInfo"
+        description: "identityInfo with updated information is included as entity body of\
+          \ the request"
+        required: true
+        schema:
+          $ref: "#/definitions/identityInfo"
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Upon success, the HTTP response shall include a \"Location\"\
+            \ HTTP header that contains the resource URI of the created resource."
+          schema:
+            $ref: "#/definitions/inline_response_200_identity"
+      x-swagger-router-controller: "Default"
+    delete:
+      description: "This method delete the information about a specific identityInfo\
+        \ resource. "
+      operationId: "identityDELETE"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        204:
+          description: "No Content"
+      x-swagger-router-controller: "Default"
+    get:
+      description: "This method retrieves information about a list of identity\
+        \ resources"
+      operationId: "identityGET"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "ToAddress"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FromId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Operation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RequestId"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResourceType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OriginatingTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReqExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResExpirationTimestamp"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "EventCategory"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "OperationalExecutionTime"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResponseType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultPersistence"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ResultContent"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DeliveryAggregation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestIdentifier"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "FilterCriteria"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "DesiredIdentifierResultType"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenRequestIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "Tokens"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "TokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "RoleIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "LocalTokenIDs"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "ReleaseVersionIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "VendorInformation"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "GroupRequestTargetMembers"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignatureIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationSignature"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "AuthorizationRelationshipIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      - name: "SemanticQueryIndicator"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "Upon success, a response body containing an array of the connectionInstance\
+            \ is returned."
+          schema:
+            $ref: "#/definitions/inline_response_200_identity"
+      x-swagger-router-controller: "Default"
+definitions:
+  inline_response_200_sensitiveDataObject:
+    properties:
+      sensitiveDataObjectInfo:
+        $ref: "#/definitions/sensitiveDataObjectInfo"
+    example:
+      sensitiveDataObjectInfo:
+        ToAddress: ""
+        FromId: ""
+        content: ""
+        resourceName: ""
+  sensitiveDataObjectInfo:
+    type: "object"
+    properties:
+      ToAddress:
+        $ref: "#/definitions/ToAddress"
+      FromId:
+        $ref: "#/definitions/FromId"
+      content:
+        $ref: "#/definitions/sensitiveDataObjectcontent"
+      resourceName:
+        $ref: "#/definitions/resourceName"
+    description: "information of timeSeriesInfo resource"
+    example:
+      sensitiveDataObjectInfo:
+        ToAddress: ""
+        FromId: ""
+        content:
+          resourceType: ""
+          resourceID: ""
+          parentID: ""
+          expirationTime: ""
+          creationTime: ""
+          lastModifiedTime: ""
+          accessControlPolicyIDs: ""
+          labels: ""
+        resourceName: ""
+  sensitiveDataObjectcontent:
+    type: "object"
+    properties:
+      resourceType:
+        $ref: "#/definitions/resourceType"
+      resourceID:
+        $ref: "#/definitions/resourceID"
+      parentID:
+        $ref: "#/definitions/parentID"
+      expirationTime:
+        $ref: "#/definitions/expirationTime"
+      creationTime:
+        $ref: "#/definitions/creationTime"
+      accessControlPolicyIDs:
+        $ref: "#/definitions/accessControlPolicyIDs"
+      lastModifiedTime:
+        $ref: "#/definitions/lastModifiedTime"
+      labels:
+        $ref: "#/definitions/labels"
+    example:
+      resourceType: ""
+      resourceID: ""
+      parentID: ""
+      expirationTime: ""
+      creationTime: ""
+      accessControlPolicyIDs: ""
+      lastModifiedTime: ""
+      labels: ""
+  inline_response_200_cipher:
+    properties:
+      cipherInfo:
+        $ref: "#/definitions/cipherInfo"
+    example:
+      cipherInfo:
+        ToAddress: ""
+        FromId: ""
+        Operation : ""
+        RequestId: ""
+        content: ""
+        resourceType: ""
+        OriginatingTimestamp: ""
+        ReqExpirationTimestamp: ""
+        ResExpirationTimestamp: ""
+        EventCategory: ""
+        OperationalExecutionTime: ""
+        ResponseType: ""
+        ResultPersistence: ""
+        ResultContent: ""
+        DeliveryAggregation: ""
+        GroupRequestIdentifier: ""
+        FilterCriteria: ""
+        DesiredIdentifierResultType: ""
+        TokenRequestIndicator: ""
+        Tokens: ""
+        TokenIDs: ""
+        RoleIDs: ""
+        LocalTokenIDs: ""
+        ReleaseVersionIndicator: ""
+        VendorInformation: ""
+        GroupRequestTargetMembers: "" 
+        AuthorizationSignatureIndicator: ""
+        AuthorizationSignature: ""
+        AuthorizationRelationshipIndicator: ""
+        SemanticQueryIndicator: ""
+  cipherInfo:
+    type: "object"
+    properties:
+      Operation:
+        $ref: "#/definitions/Operation"
+      RequestId:
+        $ref: "#/definitions/RequestId"
+      content:
+        $ref: "#/definitions/ciphercontent"
+      resourceType:
+        $ref: "#/definitions/ResourceType"
+      OriginatingTimestamp:
+        $ref: "#/definitions/OriginatingTimestamp"
+      ReqExpirationTimestamp:
+        $ref: "#/definitions/ReqExpirationTimestamp"
+      ResExpirationTimestamp:
+        $ref: "#/definitions/ResExpirationTimestamp"
+      EventCategory:
+        $ref: "#/definitions/EventCategory"
+      OperationalExecutionTime:
+        $ref: "#/definitions/OperationalExecutionTime"
+      ResponseType:
+        $ref: "#/definitions/ResponseType"
+      ResultPersistence:
+        $ref: "#/definitions/ResultPersistence"
+      ResultContent:
+        $ref: "#/definitions/ResultContent"
+      DeliveryAggregation:
+        $ref: "#/definitions/DeliveryAggregation"
+      GroupRequestIdentifier:
+        $ref: "#/definitions/GroupRequestIdentifier"
+      FilterCriteria:
+        $ref: "#/definitions/FilterCriteria"
+      ToAddress:
+        $ref: "#/definitions/ToAddress"
+      FromId:
+        $ref: "#/definitions/FromId"
+      DesiredIdentifierResultType:
+        $ref: "#/definitions/DesiredIdentifierResultType"
+      TokenRequestIndicator:
+        $ref: "#/definitions/TokenRequestIndicator"
+      Tokens:
+        $ref: "#/definitions/Tokens"
+      TokenIDs:
+        $ref: "#/definitions/TokenIDs"
+      RoleIDs:
+        $ref: "#/definitions/RoleIDs"
+      LocalTokenIDs:
+        $ref: "#/definitions/LocalTokenIDs"
+      ReleaseVersionIndicator:
+        $ref: "#/definitions/ReleaseVersionIndicator"
+      VendorInformation:
+        $ref: "#/definitions/VendorInformation"
+      GroupRequestTargetMembers:
+        $ref: "#/definitions/GroupRequestTargetMembers"
+      AuthorizationSignatureIndicator:
+        $ref: "#/definitions/AuthorizationSignatureIndicator"
+      AuthorizationSignature:
+        $ref: "#/definitions/AuthorizationSignature"
+      AuthorizationRelationshipIndicator:
+        $ref: "#/definitions/AuthorizationRelationshipIndicator"
+      SemanticQueryIndicator :
+        $ref: "#/definitions/SemanticQueryIndicator"
+    description: "information of timeSeriesInfo resource"
+    example:
+      cipherInfo:
+        ToAddress: ""
+        FromId: ""
+        Operation : ""
+        RequestId: ""
+        content:
+          resourceType: ""
+          resourceID: ""
+          resourceName: ""
+          parentID: ""
+          expirationTime: ""
+          creationTime: ""
+          lastModifiedTime: ""
+          accessControlPolicyIDs: ""
+          sensitiveData: ""
+          currentByteSize: ""
+          maxByteSize: ""
+          algorithm: ""
+          keyData: ""
+          calculatedData: ""
+        resourceType: ""
+        OriginatingTimestamp: ""
+        ReqExpirationTimestamp: ""
+        ResExpirationTimestamp: ""
+        EventCategory: ""
+        OperationalExecutionTime: ""
+        ResponseType: ""
+        ResultPersistence: ""
+        ResultContent: ""
+        DeliveryAggregation: ""
+        GroupRequestIdentifier: ""
+        FilterCriteria: ""
+        DesiredIdentifierResultType: ""
+        TokenRequestIndicator: ""
+        Tokens: ""
+        TokenIDs: ""
+        RoleIDs: ""
+        LocalTokenIDs: ""
+        ReleaseVersionIndicator: ""
+        VendorInformation: ""
+        GroupRequestTargetMembers: ""  
+        AuthorizationSignatureIndicator: ""
+        AuthorizationSignature: ""
+        AuthorizationRelationshipIndicator: ""
+        SemanticQueryIndicator: ""
+  ciphercontent:
+    type: "object"
+    properties:
+      resourceType:
+        $ref: "#/definitions/resourceType"
+      resourceID:
+        $ref: "#/definitions/resourceID"
+      resourceName:
+        $ref: "#/definitions/resourceName"
+      parentID:
+        $ref: "#/definitions/parentID"
+      expirationTime:
+        $ref: "#/definitions/expirationTime"
+      creationTime:
+        $ref: "#/definitions/creationTime"
+      accessControlPolicyIDs:
+        $ref: "#/definitions/accessControlPolicyIDs"
+      lastModifiedTime:
+        $ref: "#/definitions/lastModifiedTime"
+      sensitiveData:
+        $ref: "#/definitions/sensitiveData"
+      currentByteSize:
+        $ref: "#/definitions/currentByteSize"
+      maxByteSize:
+        $ref: "#/definitions/maxByteSize"
+      algorithm:
+        $ref: "#/definitions/algorithm"
+      keyData:
+        $ref: "#/definitions/keyData"
+      calculatedData:
+        $ref: "#/definitions/calculatedData"
+    example:
+      resourceType: ""
+      resourceID: ""
+      resourceName: ""
+      parentID: ""
+      expirationTime: ""
+      creationTime: ""
+      accessControlPolicyIDs: ""
+      lastModifiedTime: ""
+      sensitiveData: ""
+      currentByteSize: ""
+      maxByteSize: ""
+      algorithm: ""
+      keyData: ""
+      calculatedData: ""
+  inline_response_200_rand:
+    properties:
+      randInfo:
+        $ref: "#/definitions/randInfo"
+    example:
+      randInfo:
+        ToAddress: ""
+        FromId: ""
+        Operation : ""
+        RequestId: ""
+        content: ""
+        resourceType: ""
+        OriginatingTimestamp: ""
+        ReqExpirationTimestamp: ""
+        ResExpirationTimestamp: ""
+        EventCategory: ""
+        OperationalExecutionTime: ""
+        ResponseType: ""
+        ResultPersistence: ""
+        ResultContent: ""
+        DeliveryAggregation: ""
+        GroupRequestIdentifier: ""
+        FilterCriteria: ""
+        DesiredIdentifierResultType: ""
+        TokenRequestIndicator: ""
+        Tokens: ""
+        TokenIDs: ""
+        RoleIDs: ""
+        LocalTokenIDs: ""
+        ReleaseVersionIndicator: ""
+        VendorInformation: ""
+        GroupRequestTargetMembers: "" 
+        AuthorizationSignatureIndicator: ""
+        AuthorizationSignature: ""
+        AuthorizationRelationshipIndicator: ""
+        SemanticQueryIndicator: ""
+  randInfo:
+    type: "object"
+    properties:
+      Operation:
+        $ref: "#/definitions/Operation"
+      RequestId:
+        $ref: "#/definitions/RequestId"
+      content:
+        $ref: "#/definitions/randcontent"
+      resourceType:
+        $ref: "#/definitions/ResourceType"
+      OriginatingTimestamp:
+        $ref: "#/definitions/OriginatingTimestamp"
+      ReqExpirationTimestamp:
+        $ref: "#/definitions/ReqExpirationTimestamp"
+      ResExpirationTimestamp:
+        $ref: "#/definitions/ResExpirationTimestamp"
+      EventCategory:
+        $ref: "#/definitions/EventCategory"
+      OperationalExecutionTime:
+        $ref: "#/definitions/OperationalExecutionTime"
+      ResponseType:
+        $ref: "#/definitions/ResponseType"
+      ResultPersistence:
+        $ref: "#/definitions/ResultPersistence"
+      ResultContent:
+        $ref: "#/definitions/ResultContent"
+      DeliveryAggregation:
+        $ref: "#/definitions/DeliveryAggregation"
+      GroupRequestIdentifier:
+        $ref: "#/definitions/GroupRequestIdentifier"
+      FilterCriteria:
+        $ref: "#/definitions/FilterCriteria"
+      ToAddress:
+        $ref: "#/definitions/ToAddress"
+      FromId:
+        $ref: "#/definitions/FromId"
+      DesiredIdentifierResultType:
+        $ref: "#/definitions/DesiredIdentifierResultType"
+      TokenRequestIndicator:
+        $ref: "#/definitions/TokenRequestIndicator"
+      Tokens:
+        $ref: "#/definitions/Tokens"
+      TokenIDs:
+        $ref: "#/definitions/TokenIDs"
+      RoleIDs:
+        $ref: "#/definitions/RoleIDs"
+      LocalTokenIDs:
+        $ref: "#/definitions/LocalTokenIDs"
+      ReleaseVersionIndicator:
+        $ref: "#/definitions/ReleaseVersionIndicator"
+      VendorInformation:
+        $ref: "#/definitions/VendorInformation"
+      GroupRequestTargetMembers:
+        $ref: "#/definitions/GroupRequestTargetMembers"
+      AuthorizationSignatureIndicator:
+        $ref: "#/definitions/AuthorizationSignatureIndicator"
+      AuthorizationSignature:
+        $ref: "#/definitions/AuthorizationSignature"
+      AuthorizationRelationshipIndicator:
+        $ref: "#/definitions/AuthorizationRelationshipIndicator"
+      SemanticQueryIndicator :
+        $ref: "#/definitions/SemanticQueryIndicator"
+    description: "information of timeSeriesInfo resource"
+    example:
+      randInfo:
+        ToAddress: ""
+        FromId: ""
+        Operation : ""
+        RequestId: ""
+        content:
+          resourceType: ""
+          resourceID: ""
+          resourceName: ""
+          parentID: ""
+          expirationTime: ""
+          creationTime: ""
+          lastModifiedTime: ""
+          accessControlPolicyIDs: ""
+          randomData: ""
+          rngType: ""
+          requestedDataSize: ""
+        resourceType: ""
+        OriginatingTimestamp: ""
+        ReqExpirationTimestamp: ""
+        ResExpirationTimestamp: ""
+        EventCategory: ""
+        OperationalExecutionTime: ""
+        ResponseType: ""
+        ResultPersistence: ""
+        ResultContent: ""
+        DeliveryAggregation: ""
+        GroupRequestIdentifier: ""
+        FilterCriteria: ""
+        DesiredIdentifierResultType: ""
+        TokenRequestIndicator: ""
+        Tokens: ""
+        TokenIDs: ""
+        RoleIDs: ""
+        LocalTokenIDs: ""
+        ReleaseVersionIndicator: ""
+        VendorInformation: ""
+        GroupRequestTargetMembers: ""  
+        AuthorizationSignatureIndicator: ""
+        AuthorizationSignature: ""
+        AuthorizationRelationshipIndicator: ""
+        SemanticQueryIndicator: ""
+  randcontent:
+    type: "object"
+    properties:
+      resourceType:
+        $ref: "#/definitions/resourceType"
+      resourceID:
+        $ref: "#/definitions/resourceID"
+      resourceName:
+        $ref: "#/definitions/resourceName"
+      parentID:
+        $ref: "#/definitions/parentID"
+      expirationTime:
+        $ref: "#/definitions/expirationTime"
+      creationTime:
+        $ref: "#/definitions/creationTime"
+      accessControlPolicyIDs:
+        $ref: "#/definitions/accessControlPolicyIDs"
+      lastModifiedTime:
+        $ref: "#/definitions/lastModifiedTime"
+      randomData:
+        $ref: "#/definitions/randomData"
+      rngType:
+        $ref: "#/definitions/rngType"
+      requestedDataSize:
+        $ref: "#/definitions/requestedDataSize"
+    example:
+      resourceType: ""
+      resourceID: ""
+      resourceName: ""
+      parentID: ""
+      expirationTime: ""
+      creationTime: ""
+      accessControlPolicyIDs: ""
+      lastModifiedTime: ""
+      randomData: ""
+      rngType: ""
+      requestedDataSize: ""
+  inline_response_200_hash:
+    properties:
+      hashInfo:
+        $ref: "#/definitions/hashInfo"
+    example:
+      hashInfo:
+        ToAddress: ""
+        FromId: ""
+        Operation : ""
+        RequestId: ""
+        content: ""
+        resourceType: ""
+        OriginatingTimestamp: ""
+        ReqExpirationTimestamp: ""
+        ResExpirationTimestamp: ""
+        EventCategory: ""
+        OperationalExecutionTime: ""
+        ResponseType: ""
+        ResultPersistence: ""
+        ResultContent: ""
+        DeliveryAggregation: ""
+        GroupRequestIdentifier: ""
+        FilterCriteria: ""
+        DesiredIdentifierResultType: ""
+        TokenRequestIndicator: ""
+        Tokens: ""
+        TokenIDs: ""
+        RoleIDs: ""
+        LocalTokenIDs: ""
+        ReleaseVersionIndicator: ""
+        VendorInformation: ""
+        GroupRequestTargetMembers: "" 
+        AuthorizationSignatureIndicator: ""
+        AuthorizationSignature: ""
+        AuthorizationRelationshipIndicator: ""
+        SemanticQueryIndicator: ""
+  hashInfo:
+    type: "object"
+    properties:
+      Operation:
+        $ref: "#/definitions/Operation"
+      RequestId:
+        $ref: "#/definitions/RequestId"
+      content:
+        $ref: "#/definitions/hashcontent"
+      resourceType:
+        $ref: "#/definitions/ResourceType"
+      OriginatingTimestamp:
+        $ref: "#/definitions/OriginatingTimestamp"
+      ReqExpirationTimestamp:
+        $ref: "#/definitions/ReqExpirationTimestamp"
+      ResExpirationTimestamp:
+        $ref: "#/definitions/ResExpirationTimestamp"
+      EventCategory:
+        $ref: "#/definitions/EventCategory"
+      OperationalExecutionTime:
+        $ref: "#/definitions/OperationalExecutionTime"
+      ResponseType:
+        $ref: "#/definitions/ResponseType"
+      ResultPersistence:
+        $ref: "#/definitions/ResultPersistence"
+      ResultContent:
+        $ref: "#/definitions/ResultContent"
+      DeliveryAggregation:
+        $ref: "#/definitions/DeliveryAggregation"
+      GroupRequestIdentifier:
+        $ref: "#/definitions/GroupRequestIdentifier"
+      FilterCriteria:
+        $ref: "#/definitions/FilterCriteria"
+      ToAddress:
+        $ref: "#/definitions/ToAddress"
+      FromId:
+        $ref: "#/definitions/FromId"
+      DesiredIdentifierResultType:
+        $ref: "#/definitions/DesiredIdentifierResultType"
+      TokenRequestIndicator:
+        $ref: "#/definitions/TokenRequestIndicator"
+      Tokens:
+        $ref: "#/definitions/Tokens"
+      TokenIDs:
+        $ref: "#/definitions/TokenIDs"
+      RoleIDs:
+        $ref: "#/definitions/RoleIDs"
+      LocalTokenIDs:
+        $ref: "#/definitions/LocalTokenIDs"
+      ReleaseVersionIndicator:
+        $ref: "#/definitions/ReleaseVersionIndicator"
+      VendorInformation:
+        $ref: "#/definitions/VendorInformation"
+      GroupRequestTargetMembers:
+        $ref: "#/definitions/GroupRequestTargetMembers"
+      AuthorizationSignatureIndicator:
+        $ref: "#/definitions/AuthorizationSignatureIndicator"
+      AuthorizationSignature:
+        $ref: "#/definitions/AuthorizationSignature"
+      AuthorizationRelationshipIndicator:
+        $ref: "#/definitions/AuthorizationRelationshipIndicator"
+      SemanticQueryIndicator :
+        $ref: "#/definitions/SemanticQueryIndicator"
+    description: "information of timeSeriesInfo resource"
+    example:
+      hashInfo:
+        ToAddress: ""
+        FromId: ""
+        Operation : ""
+        RequestId: ""
+        content:
+          resourceType: ""
+          resourceID: ""
+          resourceName: ""
+          parentID: ""
+          expirationTime: ""
+          creationTime: ""
+          lastModifiedTime: ""
+          accessControlPolicyIDs: ""
+          algorithm: ""
+          message: ""
+          hashValue: ""
+        resourceType: ""
+        OriginatingTimestamp: ""
+        ReqExpirationTimestamp: ""
+        ResExpirationTimestamp: ""
+        EventCategory: ""
+        OperationalExecutionTime: ""
+        ResponseType: ""
+        ResultPersistence: ""
+        ResultContent: ""
+        DeliveryAggregation: ""
+        GroupRequestIdentifier: ""
+        FilterCriteria: ""
+        DesiredIdentifierResultType: ""
+        TokenRequestIndicator: ""
+        Tokens: ""
+        TokenIDs: ""
+        RoleIDs: ""
+        LocalTokenIDs: ""
+        ReleaseVersionIndicator: ""
+        VendorInformation: ""
+        GroupRequestTargetMembers: ""  
+        AuthorizationSignatureIndicator: ""
+        AuthorizationSignature: ""
+        AuthorizationRelationshipIndicator: ""
+        SemanticQueryIndicator: ""
+  hashcontent:
+    type: "object"
+    properties:
+      resourceType:
+        $ref: "#/definitions/resourceType"
+      resourceID:
+        $ref: "#/definitions/resourceID"
+      resourceName:
+        $ref: "#/definitions/resourceName"
+      parentID:
+        $ref: "#/definitions/parentID"
+      expirationTime:
+        $ref: "#/definitions/expirationTime"
+      creationTime:
+        $ref: "#/definitions/creationTime"
+      accessControlPolicyIDs:
+        $ref: "#/definitions/accessControlPolicyIDs"
+      lastModifiedTime:
+        $ref: "#/definitions/lastModifiedTime"
+      algorithm:
+        $ref: "#/definitions/algorithm"
+      message:
+        $ref: "#/definitions/message"
+      hashValue:
+        $ref: "#/definitions/hashValue"
+    example:
+      resourceType: ""
+      resourceID: ""
+      resourceName: ""
+      parentID: ""
+      expirationTime: ""
+      creationTime: ""
+      accessControlPolicyIDs: ""
+      lastModifiedTime: ""
+      algorithm: ""
+      message: ""
+      hashValue: ""
+  inline_response_200_signature:
+    properties:
+      signatureInfo:
+        $ref: "#/definitions/signatureInfo"
+    example:
+      signatureInfo:
+        ToAddress: ""
+        FromId: ""
+        Operation : ""
+        RequestId: ""
+        content: ""
+        resourceType: ""
+        OriginatingTimestamp: ""
+        ReqExpirationTimestamp: ""
+        ResExpirationTimestamp: ""
+        EventCategory: ""
+        OperationalExecutionTime: ""
+        ResponseType: ""
+        ResultPersistence: ""
+        ResultContent: ""
+        DeliveryAggregation: ""
+        GroupRequestIdentifier: ""
+        FilterCriteria: ""
+        DesiredIdentifierResultType: ""
+        TokenRequestIndicator: ""
+        Tokens: ""
+        TokenIDs: ""
+        RoleIDs: ""
+        LocalTokenIDs: ""
+        ReleaseVersionIndicator: ""
+        VendorInformation: ""
+        GroupRequestTargetMembers: "" 
+        AuthorizationSignatureIndicator: ""
+        AuthorizationSignature: ""
+        AuthorizationRelationshipIndicator: ""
+        SemanticQueryIndicator: ""
+  signatureInfo:
+    type: "object"
+    properties:
+      Operation:
+        $ref: "#/definitions/Operation"
+      RequestId:
+        $ref: "#/definitions/RequestId"
+      content:
+        $ref: "#/definitions/signaturecontent"
+      resourceType:
+        $ref: "#/definitions/ResourceType"
+      OriginatingTimestamp:
+        $ref: "#/definitions/OriginatingTimestamp"
+      ReqExpirationTimestamp:
+        $ref: "#/definitions/ReqExpirationTimestamp"
+      ResExpirationTimestamp:
+        $ref: "#/definitions/ResExpirationTimestamp"
+      EventCategory:
+        $ref: "#/definitions/EventCategory"
+      OperationalExecutionTime:
+        $ref: "#/definitions/OperationalExecutionTime"
+      ResponseType:
+        $ref: "#/definitions/ResponseType"
+      ResultPersistence:
+        $ref: "#/definitions/ResultPersistence"
+      ResultContent:
+        $ref: "#/definitions/ResultContent"
+      DeliveryAggregation:
+        $ref: "#/definitions/DeliveryAggregation"
+      GroupRequestIdentifier:
+        $ref: "#/definitions/GroupRequestIdentifier"
+      FilterCriteria:
+        $ref: "#/definitions/FilterCriteria"
+      ToAddress:
+        $ref: "#/definitions/ToAddress"
+      FromId:
+        $ref: "#/definitions/FromId"
+      DesiredIdentifierResultType:
+        $ref: "#/definitions/DesiredIdentifierResultType"
+      TokenRequestIndicator:
+        $ref: "#/definitions/TokenRequestIndicator"
+      Tokens:
+        $ref: "#/definitions/Tokens"
+      TokenIDs:
+        $ref: "#/definitions/TokenIDs"
+      RoleIDs:
+        $ref: "#/definitions/RoleIDs"
+      LocalTokenIDs:
+        $ref: "#/definitions/LocalTokenIDs"
+      ReleaseVersionIndicator:
+        $ref: "#/definitions/ReleaseVersionIndicator"
+      VendorInformation:
+        $ref: "#/definitions/VendorInformation"
+      GroupRequestTargetMembers:
+        $ref: "#/definitions/GroupRequestTargetMembers"
+      AuthorizationSignatureIndicator:
+        $ref: "#/definitions/AuthorizationSignatureIndicator"
+      AuthorizationSignature:
+        $ref: "#/definitions/AuthorizationSignature"
+      AuthorizationRelationshipIndicator:
+        $ref: "#/definitions/AuthorizationRelationshipIndicator"
+      SemanticQueryIndicator :
+        $ref: "#/definitions/SemanticQueryIndicator"
+    description: "information of timeSeriesInfo resource"
+    example:
+      signatureInfo:
+        ToAddress: ""
+        FromId: ""
+        Operation : ""
+        RequestId: ""
+        content:
+          resourceType: ""
+          resourceID: ""
+          resourceName: ""
+          parentID: ""
+          expirationTime: ""
+          creationTime: ""
+          lastModifiedTime: ""
+          accessControlPolicyIDs: ""
+          message: ""
+          algorithm: ""
+          keyData: ""
+          keyInformation: ""
+          signature: ""
+          verificationResult: ""
+        resourceType: ""
+        OriginatingTimestamp: ""
+        ReqExpirationTimestamp: ""
+        ResExpirationTimestamp: ""
+        EventCategory: ""
+        OperationalExecutionTime: ""
+        ResponseType: ""
+        ResultPersistence: ""
+        ResultContent: ""
+        DeliveryAggregation: ""
+        GroupRequestIdentifier: ""
+        FilterCriteria: ""
+        DesiredIdentifierResultType: ""
+        TokenRequestIndicator: ""
+        Tokens: ""
+        TokenIDs: ""
+        RoleIDs: ""
+        LocalTokenIDs: ""
+        ReleaseVersionIndicator: ""
+        VendorInformation: ""
+        GroupRequestTargetMembers: ""  
+        AuthorizationSignatureIndicator: ""
+        AuthorizationSignature: ""
+        AuthorizationRelationshipIndicator: ""
+        SemanticQueryIndicator: ""
+  signaturecontent:
+    type: "object"
+    properties:
+      resourceType:
+        $ref: "#/definitions/resourceType"
+      resourceID:
+        $ref: "#/definitions/resourceID"
+      resourceName:
+        $ref: "#/definitions/resourceName"
+      parentID:
+        $ref: "#/definitions/parentID"
+      expirationTime:
+        $ref: "#/definitions/expirationTime"
+      creationTime:
+        $ref: "#/definitions/creationTime"
+      accessControlPolicyIDs:
+        $ref: "#/definitions/accessControlPolicyIDs"
+      lastModifiedTime:
+        $ref: "#/definitions/lastModifiedTime"
+      message:
+        $ref: "#/definitions/message"
+      algorithm:
+        $ref: "#/definitions/algorithm"
+      keyData:
+        $ref: "#/definitions/keyData"
+      keyInformation:
+        $ref: "#/definitions/keyInformation"
+      signature:
+        $ref: "#/definitions/signature"
+      verificationResult:
+        $ref: "#/definitions/verificationResult"
+    example:
+      resourceType: ""
+      resourceID: ""
+      resourceName: ""
+      parentID: ""
+      expirationTime: ""
+      creationTime: ""
+      accessControlPolicyIDs: ""
+      lastModifiedTime: ""
+      message: ""
+      algorithm: ""
+      keyData: ""
+      keyInformation: ""
+      signature: ""
+      verificationResult: ""
+  inline_response_200_secureConnection:
+    properties:
+      secureConnectionInfo:
+        $ref: "#/definitions/secureConnectionInfo"
+    example:
+      secureConnectionInfo:
+        ToAddress: ""
+        FromId: ""
+        Operation : ""
+        RequestId: ""
+        content: ""
+        resourceType: ""
+        OriginatingTimestamp: ""
+        ReqExpirationTimestamp: ""
+        ResExpirationTimestamp: ""
+        EventCategory: ""
+        OperationalExecutionTime: ""
+        ResponseType: ""
+        ResultPersistence: ""
+        ResultContent: ""
+        DeliveryAggregation: ""
+        GroupRequestIdentifier: ""
+        FilterCriteria: ""
+        DesiredIdentifierResultType: ""
+        TokenRequestIndicator: ""
+        Tokens: ""
+        TokenIDs: ""
+        RoleIDs: ""
+        LocalTokenIDs: ""
+        ReleaseVersionIndicator: ""
+        VendorInformation: ""
+        GroupRequestTargetMembers: "" 
+        AuthorizationSignatureIndicator: ""
+        AuthorizationSignature: ""
+        AuthorizationRelationshipIndicator: ""
+        SemanticQueryIndicator: ""
+  secureConnectionInfo:
+    type: "object"
+    properties:
+      Operation:
+        $ref: "#/definitions/Operation"
+      RequestId:
+        $ref: "#/definitions/RequestId"
+      content:
+        $ref: "#/definitions/secureConnectioncontent"
+      resourceType:
+        $ref: "#/definitions/ResourceType"
+      OriginatingTimestamp:
+        $ref: "#/definitions/OriginatingTimestamp"
+      ReqExpirationTimestamp:
+        $ref: "#/definitions/ReqExpirationTimestamp"
+      ResExpirationTimestamp:
+        $ref: "#/definitions/ResExpirationTimestamp"
+      EventCategory:
+        $ref: "#/definitions/EventCategory"
+      OperationalExecutionTime:
+        $ref: "#/definitions/OperationalExecutionTime"
+      ResponseType:
+        $ref: "#/definitions/ResponseType"
+      ResultPersistence:
+        $ref: "#/definitions/ResultPersistence"
+      ResultContent:
+        $ref: "#/definitions/ResultContent"
+      DeliveryAggregation:
+        $ref: "#/definitions/DeliveryAggregation"
+      GroupRequestIdentifier:
+        $ref: "#/definitions/GroupRequestIdentifier"
+      FilterCriteria:
+        $ref: "#/definitions/FilterCriteria"
+      ToAddress:
+        $ref: "#/definitions/ToAddress"
+      FromId:
+        $ref: "#/definitions/FromId"
+      DesiredIdentifierResultType:
+        $ref: "#/definitions/DesiredIdentifierResultType"
+      TokenRequestIndicator:
+        $ref: "#/definitions/TokenRequestIndicator"
+      Tokens:
+        $ref: "#/definitions/Tokens"
+      TokenIDs:
+        $ref: "#/definitions/TokenIDs"
+      RoleIDs:
+        $ref: "#/definitions/RoleIDs"
+      LocalTokenIDs:
+        $ref: "#/definitions/LocalTokenIDs"
+      ReleaseVersionIndicator:
+        $ref: "#/definitions/ReleaseVersionIndicator"
+      VendorInformation:
+        $ref: "#/definitions/VendorInformation"
+      GroupRequestTargetMembers:
+        $ref: "#/definitions/GroupRequestTargetMembers"
+      AuthorizationSignatureIndicator:
+        $ref: "#/definitions/AuthorizationSignatureIndicator"
+      AuthorizationSignature:
+        $ref: "#/definitions/AuthorizationSignature"
+      AuthorizationRelationshipIndicator:
+        $ref: "#/definitions/AuthorizationRelationshipIndicator"
+      SemanticQueryIndicator :
+        $ref: "#/definitions/SemanticQueryIndicator"
+    description: "information of timeSeriesInfo resource"
+    example:
+      secureConnectionInfo:
+        ToAddress: ""
+        FromId: ""
+        Operation : ""
+        RequestId: ""
+        content:
+          resourceType: ""
+          resourceID: ""
+          resourceName: ""
+          parentID: ""
+          expirationTime: ""
+          creationTime: ""
+          lastModifiedTime: ""
+          accessControlPolicyIDs: ""
+          maxNrOfInstances: ""
+          currentNrOfInstances: ""
+          connectionType: ""
+          keyData: ""
+          keyInformation: ""
+          cipherSuite: ""
+        resourceType: ""
+        OriginatingTimestamp: ""
+        ReqExpirationTimestamp: ""
+        ResExpirationTimestamp: ""
+        EventCategory: ""
+        OperationalExecutionTime: ""
+        ResponseType: ""
+        ResultPersistence: ""
+        ResultContent: ""
+        DeliveryAggregation: ""
+        GroupRequestIdentifier: ""
+        FilterCriteria: ""
+        DesiredIdentifierResultType: ""
+        TokenRequestIndicator: ""
+        Tokens: ""
+        TokenIDs: ""
+        RoleIDs: ""
+        LocalTokenIDs: ""
+        ReleaseVersionIndicator: ""
+        VendorInformation: ""
+        GroupRequestTargetMembers: ""  
+        AuthorizationSignatureIndicator: ""
+        AuthorizationSignature: ""
+        AuthorizationRelationshipIndicator: ""
+        SemanticQueryIndicator: ""
+  secureConnectioncontent:
+    type: "object"
+    properties:
+      resourceType:
+        $ref: "#/definitions/resourceType"
+      resourceID:
+        $ref: "#/definitions/resourceID"
+      resourceName:
+        $ref: "#/definitions/resourceName"
+      parentID:
+        $ref: "#/definitions/parentID"
+      expirationTime:
+        $ref: "#/definitions/expirationTime"
+      creationTime:
+        $ref: "#/definitions/creationTime"
+      accessControlPolicyIDs:
+        $ref: "#/definitions/accessControlPolicyIDs"
+      lastModifiedTime:
+        $ref: "#/definitions/lastModifiedTime"
+      maxNrOfInstances:
+        $ref: "#/definitions/maxNrOfInstances"
+      currentNrOfInstances:
+        $ref: "#/definitions/currentNrOfInstances"
+      connectionType:
+        $ref: "#/definitions/connectionType"
+      keyData:
+        $ref: "#/definitions/keyData"
+      keyInformation:
+        $ref: "#/definitions/keyInformation"
+      cipherSuite:
+        $ref: "#/definitions/cipherSuite"
+    example:
+      resourceType: ""
+      resourceID: ""
+      resourceName: ""
+      parentID: ""
+      expirationTime: ""
+      creationTime: ""
+      accessControlPolicyIDs: ""
+      lastModifiedTime: ""
+      maxNrOfInstances: ""
+      currentNrOfInstances: ""
+      connectionType: ""
+      keyData: ""
+      keyInformation: ""
+      cipherSuite: ""
+  inline_response_200_connectionInstance:
+    properties:
+      connectionInstanceInfo:
+        $ref: "#/definitions/connectionInstanceInfo"
+    example:
+      connectionInstanceInfo:
+        ToAddress: ""
+        FromId: ""
+        Operation : ""
+        RequestId: ""
+        content: ""
+        resourceType: ""
+        OriginatingTimestamp: ""
+        ReqExpirationTimestamp: ""
+        ResExpirationTimestamp: ""
+        EventCategory: ""
+        OperationalExecutionTime: ""
+        ResponseType: ""
+        ResultPersistence: ""
+        ResultContent: ""
+        DeliveryAggregation: ""
+        GroupRequestIdentifier: ""
+        FilterCriteria: ""
+        DesiredIdentifierResultType: ""
+        TokenRequestIndicator: ""
+        Tokens: ""
+        TokenIDs: ""
+        RoleIDs: ""
+        LocalTokenIDs: ""
+        ReleaseVersionIndicator: ""
+        VendorInformation: ""
+        GroupRequestTargetMembers: "" 
+        AuthorizationSignatureIndicator: ""
+        AuthorizationSignature: ""
+        AuthorizationRelationshipIndicator: ""
+        SemanticQueryIndicator: ""
+  connectionInstanceInfo:
+    type: "object"
+    properties:
+      Operation:
+        $ref: "#/definitions/Operation"
+      RequestId:
+        $ref: "#/definitions/RequestId"
+      content:
+        $ref: "#/definitions/connectionInstancecontent"
+      resourceType:
+        $ref: "#/definitions/ResourceType"
+      OriginatingTimestamp:
+        $ref: "#/definitions/OriginatingTimestamp"
+      ReqExpirationTimestamp:
+        $ref: "#/definitions/ReqExpirationTimestamp"
+      ResExpirationTimestamp:
+        $ref: "#/definitions/ResExpirationTimestamp"
+      EventCategory:
+        $ref: "#/definitions/EventCategory"
+      OperationalExecutionTime:
+        $ref: "#/definitions/OperationalExecutionTime"
+      ResponseType:
+        $ref: "#/definitions/ResponseType"
+      ResultPersistence:
+        $ref: "#/definitions/ResultPersistence"
+      ResultContent:
+        $ref: "#/definitions/ResultContent"
+      DeliveryAggregation:
+        $ref: "#/definitions/DeliveryAggregation"
+      GroupRequestIdentifier:
+        $ref: "#/definitions/GroupRequestIdentifier"
+      FilterCriteria:
+        $ref: "#/definitions/FilterCriteria"
+      ToAddress:
+        $ref: "#/definitions/ToAddress"
+      FromId:
+        $ref: "#/definitions/FromId"
+      DesiredIdentifierResultType:
+        $ref: "#/definitions/DesiredIdentifierResultType"
+      TokenRequestIndicator:
+        $ref: "#/definitions/TokenRequestIndicator"
+      Tokens:
+        $ref: "#/definitions/Tokens"
+      TokenIDs:
+        $ref: "#/definitions/TokenIDs"
+      RoleIDs:
+        $ref: "#/definitions/RoleIDs"
+      LocalTokenIDs:
+        $ref: "#/definitions/LocalTokenIDs"
+      ReleaseVersionIndicator:
+        $ref: "#/definitions/ReleaseVersionIndicator"
+      VendorInformation:
+        $ref: "#/definitions/VendorInformation"
+      GroupRequestTargetMembers:
+        $ref: "#/definitions/GroupRequestTargetMembers"
+      AuthorizationSignatureIndicator:
+        $ref: "#/definitions/AuthorizationSignatureIndicator"
+      AuthorizationSignature:
+        $ref: "#/definitions/AuthorizationSignature"
+      AuthorizationRelationshipIndicator:
+        $ref: "#/definitions/AuthorizationRelationshipIndicator"
+      SemanticQueryIndicator :
+        $ref: "#/definitions/SemanticQueryIndicator"
+    description: "information of timeSeriesInfo resource"
+    example:
+      connectionInstanceInfo:
+        ToAddress: ""
+        FromId: ""
+        Operation : ""
+        RequestId: ""
+        content:
+          resourceType: ""
+          resourceID: ""
+          resourceName: ""
+          parentID: ""
+          expirationTime: ""
+          creationTime: ""
+          lastModifiedTime: ""
+          accessControlPolicyIDs: ""
+          destinationURI: ""
+          outgoingPayloadData: ""
+          incomingPayloadData: ""
+          negotiatedKey: ""
+          negotiatedCipherSuite: ""
+        resourceType: ""
+        OriginatingTimestamp: ""
+        ReqExpirationTimestamp: ""
+        ResExpirationTimestamp: ""
+        EventCategory: ""
+        OperationalExecutionTime: ""
+        ResponseType: ""
+        ResultPersistence: ""
+        ResultContent: ""
+        DeliveryAggregation: ""
+        GroupRequestIdentifier: ""
+        FilterCriteria: ""
+        DesiredIdentifierResultType: ""
+        TokenRequestIndicator: ""
+        Tokens: ""
+        TokenIDs: ""
+        RoleIDs: ""
+        LocalTokenIDs: ""
+        ReleaseVersionIndicator: ""
+        VendorInformation: ""
+        GroupRequestTargetMembers: ""  
+        AuthorizationSignatureIndicator: ""
+        AuthorizationSignature: ""
+        AuthorizationRelationshipIndicator: ""
+        SemanticQueryIndicator: ""
+  connectionInstancecontent:
+    type: "object"
+    properties:
+      resourceType:
+        $ref: "#/definitions/resourceType"
+      resourceID:
+        $ref: "#/definitions/resourceID"
+      resourceName:
+        $ref: "#/definitions/resourceName"
+      parentID:
+        $ref: "#/definitions/parentID"
+      expirationTime:
+        $ref: "#/definitions/expirationTime"
+      creationTime:
+        $ref: "#/definitions/creationTime"
+      accessControlPolicyIDs:
+        $ref: "#/definitions/accessControlPolicyIDs"
+      lastModifiedTime:
+        $ref: "#/definitions/lastModifiedTime"
+      destinationURI:
+        $ref: "#/definitions/destinationURI"
+      outgoingPayloadData:
+        $ref: "#/definitions/outgoingPayloadData"
+      incomingPayloadData:
+        $ref: "#/definitions/incomingPayloadData"
+      negotiatedKey:
+        $ref: "#/definitions/negotiatedKey"
+      negotiatedCipherSuite:
+        $ref: "#/definitions/negotiatedCipherSuite"
+    example:
+      resourceType: ""
+      resourceID: ""
+      resourceName: ""
+      parentID: ""
+      expirationTime: ""
+      creationTime: ""
+      accessControlPolicyIDs: ""
+      lastModifiedTime: ""
+      destinationURI: ""
+      outgoingPayloadData: ""
+      incomingPayloadData: ""
+      negotiatedKey: ""
+      negotiatedCipherSuite: ""
+  inline_response_200_identity:
+    properties:
+      identityInfo:
+        $ref: "#/definitions/identityInfo"
+    example:
+      identityInfo:
+        ToAddress: ""
+        FromId: ""
+        Operation : ""
+        RequestId: ""
+        content: ""
+        resourceType: ""
+        OriginatingTimestamp: ""
+        ReqExpirationTimestamp: ""
+        ResExpirationTimestamp: ""
+        EventCategory: ""
+        OperationalExecutionTime: ""
+        ResponseType: ""
+        ResultPersistence: ""
+        ResultContent: ""
+        DeliveryAggregation: ""
+        GroupRequestIdentifier: ""
+        FilterCriteria: ""
+        DesiredIdentifierResultType: ""
+        TokenRequestIndicator: ""
+        Tokens: ""
+        TokenIDs: ""
+        RoleIDs: ""
+        LocalTokenIDs: ""
+        ReleaseVersionIndicator: ""
+        VendorInformation: ""
+        GroupRequestTargetMembers: "" 
+        AuthorizationSignatureIndicator: ""
+        AuthorizationSignature: ""
+        AuthorizationRelationshipIndicator: ""
+        SemanticQueryIndicator: ""
+  identityInfo:
+    type: "object"
+    properties:
+      Operation:
+        $ref: "#/definitions/Operation"
+      RequestId:
+        $ref: "#/definitions/RequestId"
+      content:
+        $ref: "#/definitions/identitycontent"
+      resourceType:
+        $ref: "#/definitions/ResourceType"
+      OriginatingTimestamp:
+        $ref: "#/definitions/OriginatingTimestamp"
+      ReqExpirationTimestamp:
+        $ref: "#/definitions/ReqExpirationTimestamp"
+      ResExpirationTimestamp:
+        $ref: "#/definitions/ResExpirationTimestamp"
+      EventCategory:
+        $ref: "#/definitions/EventCategory"
+      OperationalExecutionTime:
+        $ref: "#/definitions/OperationalExecutionTime"
+      ResponseType:
+        $ref: "#/definitions/ResponseType"
+      ResultPersistence:
+        $ref: "#/definitions/ResultPersistence"
+      ResultContent:
+        $ref: "#/definitions/ResultContent"
+      DeliveryAggregation:
+        $ref: "#/definitions/DeliveryAggregation"
+      GroupRequestIdentifier:
+        $ref: "#/definitions/GroupRequestIdentifier"
+      FilterCriteria:
+        $ref: "#/definitions/FilterCriteria"
+      ToAddress:
+        $ref: "#/definitions/ToAddress"
+      FromId:
+        $ref: "#/definitions/FromId"
+      DesiredIdentifierResultType:
+        $ref: "#/definitions/DesiredIdentifierResultType"
+      TokenRequestIndicator:
+        $ref: "#/definitions/TokenRequestIndicator"
+      Tokens:
+        $ref: "#/definitions/Tokens"
+      TokenIDs:
+        $ref: "#/definitions/TokenIDs"
+      RoleIDs:
+        $ref: "#/definitions/RoleIDs"
+      LocalTokenIDs:
+        $ref: "#/definitions/LocalTokenIDs"
+      ReleaseVersionIndicator:
+        $ref: "#/definitions/ReleaseVersionIndicator"
+      VendorInformation:
+        $ref: "#/definitions/VendorInformation"
+      GroupRequestTargetMembers:
+        $ref: "#/definitions/GroupRequestTargetMembers"
+      AuthorizationSignatureIndicator:
+        $ref: "#/definitions/AuthorizationSignatureIndicator"
+      AuthorizationSignature:
+        $ref: "#/definitions/AuthorizationSignature"
+      AuthorizationRelationshipIndicator:
+        $ref: "#/definitions/AuthorizationRelationshipIndicator"
+      SemanticQueryIndicator :
+        $ref: "#/definitions/SemanticQueryIndicator"
+    description: "information of identity resource"
+    example:
+      identityInfo:
+        ToAddress: ""
+        FromId: ""
+        Operation : ""
+        RequestId: ""
+        content:
+          resourceType: ""
+          resourceID: ""
+          resourceName: ""
+          parentID: ""
+          expirationTime: ""
+          creationTime: ""
+          lastModifiedTime: ""
+          accessControlPolicyIDs: ""
+          idName: ""
+          keyData: ""
+          idData: ""
+          originatorAuthenticationData: ""
+          receiverAuthenticationData: ""
+        resourceType: ""
+        OriginatingTimestamp: ""
+        ReqExpirationTimestamp: ""
+        ResExpirationTimestamp: ""
+        EventCategory: ""
+        OperationalExecutionTime: ""
+        ResponseType: ""
+        ResultPersistence: ""
+        ResultContent: ""
+        DeliveryAggregation: ""
+        GroupRequestIdentifier: ""
+        FilterCriteria: ""
+        DesiredIdentifierResultType: ""
+        TokenRequestIndicator: ""
+        Tokens: ""
+        TokenIDs: ""
+        RoleIDs: ""
+        LocalTokenIDs: ""
+        ReleaseVersionIndicator: ""
+        VendorInformation: ""
+        GroupRequestTargetMembers: ""  
+        AuthorizationSignatureIndicator: ""
+        AuthorizationSignature: ""
+        AuthorizationRelationshipIndicator: ""
+        SemanticQueryIndicator: ""
+  identitycontent:
+    type: "object"
+    properties:
+      resourceType:
+        $ref: "#/definitions/resourceType"
+      resourceID:
+        $ref: "#/definitions/resourceID"
+      resourceName:
+        $ref: "#/definitions/resourceName"
+      parentID:
+        $ref: "#/definitions/parentID"
+      expirationTime:
+        $ref: "#/definitions/expirationTime"
+      creationTime:
+        $ref: "#/definitions/creationTime"
+      accessControlPolicyIDs:
+        $ref: "#/definitions/accessControlPolicyIDs"
+      lastModifiedTime:
+        $ref: "#/definitions/lastModifiedTime"
+      idName:
+        $ref: "#/definitions/idName"
+      keyData:
+        $ref: "#/definitions/keyData"
+      idData:
+        $ref: "#/definitions/idData"
+      originatorAuthenticationData:
+        $ref: "#/definitions/originatorAuthenticationData"
+      receiverAuthenticationData:
+        $ref: "#/definitions/receiverAuthenticationData"
+    example:
+      resourceType: ""
+      resourceID: ""
+      resourceName: ""
+      parentID: ""
+      expirationTime: ""
+      creationTime: ""
+      accessControlPolicyIDs: ""
+      lastModifiedTime: ""
+      idName: ""
+      keyData: ""
+      idData: ""
+      originatorAuthenticationData: ""
+      receiverAuthenticationData: ""
+  Operation:
+    type: "string"
+    description: "Operation"
+  RequestId:
+    type: "string"
+    description: "RequestId"
+  ResourceType:
+    type: "string"
+    description: "resourceType"
+  OriginatingTimestamp:
+    type: "string"
+    description: "OriginatingTimestamp"
+  ReqExpirationTimestamp:
+    type: "string"
+    description: "ReqExpirationTimestamp"
+  ResExpirationTimestamp:
+    type: "string"
+    description: "ResExpirationTimestamp"
+  EventCategory:
+    type: "string"
+    description: "EventCategory"
+  OperationalExecutionTime:
+    type: "string"
+    description: "OperationalExecutionTime"
+  ResponseType:
+    type: "string"
+    description: "ResponseType"
+  ResultPersistence:
+    type: "string"
+    description: "ResultPersistence"
+  ResultContent:
+    type: "string"
+    description: "ResultContent"
+  DeliveryAggregation:
+    type: "string"
+    description: "DeliveryAggregation"
+  GroupRequestIdentifier:
+    type: "string"
+    description: "GroupRequestIdentifier"
+  FilterCriteria:
+    type: "string"
+    description: "FilterCriteria"
+  DesiredIdentifierResultType:
+    type: "string"
+    description: "DesiredIdentifierResultType"
+  TokenRequestIndicator:
+    type: "string"
+    description: "TokenRequestIndicator"
+  Tokens:
+    type: "string"
+    description: "Tokens"
+  TokenIDs:
+    type: "string"
+    description: "TokenIDs"
+  RoleIDs:
+    type: "string"
+    description: "RoleIDs"
+  LocalTokenIDs:
+    type: "string"
+    description: "LocalTokenIDs"
+  ReleaseVersionIndicator:
+    type: "string"
+    description: "ReleaseVersionIndicator"
+  VendorInformation:
+    type: "string"
+    description: "VendorInformation"
+  resourceType:
+    type: "string"
+    description: "resourceType"
+  resourceID:
+    type: "string"
+    description: "resourceID"
+  resourceName:
+    type: "string"
+    description: "resourceName"
+  parentID:
+    type: "string"
+    description: "parentID"
+  expirationTime:
+    type: "string"
+    description: "expirationTime"
+  accessControlPolicyIDs:
+    type: "string"
+    description: "accessControlPolicyIDs"
+  creationTime:
+    type: "string"
+    description: "creationTime"
+  lastModifiedTime:
+    type: "string"
+    description: "lastModifiedTime"
+  labels:
+    type: "string"
+    description: "labels"
+  announceTo:
+    type: "string"
+    description: "announceTo"
+  announcedAttribute:
+    type: "string"
+    description: "announcedAttribute"
+  ontologyRef:
+    type: "string"
+    description: "ontologyRef"
+  dynamicAuthorizationConsultationIDs:
+    type: "string"
+    description: "dynamicAuthorizationConsultationIDs"
+  GroupRequestTargetMembers:
+    type: "string"
+    description: "GroupRequestTargetMembers" 
+  AuthorizationSignatureIndicator:
+    type: "string"
+    description: "AuthorizationSignatureIndicator"
+  AuthorizationSignature:
+    type: "string"
+    description: "AuthorizationSignature"
+  AuthorizationRelationshipIndicator:
+    type: "string"
+    description: "AuthorizationRelationshipIndicator"
+  SemanticQueryIndicator:
+    type: "string"
+    description: "SemanticQueryIndicator"
+  ToAddress:
+    type: "string"
+    description: "ToAddress"
+  FromId:
+    type: "string"
+    description: "FromId"
+  creator:
+    type: "string"
+    description: "creator"
+  sensitiveData:
+    type: "string"
+    description: "sensitiveData"
+  currentByteSize:
+    type: "string"
+    description: "currentByteSize"
+  maxByteSize:
+    type: "string"
+    description: "maxByteSize"
+  algorithm:
+    type: "string"
+    description: "algorithm"
+  keyData:
+    type: "string"
+    description: "keyData"
+  calculatedData:
+    type: "string"
+    description: "calculatedData"
+  randomData:
+    type: "string"
+    description: "randomData"
+  rngType:
+    type: "string"
+    description: "rngType"
+  requestedDataSize:
+    type: "string"
+    description: "requestedDataSize"
+  message:
+    type: "string"
+    description: "message"
+  hashValue:
+    type: "string"
+    description: "hashValue"
+  keyInformation:
+    type: "string"
+    description: "keyInformation"
+  signature:
+    type: "string"
+    description: "signature"
+  verificationResult:
+    type: "string"
+    description: "verificationResult"
+  maxNrOfInstances:
+    type: "string"
+    description: "maxNrOfInstances"
+  currentNrOfInstances:
+    type: "string"
+    description: "currentNrOfInstances"
+  connectionType:
+    type: "string"
+    description: "connectionType"
+  cipherSuite:
+    type: "string"
+    description: "cipherSuite"
+  destinationURI:
+    type: "string"
+    description: "destinationURI"
+  outgoingPayloadData:
+    type: "string"
+    description: "outgoingPayloadData"
+  incomingPayloadData:
+    type: "string"
+    description: "incomingPayloadData"
+  negotiatedKey:
+    type: "string"
+    description: "negotiatedKey"
+  negotiatedCipherSuite:
+    type: "string"
+    description: "negotiatedCipherSuite"
+  idName:
+    type: "string"
+    description: "idName"
+  idData:
+    type: "string"
+    description: "idData"
+  originatorAuthenticationData:
+    type: "string"
+    description: "originatorAuthenticationData"
+  receiverAuthenticationData:
+    type: "string"
+    description: "receiverAuthenticationData"
+parameters:
+  Body.sensitiveDataObjectInfo:
+    in: "body"
+    name: "sensitiveDataObjectInfo"
+    description: "sensitiveDataObjectInfo with updated information is included as entity body of the\
+      \ request"
+    required: true
+    schema:
+      $ref: "#/definitions/sensitiveDataObjectInfo"
+  Body.cipherInfo:
+    in: "body"
+    name: "cipherInfo"
+    description: "cipherInfo with updated information is included as entity body of the\
+      \ request"
+    required: true
+    schema:
+      $ref: "#/definitions/cipherInfo"
+  Body.randInfo:
+    in: "body"
+    name: "randInfo"
+    description: "randInfo with updated information is included as entity body of the\
+      \ request"
+    required: true
+    schema:
+      $ref: "#/definitions/randInfo"
+  Body.hashInfo:
+    in: "body"
+    name: "hashInfo"
+    description: "hashInfo with updated information is included as entity body of the\
+      \ request"
+    required: true
+    schema:
+      $ref: "#/definitions/hashInfo"
+  Body.signatureInfo:
+    in: "body"
+    name: "signatureInfo"
+    description: "signatureInfo with updated information is included as entity body of the\
+      \ request"
+    required: true
+    schema:
+      $ref: "#/definitions/signatureInfo"
+  Body.secureConnectionInfo:
+    in: "body"
+    name: "secureConnectionInfo"
+    description: "secureConnectionInfo with updated information is included as entity body of the\
+      \ request"
+    required: true
+    schema:
+      $ref: "#/definitions/secureConnectionInfo"
+  Body.connectionInstanceInfo:
+    in: "body"
+    name: "connectionInstanceInfo"
+    description: "connectionInstanceInfo with updated information is included as entity body of the\
+      \ request"
+    required: true
+    schema:
+      $ref: "#/definitions/connectionInstanceInfo"
+  Body.identityInfo:
+    in: "body"
+    name: "identityInfo"
+    description: "identityInfo with updated information is included as entity body of the\
+      \ request"
+    required: true
+    schema:
+      $ref: "#/definitions/identityInfo"
+externalDocs:
+  description: "ETSI MEC015 V1.1.1 Bandwidth Management API"
+  url: "http://www.etsi.org/deliver/etsi_gs/MEC/001_099/015/01.01.01_60/gs_MEC015v010101p.pdf"

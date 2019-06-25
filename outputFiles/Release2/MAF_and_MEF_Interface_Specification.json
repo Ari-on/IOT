@@ -1,0 +1,3250 @@
+{
+    "folders": [
+        {
+            "description": "Folder for mafClientReg", 
+            "collection_name": "IOT2_API", 
+            "collection": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "id": "7cfcb7e3-f6c1-4290-a2ec-bf7648ce760d", 
+            "collection_id": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "order": [
+                "122f5b6b-3731-4f17-a222-23747d717c290", 
+                "122f5b6b-3731-4f17-a222-23747d717c2906", 
+                "122f5b6b-3731-4f17-a222-23747d717c2917", 
+                "122f5b6b-3731-4f17-a222-23747d717c2928", 
+                "1299ad68-93e0-40dc-8bfe-1d1d43920afa26", 
+                "f19340d9-85a6-4623-a2eb-99fb5900381129", 
+                "1f3a87d7-8646-4b1a-a618-25ae2372e9df33"
+            ], 
+            "name": "mafClientReg"
+        }, 
+        {
+            "description": "Folder for mefClientReg", 
+            "collection_name": "IOT2_API", 
+            "collection": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "id": "26e58199-40ca-456e-af7b-3c25a3fb78fd", 
+            "collection_id": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "order": [
+                "5780d556-21d1-4cd2-bf0b-8d7d406140d41", 
+                "5780d556-21d1-4cd2-bf0b-8d7d406140d409", 
+                "5780d556-21d1-4cd2-bf0b-8d7d406140d4110", 
+                "5780d556-21d1-4cd2-bf0b-8d7d406140d4211", 
+                "3cc3b99f-d456-4287-b6ef-b22c343bf97a27", 
+                "4fc59993-8dcb-4bf2-9d09-bcbf85b8598f30", 
+                "805c0ca2-78e9-4c49-a213-4ab2cd25a60234"
+            ], 
+            "name": "mefClientReg"
+        }, 
+        {
+            "description": "Folder for mefClientCmd", 
+            "collection_name": "IOT2_API", 
+            "collection": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "id": "fef06068-2ff6-45cd-a293-6a688eac55a5", 
+            "collection_id": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "order": [
+                "69735c4c-14e9-4d99-85cd-8c31524a26b42", 
+                "69735c4c-14e9-4d99-85cd-8c31524a26b4012", 
+                "90a786e1-e705-451d-a2ce-16a2d0059f8f31"
+            ], 
+            "name": "mefClientCmd"
+        }, 
+        {
+            "description": "Folder for MEFBase", 
+            "collection_name": "IOT2_API", 
+            "collection": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "id": "dc7f251d-1e80-4b92-b207-091783a42085", 
+            "collection_id": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "order": [
+                "fe648375-d81a-4321-a3d0-6ebaf461711e3", 
+                "fe648375-d81a-4321-a3d0-6ebaf461711e013", 
+                "fe648375-d81a-4321-a3d0-6ebaf461711e114", 
+                "fe648375-d81a-4321-a3d0-6ebaf461711e215", 
+                "fe648375-d81a-4321-a3d0-6ebaf461711e316", 
+                "fe648375-d81a-4321-a3d0-6ebaf461711e417", 
+                "fe648375-d81a-4321-a3d0-6ebaf461711e518"
+            ], 
+            "name": "MEFBase"
+        }, 
+        {
+            "description": "Folder for symmKeyReg", 
+            "collection_name": "IOT2_API", 
+            "collection": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "id": "da3fd089-6af6-4009-be9a-a3d9d83593e9", 
+            "collection_id": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "order": [
+                "95791867-4296-4647-8316-ab803181aadf4", 
+                "95791867-4296-4647-8316-ab803181aadf019", 
+                "7be06307-6cf9-47f1-b3af-9b898ad236ea28", 
+                "f1e15128-426f-4047-9a17-6353c75aa26132", 
+                "9c218de2-c84a-4a3a-a7d6-308fb676289035"
+            ], 
+            "name": "symmKeyReg"
+        }, 
+        {
+            "description": "Folder for MAFBase", 
+            "collection_name": "IOT2_API", 
+            "collection": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "id": "7abbfb3d-c569-45d9-ac53-8cbce74ccdbc", 
+            "collection_id": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "order": [
+                "0049cd47-da48-4eee-94c3-b331ad896cf75", 
+                "0049cd47-da48-4eee-94c3-b331ad896cf7020", 
+                "0049cd47-da48-4eee-94c3-b331ad896cf7121", 
+                "0049cd47-da48-4eee-94c3-b331ad896cf7222", 
+                "0049cd47-da48-4eee-94c3-b331ad896cf7323", 
+                "0049cd47-da48-4eee-94c3-b331ad896cf7424", 
+                "0049cd47-da48-4eee-94c3-b331ad896cf7525"
+            ], 
+            "name": "MAFBase"
+        }
+    ], 
+    "description": "The ETSI IOT Bandwidth Management API described using OpenAPI", 
+    "timestamp": 1413302258635, 
+    "id": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+    "synced": false, 
+    "requests": [
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "pathVariables": {}, 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/mafClientReg?MAF-FQDN={{MAF-FQDN}}&mafClientRegID={{mafClientRegID}}", 
+            "name": "TC_200", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593781, 
+            "synced": false, 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"mafClientRegInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"mafClientRegID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"adminFQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"expirationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MAF-FQDN\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['mafClientRegID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['adminFQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['expirationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['MAF-FQDN']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/1?query=/iot2/example/mafClientReg?MAF-FQDN={{MAF-FQDN}}?mafClientRegID={{mafClientRegID}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"MAF-FQDN\",currentData.MAF-FQDN);", 
+                            "    pm.environment.set(\"mafClientRegID\",currentData.mafClientRegID);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "122f5b6b-3731-4f17-a222-23747d717c290", 
+            "description": "This method retrieves information about a list of mafClientReg resources"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "pathVariables": {}, 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/mefClientReg?MEF-FQDN={{MEF-FQDN}}&MEFClientRegID={{MEFClientRegID}}", 
+            "name": "TC_200", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593782, 
+            "synced": false, 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"mefClientRegInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEF-FQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"adminFQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"expirationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEFClientRegID\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['MEF-FQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['adminFQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['expirationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['MEFClientRegID']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/2?query=/iot2/example/mefClientReg?MEF-FQDN={{MEF-FQDN}}?MEFClientRegID={{MEFClientRegID}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"MEF-FQDN\",currentData.MEF-FQDN);", 
+                            "    pm.environment.set(\"MEFClientRegID\",currentData.MEFClientRegID);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "5780d556-21d1-4cd2-bf0b-8d7d406140d41", 
+            "description": "This method retrieves information about a list of mefClientReg resources"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "pathVariables": {}, 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/mefClientCmd?MEFClientRegID={{MEFClientRegID}}", 
+            "name": "TC_200", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593783, 
+            "synced": false, 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"mefClientCmdInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"cmdStatusCode\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"cmdID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEFClientRegID\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['mefClientCmdInfo']['cmdStatusCode']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientCmdInfo']['cmdID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientCmdInfo']['MEFClientRegID']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/3?query=/iot2/example/mefClientCmd?MEFClientRegID={{MEFClientRegID}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"MEFClientRegID\",currentData.MEFClientRegID);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "69735c4c-14e9-4d99-85cd-8c31524a26b42", 
+            "description": "This method retrieves information about a list of mefClientCmd resources"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "pathVariables": {}, 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/MEFBase?resourceType={{resourceType}}&resourceID={{resourceID}}&resourceName={{resourceName}}&creationTime={{creationTime}}&labels={{labels}}", 
+            "name": "TC_200", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593783, 
+            "synced": false, 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEFBaseInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceType\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"creationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceName\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceType']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['creationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceName']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/4?query=/iot2/example/MEFBase?resourceType={{resourceType}}?resourceID={{resourceID}}?resourceName={{resourceName}}?creationTime={{creationTime}}?labels={{labels}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"resourceType\",currentData.resourceType);", 
+                            "    pm.environment.set(\"resourceID\",currentData.resourceID);", 
+                            "    pm.environment.set(\"resourceName\",currentData.resourceName);", 
+                            "    pm.environment.set(\"creationTime\",currentData.creationTime);", 
+                            "    pm.environment.set(\"labels\",currentData.labels);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "fe648375-d81a-4321-a3d0-6ebaf461711e3", 
+            "description": "This method retrieves information about a list of MEFBase resources"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "pathVariables": {}, 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/symmKeyReg?RelativeKeyID={{RelativeKeyID}}", 
+            "name": "TC_200", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593783, 
+            "synced": false, 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"symmKeyRegInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"SUID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MAF-FQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEF-FQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"adminFQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"RelativeKeyID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"keyValue\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"targetIDs\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"expirationTime\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['SUID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['MAF-FQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['MEF-FQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['adminFQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['RelativeKeyID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['keyValue']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['targetIDs']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['expirationTime']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/5?query=/iot2/example/symmKeyReg?RelativeKeyID={{RelativeKeyID}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"RelativeKeyID\",currentData.RelativeKeyID);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "95791867-4296-4647-8316-ab803181aadf4", 
+            "description": "This method retrieves information about a list of symmKeyReg resources"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "pathVariables": {}, 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/MAFBase?resourceType={{resourceType}}&resourceID={{resourceID}}&resourceName={{resourceName}}&creationTime={{creationTime}}&labels={{labels}}", 
+            "name": "TC_200", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593784, 
+            "synced": false, 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"MAFBaseInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceType\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"creationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceName\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceType']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['creationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceName']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/6?query=/iot2/example/MAFBase?resourceType={{resourceType}}?resourceID={{resourceID}}?resourceName={{resourceName}}?creationTime={{creationTime}}?labels={{labels}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"resourceType\",currentData.resourceType);", 
+                            "    pm.environment.set(\"resourceID\",currentData.resourceID);", 
+                            "    pm.environment.set(\"resourceName\",currentData.resourceName);", 
+                            "    pm.environment.set(\"creationTime\",currentData.creationTime);", 
+                            "    pm.environment.set(\"labels\",currentData.labels);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "0049cd47-da48-4eee-94c3-b331ad896cf75", 
+            "description": "This method retrieves information about a list of MAFBase resources"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of mafClientReg resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/mafClientReg?MAF-FQDN={{MAF-FQDN}}", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"mafClientRegInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"mafClientRegID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"adminFQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"expirationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MAF-FQDN\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['mafClientRegID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['adminFQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['expirationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['MAF-FQDN']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/7?query=/iot2/example/mafClientReg?MAF-FQDN={{MAF-FQDN}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"MAF-FQDN\",currentData.MAF-FQDN);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593781, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "122f5b6b-3731-4f17-a222-23747d717c2906", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of mafClientReg resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/mafClientReg?mafClientRegID={{mafClientRegID}}", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"mafClientRegInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"mafClientRegID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"adminFQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"expirationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MAF-FQDN\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['mafClientRegID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['adminFQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['expirationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['MAF-FQDN']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/8?query=/iot2/example/mafClientReg?mafClientRegID={{mafClientRegID}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"mafClientRegID\",currentData.mafClientRegID);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593781, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "122f5b6b-3731-4f17-a222-23747d717c2917", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of mafClientReg resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/mafClientReg", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"mafClientRegInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"mafClientRegID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"adminFQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"expirationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MAF-FQDN\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['mafClientRegID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['adminFQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['expirationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['MAF-FQDN']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/9?query=/iot2/example/mafClientReg',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593781, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "122f5b6b-3731-4f17-a222-23747d717c2928", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of mefClientReg resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/mefClientReg?MEF-FQDN={{MEF-FQDN}}", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"mefClientRegInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEF-FQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"adminFQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"expirationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEFClientRegID\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['MEF-FQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['adminFQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['expirationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['MEFClientRegID']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/10?query=/iot2/example/mefClientReg?MEF-FQDN={{MEF-FQDN}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"MEF-FQDN\",currentData.MEF-FQDN);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593782, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "5780d556-21d1-4cd2-bf0b-8d7d406140d409", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of mefClientReg resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/mefClientReg?MEFClientRegID={{MEFClientRegID}}", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"mefClientRegInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEF-FQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"adminFQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"expirationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEFClientRegID\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['MEF-FQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['adminFQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['expirationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['MEFClientRegID']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/11?query=/iot2/example/mefClientReg?MEFClientRegID={{MEFClientRegID}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"MEFClientRegID\",currentData.MEFClientRegID);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593782, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "5780d556-21d1-4cd2-bf0b-8d7d406140d4110", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of mefClientReg resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/mefClientReg", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"mefClientRegInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEF-FQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"adminFQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"expirationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEFClientRegID\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['MEF-FQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['adminFQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['expirationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['MEFClientRegID']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/12?query=/iot2/example/mefClientReg',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593782, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "5780d556-21d1-4cd2-bf0b-8d7d406140d4211", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of mefClientCmd resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/mefClientCmd", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"mefClientCmdInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"cmdStatusCode\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"cmdID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEFClientRegID\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['mefClientCmdInfo']['cmdStatusCode']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientCmdInfo']['cmdID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientCmdInfo']['MEFClientRegID']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/13?query=/iot2/example/mefClientCmd',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593783, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "69735c4c-14e9-4d99-85cd-8c31524a26b4012", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of MEFBase resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/MEFBase?resourceType={{resourceType}}", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEFBaseInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceType\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"creationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceName\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceType']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['creationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceName']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/14?query=/iot2/example/MEFBase?resourceType={{resourceType}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"resourceType\",currentData.resourceType);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593783, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "fe648375-d81a-4321-a3d0-6ebaf461711e013", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of MEFBase resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/MEFBase?resourceID={{resourceID}}", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEFBaseInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceType\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"creationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceName\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceType']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['creationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceName']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/15?query=/iot2/example/MEFBase?resourceID={{resourceID}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"resourceID\",currentData.resourceID);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593783, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "fe648375-d81a-4321-a3d0-6ebaf461711e114", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of MEFBase resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/MEFBase?resourceName={{resourceName}}", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEFBaseInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceType\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"creationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceName\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceType']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['creationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceName']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/16?query=/iot2/example/MEFBase?resourceName={{resourceName}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"resourceName\",currentData.resourceName);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593783, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "fe648375-d81a-4321-a3d0-6ebaf461711e215", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of MEFBase resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/MEFBase?creationTime={{creationTime}}", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEFBaseInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceType\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"creationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceName\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceType']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['creationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceName']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/17?query=/iot2/example/MEFBase?creationTime={{creationTime}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"creationTime\",currentData.creationTime);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593783, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "fe648375-d81a-4321-a3d0-6ebaf461711e316", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of MEFBase resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/MEFBase?labels={{labels}}", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEFBaseInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceType\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"creationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceName\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceType']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['creationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceName']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/18?query=/iot2/example/MEFBase?labels={{labels}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"labels\",currentData.labels);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593783, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "fe648375-d81a-4321-a3d0-6ebaf461711e417", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of MEFBase resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/MEFBase", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEFBaseInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceType\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"creationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceName\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceType']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['creationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MEFBaseInfo']['resourceName']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/19?query=/iot2/example/MEFBase',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593783, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "fe648375-d81a-4321-a3d0-6ebaf461711e518", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of symmKeyReg resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/symmKeyReg", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"symmKeyRegInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"SUID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MAF-FQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEF-FQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"adminFQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"RelativeKeyID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"keyValue\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"targetIDs\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"expirationTime\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['SUID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['MAF-FQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['MEF-FQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['adminFQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['RelativeKeyID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['keyValue']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['targetIDs']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['expirationTime']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/20?query=/iot2/example/symmKeyReg',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593783, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "95791867-4296-4647-8316-ab803181aadf019", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of MAFBase resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/MAFBase?resourceType={{resourceType}}", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"MAFBaseInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceType\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"creationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceName\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceType']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['creationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceName']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/21?query=/iot2/example/MAFBase?resourceType={{resourceType}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"resourceType\",currentData.resourceType);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593784, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "0049cd47-da48-4eee-94c3-b331ad896cf7020", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of MAFBase resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/MAFBase?resourceID={{resourceID}}", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"MAFBaseInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceType\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"creationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceName\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceType']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['creationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceName']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/22?query=/iot2/example/MAFBase?resourceID={{resourceID}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"resourceID\",currentData.resourceID);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593784, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "0049cd47-da48-4eee-94c3-b331ad896cf7121", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of MAFBase resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/MAFBase?resourceName={{resourceName}}", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"MAFBaseInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceType\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"creationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceName\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceType']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['creationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceName']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/23?query=/iot2/example/MAFBase?resourceName={{resourceName}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"resourceName\",currentData.resourceName);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593784, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "0049cd47-da48-4eee-94c3-b331ad896cf7222", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of MAFBase resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/MAFBase?creationTime={{creationTime}}", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"MAFBaseInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceType\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"creationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceName\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceType']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['creationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceName']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/24?query=/iot2/example/MAFBase?creationTime={{creationTime}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"creationTime\",currentData.creationTime);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593784, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "0049cd47-da48-4eee-94c3-b331ad896cf7323", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of MAFBase resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/MAFBase?labels={{labels}}", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"MAFBaseInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceType\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"creationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceName\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceType']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['creationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceName']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/25?query=/iot2/example/MAFBase?labels={{labels}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"labels\",currentData.labels);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593784, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "0049cd47-da48-4eee-94c3-b331ad896cf7424", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "description": "This method retrieves information about a list of MAFBase resources", 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/MAFBase", 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"MAFBaseInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceType\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"creationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"resourceName\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceType']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['creationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['MAFBaseInfo']['resourceName']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/26?query=/iot2/example/MAFBase',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "GET", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593784, 
+            "synced": false, 
+            "pathVariables": {}, 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "0049cd47-da48-4eee-94c3-b331ad896cf7525", 
+            "name": "TC_200"
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "raw", 
+            "tests": "", 
+            "pathVariables": {}, 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/mafClientReg", 
+            "name": "TC_201", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": "{\n    \"mafClientRegInfo\": {\n        \"mafClientRegID\": \"{{mafClientRegID}}\",\n        \"adminFQDN\": \"{{adminFQDN}}\",\n        \"expirationTime\": \"{{expirationTime}}\",\n        \"labels\": \"{{labels}}\",\n        \"MAF-FQDN\": \"{{MAF-FQDN}}\"\n    }\n}", 
+            "time": 1559561593782, 
+            "synced": false, 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(201)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"mafClientRegInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"mafClientRegID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"adminFQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"expirationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MAF-FQDN\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['mafClientRegID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['adminFQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['expirationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['MAF-FQDN']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_csv/1?query=/iot2/example/mafClientReg&header=mafClientRegInfo',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"mafClientRegID\",currentData[\"mafClientRegInfo.mafClientRegID\"]);", 
+                            "    pm.environment.set(\"adminFQDN\",currentData[\"mafClientRegInfo.adminFQDN\"]);", 
+                            "    pm.environment.set(\"expirationTime\",currentData[\"mafClientRegInfo.expirationTime\"]);", 
+                            "    pm.environment.set(\"labels\",currentData[\"mafClientRegInfo.labels\"]);", 
+                            "    pm.environment.set(\"MAF-FQDN\",currentData[\"mafClientRegInfo.MAF-FQDN\"]);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "POST", 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "1299ad68-93e0-40dc-8bfe-1d1d43920afa26", 
+            "description": "This method is used to create a mafClientReg resource."
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "raw", 
+            "tests": "", 
+            "pathVariables": {}, 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/mefClientReg", 
+            "name": "TC_201", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": "{\n    \"mefClientRegInfo\": {\n        \"MEF-FQDN\": \"{{MEF-FQDN}}\",\n        \"adminFQDN\": \"{{adminFQDN}}\",\n        \"expirationTime\": \"{{expirationTime}}\",\n        \"labels\": \"{{labels}}\",\n        \"MEFClientRegID\": \"{{MEFClientRegID}}\"\n    }\n}", 
+            "time": 1559561593783, 
+            "synced": false, 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(201)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"mefClientRegInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEF-FQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"adminFQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"expirationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEFClientRegID\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['MEF-FQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['adminFQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['expirationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['MEFClientRegID']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_csv/1?query=/iot2/example/mefClientReg&header=mefClientRegInfo',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"MEF-FQDN\",currentData[\"mefClientRegInfo.MEF-FQDN\"]);", 
+                            "    pm.environment.set(\"adminFQDN\",currentData[\"mefClientRegInfo.adminFQDN\"]);", 
+                            "    pm.environment.set(\"expirationTime\",currentData[\"mefClientRegInfo.expirationTime\"]);", 
+                            "    pm.environment.set(\"labels\",currentData[\"mefClientRegInfo.labels\"]);", 
+                            "    pm.environment.set(\"MEFClientRegID\",currentData[\"mefClientRegInfo.MEFClientRegID\"]);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "POST", 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "3cc3b99f-d456-4287-b6ef-b22c343bf97a27", 
+            "description": "This method is used to create a mefClientReg resource."
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "raw", 
+            "tests": "", 
+            "pathVariables": {}, 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/symmKeyReg", 
+            "name": "TC_201", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": "{\n    \"symmKeyRegInfo\": {\n        \"SUID\": \"{{SUID}}\",\n        \"labels\": \"{{labels}}\",\n        \"MAF-FQDN\": \"{{MAF-FQDN}}\",\n        \"MEF-FQDN\": \"{{MEF-FQDN}}\",\n        \"adminFQDN\": \"{{adminFQDN}}\",\n        \"RelativeKeyID\": \"{{RelativeKeyID}}\",\n        \"keyValue\": \"{{keyValue}}\",\n        \"targetIDs\": \"{{targetIDs}}\",\n        \"expirationTime\": \"{{expirationTime}}\"\n    }\n}", 
+            "time": 1559561593783, 
+            "synced": false, 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(201)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"symmKeyRegInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"SUID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MAF-FQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEF-FQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"adminFQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"RelativeKeyID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"keyValue\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"targetIDs\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"expirationTime\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['SUID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['MAF-FQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['MEF-FQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['adminFQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['RelativeKeyID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['keyValue']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['targetIDs']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['expirationTime']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_csv/1?query=/iot2/example/symmKeyReg&header=symmKeyRegInfo',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"SUID\",currentData[\"symmKeyRegInfo.SUID\"]);", 
+                            "    pm.environment.set(\"labels\",currentData[\"symmKeyRegInfo.labels\"]);", 
+                            "    pm.environment.set(\"MAF-FQDN\",currentData[\"symmKeyRegInfo.MAF-FQDN\"]);", 
+                            "    pm.environment.set(\"MEF-FQDN\",currentData[\"symmKeyRegInfo.MEF-FQDN\"]);", 
+                            "    pm.environment.set(\"adminFQDN\",currentData[\"symmKeyRegInfo.adminFQDN\"]);", 
+                            "    pm.environment.set(\"RelativeKeyID\",currentData[\"symmKeyRegInfo.RelativeKeyID\"]);", 
+                            "    pm.environment.set(\"keyValue\",currentData[\"symmKeyRegInfo.keyValue\"]);", 
+                            "    pm.environment.set(\"targetIDs\",currentData[\"symmKeyRegInfo.targetIDs\"]);", 
+                            "    pm.environment.set(\"expirationTime\",currentData[\"symmKeyRegInfo.expirationTime\"]);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "POST", 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "7be06307-6cf9-47f1-b3af-9b898ad236ea28", 
+            "description": "This method is used to create a symmKeyReg resource."
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "raw", 
+            "tests": "", 
+            "pathVariables": {}, 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/mafClientReg?MAF-FQDN={{MAF-FQDN}}&mafClientRegID={{mafClientRegID}}&expirationTime={{expirationTime}}&labels={{labels}}", 
+            "name": "TC_200", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": "{\n    \"mafClientRegInfo\": {\n        \"mafClientRegID\": \"{{mafClientRegID}}\",\n        \"adminFQDN\": \"{{adminFQDN}}\",\n        \"expirationTime\": \"{{expirationTime}}\",\n        \"labels\": \"{{labels}}\",\n        \"MAF-FQDN\": \"{{MAF-FQDN}}\"\n    }\n}", 
+            "time": 1559561593782, 
+            "synced": false, 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"mafClientRegInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"mafClientRegID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"adminFQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"expirationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MAF-FQDN\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['mafClientRegID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['adminFQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['expirationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mafClientRegInfo']['MAF-FQDN']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/30?query=/iot2/example/mafClientReg?MAF-FQDN={{MAF-FQDN}}?mafClientRegID={{mafClientRegID}}?expirationTime={{expirationTime}}?labels={{labels}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"MAF-FQDN\",currentData.MAF-FQDN);", 
+                            "    pm.environment.set(\"mafClientRegID\",currentData.mafClientRegID);", 
+                            "    pm.environment.set(\"expirationTime\",currentData.expirationTime);", 
+                            "    pm.environment.set(\"labels\",currentData.labels);", 
+                            "    pm.environment.set(\"mafClientRegID\",currentData.mafClientRegInfo.mafClientRegID);", 
+                            "    pm.environment.set(\"adminFQDN\",currentData.mafClientRegInfo.adminFQDN);", 
+                            "    pm.environment.set(\"expirationTime\",currentData.mafClientRegInfo.expirationTime);", 
+                            "    pm.environment.set(\"labels\",currentData.mafClientRegInfo.labels);", 
+                            "    pm.environment.set(\"MAF-FQDN\",currentData.mafClientRegInfo.MAF-FQDN);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "PUT", 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "f19340d9-85a6-4623-a2eb-99fb5900381129", 
+            "description": "This method updates the information about a specific mafClientRegInfo resource. "
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "raw", 
+            "tests": "", 
+            "pathVariables": {}, 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/mefClientReg?MEF-FQDN={{MEF-FQDN}}&MEFClientRegID={{MEFClientRegID}}&expirationTime={{expirationTime}}&labels={{labels}}", 
+            "name": "TC_200", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": "{\n    \"mefClientRegInfo\": {\n        \"MEF-FQDN\": \"{{MEF-FQDN}}\",\n        \"adminFQDN\": \"{{adminFQDN}}\",\n        \"expirationTime\": \"{{expirationTime}}\",\n        \"labels\": \"{{labels}}\",\n        \"MEFClientRegID\": \"{{MEFClientRegID}}\"\n    }\n}", 
+            "time": 1559561593782, 
+            "synced": false, 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"mefClientRegInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEF-FQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"adminFQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"expirationTime\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEFClientRegID\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['MEF-FQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['adminFQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['expirationTime']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientRegInfo']['MEFClientRegID']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/31?query=/iot2/example/mefClientReg?MEF-FQDN={{MEF-FQDN}}?MEFClientRegID={{MEFClientRegID}}?expirationTime={{expirationTime}}?labels={{labels}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"MEF-FQDN\",currentData.MEF-FQDN);", 
+                            "    pm.environment.set(\"MEFClientRegID\",currentData.MEFClientRegID);", 
+                            "    pm.environment.set(\"expirationTime\",currentData.expirationTime);", 
+                            "    pm.environment.set(\"labels\",currentData.labels);", 
+                            "    pm.environment.set(\"MEF-FQDN\",currentData.mefClientRegInfo.MEF-FQDN);", 
+                            "    pm.environment.set(\"adminFQDN\",currentData.mefClientRegInfo.adminFQDN);", 
+                            "    pm.environment.set(\"expirationTime\",currentData.mefClientRegInfo.expirationTime);", 
+                            "    pm.environment.set(\"labels\",currentData.mefClientRegInfo.labels);", 
+                            "    pm.environment.set(\"MEFClientRegID\",currentData.mefClientRegInfo.MEFClientRegID);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "PUT", 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "4fc59993-8dcb-4bf2-9d09-bcbf85b8598f30", 
+            "description": "This method updates the information about a specific mefClientRegInfo resource. "
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "raw", 
+            "tests": "", 
+            "pathVariables": {}, 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/mefClientCmd?MEFClientRegID={{MEFClientRegID}}&cmdID={{cmdID}}&cmdStatusCode={{cmdStatusCode}}", 
+            "name": "TC_200", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": "{\n    \"mefClientCmdInfo\": {\n        \"cmdStatusCode\": \"{{cmdStatusCode}}\",\n        \"cmdID\": \"{{cmdID}}\",\n        \"MEFClientRegID\": \"{{MEFClientRegID}}\"\n    }\n}", 
+            "time": 1559561593783, 
+            "synced": false, 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"mefClientCmdInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"cmdStatusCode\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"cmdID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEFClientRegID\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['mefClientCmdInfo']['cmdStatusCode']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientCmdInfo']['cmdID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['mefClientCmdInfo']['MEFClientRegID']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/32?query=/iot2/example/mefClientCmd?MEFClientRegID={{MEFClientRegID}}?cmdID={{cmdID}}?cmdStatusCode={{cmdStatusCode}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"MEFClientRegID\",currentData.MEFClientRegID);", 
+                            "    pm.environment.set(\"cmdID\",currentData.cmdID);", 
+                            "    pm.environment.set(\"cmdStatusCode\",currentData.cmdStatusCode);", 
+                            "    pm.environment.set(\"cmdStatusCode\",currentData.mefClientCmdInfo.cmdStatusCode);", 
+                            "    pm.environment.set(\"cmdID\",currentData.mefClientCmdInfo.cmdID);", 
+                            "    pm.environment.set(\"MEFClientRegID\",currentData.mefClientCmdInfo.MEFClientRegID);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "PUT", 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "90a786e1-e705-451d-a2ce-16a2d0059f8f31", 
+            "description": "This method updates the information about a specific mefClientCmdInfo resource. "
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "raw", 
+            "tests": "", 
+            "pathVariables": {}, 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/symmKeyReg?MAF-FQDN={{MAF-FQDN}}&MEF-FQDN={{MEF-FQDN}}&RelativeKeyID={{RelativeKeyID}}&labels={{labels}}&expirationTime={{expirationTime}}&targetIDs={{targetIDs}}", 
+            "name": "TC_200", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": "{\n    \"symmKeyRegInfo\": {\n        \"SUID\": \"{{SUID}}\",\n        \"labels\": \"{{labels}}\",\n        \"MAF-FQDN\": \"{{MAF-FQDN}}\",\n        \"MEF-FQDN\": \"{{MEF-FQDN}}\",\n        \"adminFQDN\": \"{{adminFQDN}}\",\n        \"RelativeKeyID\": \"{{RelativeKeyID}}\",\n        \"keyValue\": \"{{keyValue}}\",\n        \"targetIDs\": \"{{targetIDs}}\",\n        \"expirationTime\": \"{{expirationTime}}\"\n    }\n}", 
+            "time": 1559561593783, 
+            "synced": false, 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "var jsonData = pm.response.json();", 
+                            "pm.test(\"Status code is -  \"+ jsonData['statuscode'] , function() {", 
+                            "    pm.expect(jsonData['statuscode']).to.be.eql(200)", 
+                            "});", 
+                            "", 
+                            "pm.test(\"Body matches string\", function () {", 
+                            "    pm.expect(pm.response.text()).to.include(\"symmKeyRegInfo\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"SUID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"labels\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MAF-FQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"MEF-FQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"adminFQDN\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"RelativeKeyID\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"keyValue\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"targetIDs\");", 
+                            "    pm.expect(pm.response.text()).to.include(\"expirationTime\");", 
+                            "});", 
+                            "", 
+                            "pm.test(\"isString\" ,function() {", 
+                            "    if  (pm.response.json().res){", 
+                            "        jsonData = pm.response.json().res; \n    }", 
+                            "    else{", 
+                            "        var jsonData = [pm.response.json()];\n    }", 
+                            "    for (i = 0; i < jsonData.length; i++) {", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['SUID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['labels']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['MAF-FQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['MEF-FQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['adminFQDN']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['RelativeKeyID']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['keyValue']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['targetIDs']).to.not.be.a('number');", 
+                            "        pm.expect(jsonData[i]['symmKeyRegInfo']['expirationTime']).to.not.be.a('number');", 
+                            "    }", 
+                            "})"
+                        ]
+                    }, 
+                    "listen": "test"
+                }, 
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/33?query=/iot2/example/symmKeyReg?MAF-FQDN={{MAF-FQDN}}?MEF-FQDN={{MEF-FQDN}}?RelativeKeyID={{RelativeKeyID}}?labels={{labels}}?expirationTime={{expirationTime}}?targetIDs={{targetIDs}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"MAF-FQDN\",currentData.MAF-FQDN);", 
+                            "    pm.environment.set(\"MEF-FQDN\",currentData.MEF-FQDN);", 
+                            "    pm.environment.set(\"RelativeKeyID\",currentData.RelativeKeyID);", 
+                            "    pm.environment.set(\"labels\",currentData.labels);", 
+                            "    pm.environment.set(\"expirationTime\",currentData.expirationTime);", 
+                            "    pm.environment.set(\"targetIDs\",currentData.targetIDs);", 
+                            "    pm.environment.set(\"SUID\",currentData.symmKeyRegInfo.SUID);", 
+                            "    pm.environment.set(\"labels\",currentData.symmKeyRegInfo.labels);", 
+                            "    pm.environment.set(\"MAF-FQDN\",currentData.symmKeyRegInfo.MAF-FQDN);", 
+                            "    pm.environment.set(\"MEF-FQDN\",currentData.symmKeyRegInfo.MEF-FQDN);", 
+                            "    pm.environment.set(\"adminFQDN\",currentData.symmKeyRegInfo.adminFQDN);", 
+                            "    pm.environment.set(\"RelativeKeyID\",currentData.symmKeyRegInfo.RelativeKeyID);", 
+                            "    pm.environment.set(\"keyValue\",currentData.symmKeyRegInfo.keyValue);", 
+                            "    pm.environment.set(\"targetIDs\",currentData.symmKeyRegInfo.targetIDs);", 
+                            "    pm.environment.set(\"expirationTime\",currentData.symmKeyRegInfo.expirationTime);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "PUT", 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "f1e15128-426f-4047-9a17-6353c75aa26132", 
+            "description": "This method updates the information about a specific symmKeyRegInfo resource. "
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "pathVariables": {}, 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/mafClientReg?MAF-FQDN={{MAF-FQDN}}&mafClientRegID={{mafClientRegID}}", 
+            "name": "TC_204", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593782, 
+            "synced": false, 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/34?query=/iot2/example/mafClientReg?MAF-FQDN={{MAF-FQDN}}?mafClientRegID={{mafClientRegID}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"MAF-FQDN\",currentData.MAF-FQDN);", 
+                            "    pm.environment.set(\"mafClientRegID\",currentData.mafClientRegID);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "DELETE", 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "1f3a87d7-8646-4b1a-a618-25ae2372e9df33", 
+            "description": "This method delete the information about a specific mafClientRegInfo resource. "
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "pathVariables": {}, 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/mefClientReg?MEF-FQDN={{MEF-FQDN}}&MEFClientRegID={{MEFClientRegID}}", 
+            "name": "TC_204", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593783, 
+            "synced": false, 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/35?query=/iot2/example/mefClientReg?MEF-FQDN={{MEF-FQDN}}?MEFClientRegID={{MEFClientRegID}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"MEF-FQDN\",currentData.MEF-FQDN);", 
+                            "    pm.environment.set(\"MEFClientRegID\",currentData.MEFClientRegID);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "DELETE", 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "805c0ca2-78e9-4c49-a213-4ab2cd25a60234", 
+            "description": "This method delete the information about a specific mefClientRegInfo resource. "
+        }, 
+        {
+            "responses": [], 
+            "dataMode": "params", 
+            "tests": "", 
+            "pathVariables": {}, 
+            "collectionId": "b1f38ab6-88be-4a34-97c3-4c26c013ccf6", 
+            "url": "{{scheme}}://{{host}}:{{port}}/iot2/example/symmKeyReg?MAF-FQDN={{MAF-FQDN}}&MEF-FQDN={{MEF-FQDN}}&RelativeKeyID={{RelativeKeyID}}", 
+            "name": "TC_204", 
+            "headers": "Accept: application/json\nContent-Type: application/json\n", 
+            "descriptionFormat": "html", 
+            "version": 2, 
+            "rawModeData": null, 
+            "time": 1559561593784, 
+            "synced": false, 
+            "events": [
+                {
+                    "script": {
+                        "type": "text/javascript", 
+                        "exec": [
+                            "    var list = [];", 
+                            "    pm.sendRequest({", 
+                            [
+                                "    url: 'localhost:8081/read_db/36?query=/iot2/example/symmKeyReg?MAF-FQDN={{MAF-FQDN}}?MEF-FQDN={{MEF-FQDN}}?RelativeKeyID={{RelativeKeyID}}',"
+                            ], 
+                            "    method: 'GET',", 
+                            "    header: 'Content-Type:application/x-www-form-urlencoded',", 
+                            "    }, function (err, res) {", 
+                            "    var response_json = res.json();", 
+                            "    if(list.length === 0){", 
+                            "    var key;", 
+                            "    for (key in response_json) {", 
+                            "        if (response_json.hasOwnProperty(key))", 
+                            "        {", 
+                            "            list.push(response_json[key]);", 
+                            "        }", 
+                            "    }", 
+                            "", 
+                            "    var currentData = list.shift();", 
+                            "", 
+                            "    pm.environment.set(\"MAF-FQDN\",currentData.MAF-FQDN);", 
+                            "    pm.environment.set(\"MEF-FQDN\",currentData.MEF-FQDN);", 
+                            "    pm.environment.set(\"RelativeKeyID\",currentData.RelativeKeyID);", 
+                            "    }", 
+                            "});"
+                        ]
+                    }, 
+                    "listen": "prerequest"
+                }
+            ], 
+            "method": "DELETE", 
+            "preRequestScript": "", 
+            "data": [], 
+            "id": "9c218de2-c84a-4a3a-a7d6-308fb676289035", 
+            "description": "This method delete the information about a specific symmKeyRegInfo resource. "
+        }
+    ], 
+    "order": [], 
+    "name": "IOT2_API"
+}

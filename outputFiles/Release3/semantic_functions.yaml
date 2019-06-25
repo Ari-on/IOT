@@ -1,0 +1,4543 @@
+basePath: /iot3/example
+consumes:
+- application/json
+definitions:
+  AuthorizationRelationshipIndicator:
+    description: AuthorizationRelationshipIndicator
+    type: string
+  AuthorizationSignature:
+    description: AuthorizationSignature
+    type: string
+  AuthorizationSignatureIndicator:
+    description: AuthorizationSignatureIndicator
+    type: string
+  DeliveryAggregation:
+    description: DeliveryAggregation
+    type: string
+  DesiredIdentifierResultType:
+    description: DesiredIdentifierResultType
+    type: string
+  EventCategory:
+    description: EventCategory
+    type: string
+  FilterCriteria:
+    description: FilterCriteria
+    type: string
+  FromId:
+    description: FromId
+    type: string
+  GroupRequestIdentifier:
+    description: GroupRequestIdentifier
+    type: string
+  GroupRequestTargetMembers:
+    description: GroupRequestTargetMembers
+    type: string
+  LocalTokenIDs:
+    description: LocalTokenIDs
+    type: string
+  Operation:
+    description: Operation
+    type: string
+  OperationalExecutionTime:
+    description: OperationalExecutionTime
+    type: string
+  OriginatingTimestamp:
+    description: OriginatingTimestamp
+    type: string
+  ReleaseVersionIndicator:
+    description: ReleaseVersionIndicator
+    type: string
+  ReqExpirationTimestamp:
+    description: ReqExpirationTimestamp
+    type: string
+  RequestId:
+    description: RequestId
+    type: string
+  ResExpirationTimestamp:
+    description: ResExpirationTimestamp
+    type: string
+  ResourceType:
+    description: resourceType
+    type: string
+  ResponseType:
+    description: ResponseType
+    type: string
+  ResultContent:
+    description: ResultContent
+    type: string
+  ResultPersistence:
+    description: ResultPersistence
+    type: string
+  RoleIDs:
+    description: RoleIDs
+    type: string
+  SemanticQueryIndicator:
+    description: SemanticQueryIndicator
+    type: string
+  ToAddress:
+    description: ToAddress
+    type: string
+  TokenIDs:
+    description: TokenIDs
+    type: string
+  TokenRequestIndicator:
+    description: TokenRequestIndicator
+    type: string
+  Tokens:
+    description: Tokens
+    type: string
+  VendorInformation:
+    description: VendorInformation
+    type: string
+  accessControlPolicyIDs:
+    description: accessControlPolicyIDs
+    type: string
+  announceTo:
+    description: announceTo
+    type: string
+  announcedAttribute:
+    description: announcedAttribute
+    type: string
+  creationTime:
+    description: creationTime
+    type: string
+  creator:
+    description: creator
+    type: string
+  description:
+    description: description
+    type: string
+  descriptor:
+    description: descriptor
+    type: string
+  descriptorRepresentation:
+    description: descriptorRepresentation
+    type: string
+  dynamicAuthorizationConsultationIDs:
+    description: dynamicAuthorizationConsultationIDs
+    type: string
+  expirationTime:
+    description: expirationTime
+    type: string
+  functionDescriptor:
+    description: functionDescriptor
+    type: string
+  inline_response_200_mashup:
+    example:
+      mashupInfo:
+        AuthorizationRelationshipIndicator: ''
+        AuthorizationSignature: ''
+        AuthorizationSignatureIndicator: ''
+        DeliveryAggregation: ''
+        DesiredIdentifierResultType: ''
+        EventCategory: ''
+        FilterCriteria: ''
+        FromId: ''
+        GroupRequestIdentifier: ''
+        GroupRequestTargetMembers: ''
+        LocalTokenIDs: ''
+        Operation: ''
+        OperationalExecutionTime: ''
+        OriginatingTimestamp: ''
+        ReleaseVersionIndicator: ''
+        ReqExpirationTimestamp: ''
+        RequestId: ''
+        ResExpirationTimestamp: ''
+        ResponseType: ''
+        ResultContent: ''
+        ResultPersistence: ''
+        RoleIDs: ''
+        SemanticQueryIndicator: ''
+        ToAddress: ''
+        TokenIDs: ''
+        TokenRequestIndicator: ''
+        Tokens: ''
+        VendorInformation: ''
+        content: ''
+        resourceType: ''
+    properties:
+      semanticMashupResultInfo:
+        $ref: '#/definitions/mashupInfo'
+  inline_response_200_ontology:
+    example:
+      ontologyInfo:
+        AuthorizationRelationshipIndicator: ''
+        AuthorizationSignature: ''
+        AuthorizationSignatureIndicator: ''
+        DeliveryAggregation: ''
+        DesiredIdentifierResultType: ''
+        EventCategory: ''
+        FilterCriteria: ''
+        FromId: ''
+        GroupRequestIdentifier: ''
+        GroupRequestTargetMembers: ''
+        LocalTokenIDs: ''
+        Operation: ''
+        OperationalExecutionTime: ''
+        OriginatingTimestamp: ''
+        ReleaseVersionIndicator: ''
+        ReqExpirationTimestamp: ''
+        RequestId: ''
+        ResExpirationTimestamp: ''
+        ResponseType: ''
+        ResultContent: ''
+        ResultPersistence: ''
+        RoleIDs: ''
+        SemanticQueryIndicator: ''
+        ToAddress: ''
+        TokenIDs: ''
+        TokenRequestIndicator: ''
+        Tokens: ''
+        VendorInformation: ''
+        content: ''
+        resourceType: ''
+    properties:
+      ontologyInfo:
+        $ref: '#/definitions/ontologyInfo'
+  inline_response_200_ontologyRepository:
+    example:
+      ontologyRepositoryInfo:
+        AuthorizationRelationshipIndicator: ''
+        AuthorizationSignature: ''
+        AuthorizationSignatureIndicator: ''
+        DeliveryAggregation: ''
+        DesiredIdentifierResultType: ''
+        EventCategory: ''
+        FilterCriteria: ''
+        FromId: ''
+        GroupRequestIdentifier: ''
+        GroupRequestTargetMembers: ''
+        LocalTokenIDs: ''
+        Operation: ''
+        OperationalExecutionTime: ''
+        OriginatingTimestamp: ''
+        ReleaseVersionIndicator: ''
+        ReqExpirationTimestamp: ''
+        RequestId: ''
+        ResExpirationTimestamp: ''
+        ResponseType: ''
+        ResultContent: ''
+        ResultPersistence: ''
+        RoleIDs: ''
+        SemanticQueryIndicator: ''
+        ToAddress: ''
+        TokenIDs: ''
+        TokenRequestIndicator: ''
+        Tokens: ''
+        VendorInformation: ''
+        content: ''
+        resourceType: ''
+    properties:
+      ontologyRepositoryInfo:
+        $ref: '#/definitions/ontologyRepositoryInfo'
+  inline_response_200_semanticDescriptor:
+    example:
+      semanticDescriptorInfo:
+        AuthorizationRelationshipIndicator: ''
+        AuthorizationSignature: ''
+        AuthorizationSignatureIndicator: ''
+        DeliveryAggregation: ''
+        DesiredIdentifierResultType: ''
+        EventCategory: ''
+        FilterCriteria: ''
+        FromId: ''
+        GroupRequestIdentifier: ''
+        GroupRequestTargetMembers: ''
+        LocalTokenIDs: ''
+        Operation: ''
+        OperationalExecutionTime: ''
+        OriginatingTimestamp: ''
+        ReleaseVersionIndicator: ''
+        ReqExpirationTimestamp: ''
+        RequestId: ''
+        ResExpirationTimestamp: ''
+        ResponseType: ''
+        ResultContent: ''
+        ResultPersistence: ''
+        RoleIDs: ''
+        SemanticQueryIndicator: ''
+        ToAddress: ''
+        TokenIDs: ''
+        TokenRequestIndicator: ''
+        Tokens: ''
+        VendorInformation: ''
+        content: ''
+        resourceType: ''
+    properties:
+      semanticDescriptorInfo:
+        $ref: '#/definitions/semanticDescriptorInfo'
+  inline_response_200_semanticFanOutPoint:
+    example:
+      semanticFanOutPointInfo:
+        AuthorizationRelationshipIndicator: ''
+        AuthorizationSignature: ''
+        AuthorizationSignatureIndicator: ''
+        DeliveryAggregation: ''
+        DesiredIdentifierResultType: ''
+        EventCategory: ''
+        FilterCriteria: ''
+        FromId: ''
+        GroupRequestIdentifier: ''
+        GroupRequestTargetMembers: ''
+        LocalTokenIDs: ''
+        Operation: ''
+        OperationalExecutionTime: ''
+        OriginatingTimestamp: ''
+        ReleaseVersionIndicator: ''
+        ReqExpirationTimestamp: ''
+        RequestId: ''
+        ResExpirationTimestamp: ''
+        ResponseType: ''
+        ResultContent: ''
+        ResultPersistence: ''
+        RoleIDs: ''
+        SemanticQueryIndicator: ''
+        ToAddress: ''
+        TokenIDs: ''
+        TokenRequestIndicator: ''
+        Tokens: ''
+        VendorInformation: ''
+        content: ''
+        resourceType: ''
+    properties:
+      semanticFanOutPointInfo:
+        $ref: '#/definitions/semanticFanOutPointInfo'
+  inline_response_200_semanticMashupInstance:
+    example:
+      semanticMashupInstanceInfo:
+        AuthorizationRelationshipIndicator: ''
+        AuthorizationSignature: ''
+        AuthorizationSignatureIndicator: ''
+        DeliveryAggregation: ''
+        DesiredIdentifierResultType: ''
+        EventCategory: ''
+        FilterCriteria: ''
+        FromId: ''
+        GroupRequestIdentifier: ''
+        GroupRequestTargetMembers: ''
+        LocalTokenIDs: ''
+        Operation: ''
+        OperationalExecutionTime: ''
+        OriginatingTimestamp: ''
+        ReleaseVersionIndicator: ''
+        ReqExpirationTimestamp: ''
+        RequestId: ''
+        ResExpirationTimestamp: ''
+        ResponseType: ''
+        ResultContent: ''
+        ResultPersistence: ''
+        RoleIDs: ''
+        SemanticQueryIndicator: ''
+        ToAddress: ''
+        TokenIDs: ''
+        TokenRequestIndicator: ''
+        Tokens: ''
+        VendorInformation: ''
+        content: ''
+        resourceType: ''
+    properties:
+      semanticMashupInstanceInfo:
+        $ref: '#/definitions/semanticMashupInstanceInfo'
+  inline_response_200_semanticMashupJobProfile:
+    example:
+      semanticMashupJobProfileInfo:
+        AuthorizationRelationshipIndicator: ''
+        AuthorizationSignature: ''
+        AuthorizationSignatureIndicator: ''
+        DeliveryAggregation: ''
+        DesiredIdentifierResultType: ''
+        EventCategory: ''
+        FilterCriteria: ''
+        FromId: ''
+        GroupRequestIdentifier: ''
+        GroupRequestTargetMembers: ''
+        LocalTokenIDs: ''
+        Operation: ''
+        OperationalExecutionTime: ''
+        OriginatingTimestamp: ''
+        ReleaseVersionIndicator: ''
+        ReqExpirationTimestamp: ''
+        RequestId: ''
+        ResExpirationTimestamp: ''
+        ResponseType: ''
+        ResultContent: ''
+        ResultPersistence: ''
+        RoleIDs: ''
+        SemanticQueryIndicator: ''
+        ToAddress: ''
+        TokenIDs: ''
+        TokenRequestIndicator: ''
+        Tokens: ''
+        VendorInformation: ''
+        content: ''
+        resourceType: ''
+    properties:
+      semanticMashupJobProfileInfo:
+        $ref: '#/definitions/semanticMashupJobProfileInfo'
+  inline_response_200_semanticMashupResult:
+    example:
+      semanticMashupResultInfo:
+        AuthorizationRelationshipIndicator: ''
+        AuthorizationSignature: ''
+        AuthorizationSignatureIndicator: ''
+        DeliveryAggregation: ''
+        DesiredIdentifierResultType: ''
+        EventCategory: ''
+        FilterCriteria: ''
+        FromId: ''
+        GroupRequestIdentifier: ''
+        GroupRequestTargetMembers: ''
+        LocalTokenIDs: ''
+        Operation: ''
+        OperationalExecutionTime: ''
+        OriginatingTimestamp: ''
+        ReleaseVersionIndicator: ''
+        ReqExpirationTimestamp: ''
+        RequestId: ''
+        ResExpirationTimestamp: ''
+        ResponseType: ''
+        ResultContent: ''
+        ResultPersistence: ''
+        RoleIDs: ''
+        SemanticQueryIndicator: ''
+        ToAddress: ''
+        TokenIDs: ''
+        TokenRequestIndicator: ''
+        Tokens: ''
+        VendorInformation: ''
+        content: ''
+        resourceType: ''
+    properties:
+      semanticMashupResultInfo:
+        $ref: '#/definitions/semanticMashupResultInfo'
+  inline_response_200_semanticValidation:
+    example:
+      semanticValidationInfo:
+        AuthorizationRelationshipIndicator: ''
+        AuthorizationSignature: ''
+        AuthorizationSignatureIndicator: ''
+        DeliveryAggregation: ''
+        DesiredIdentifierResultType: ''
+        EventCategory: ''
+        FilterCriteria: ''
+        FromId: ''
+        GroupRequestIdentifier: ''
+        GroupRequestTargetMembers: ''
+        LocalTokenIDs: ''
+        Operation: ''
+        OperationalExecutionTime: ''
+        OriginatingTimestamp: ''
+        ReleaseVersionIndicator: ''
+        ReqExpirationTimestamp: ''
+        RequestId: ''
+        ResExpirationTimestamp: ''
+        ResponseType: ''
+        ResultContent: ''
+        ResultPersistence: ''
+        RoleIDs: ''
+        SemanticQueryIndicator: ''
+        ToAddress: ''
+        TokenIDs: ''
+        TokenRequestIndicator: ''
+        Tokens: ''
+        VendorInformation: ''
+        content: ''
+        resourceType: ''
+    properties:
+      semanticValidationInfo:
+        $ref: '#/definitions/semanticValidationInfo'
+  inputDescriptor:
+    description: inputDescriptor
+    type: string
+  labels:
+    description: labels
+    type: string
+  lastModifiedTime:
+    description: lastModifiedTime
+    type: string
+  mashupContent:
+    description: mashupContent
+    type: string
+  mashupInfo:
+    description: information of request resource
+    example:
+      mashupInfo:
+        AuthorizationRelationshipIndicator: ''
+        AuthorizationSignature: ''
+        AuthorizationSignatureIndicator: ''
+        DeliveryAggregation: ''
+        DesiredIdentifierResultType: ''
+        EventCategory: ''
+        FilterCriteria: ''
+        FromId: ''
+        GroupRequestIdentifier: ''
+        GroupRequestTargetMembers: ''
+        LocalTokenIDs: ''
+        Operation: ''
+        OperationalExecutionTime: ''
+        OriginatingTimestamp: ''
+        ReleaseVersionIndicator: ''
+        ReqExpirationTimestamp: ''
+        RequestId: ''
+        ResExpirationTimestamp: ''
+        ResponseType: ''
+        ResultContent: ''
+        ResultPersistence: ''
+        RoleIDs: ''
+        SemanticQueryIndicator: ''
+        ToAddress: ''
+        TokenIDs: ''
+        TokenRequestIndicator: ''
+        Tokens: ''
+        VendorInformation: ''
+        content: ''
+        resourceType: ''
+    properties:
+      AuthorizationRelationshipIndicator:
+        $ref: '#/definitions/AuthorizationRelationshipIndicator'
+      AuthorizationSignature:
+        $ref: '#/definitions/AuthorizationSignature'
+      AuthorizationSignatureIndicator:
+        $ref: '#/definitions/AuthorizationSignatureIndicator'
+      DeliveryAggregation:
+        $ref: '#/definitions/DeliveryAggregation'
+      DesiredIdentifierResultType:
+        $ref: '#/definitions/DesiredIdentifierResultType'
+      EventCategory:
+        $ref: '#/definitions/EventCategory'
+      FilterCriteria:
+        $ref: '#/definitions/FilterCriteria'
+      FromId:
+        $ref: '#/definitions/FromId'
+      GroupRequestIdentifier:
+        $ref: '#/definitions/GroupRequestIdentifier'
+      GroupRequestTargetMembers:
+        $ref: '#/definitions/GroupRequestTargetMembers'
+      LocalTokenIDs:
+        $ref: '#/definitions/LocalTokenIDs'
+      Operation:
+        $ref: '#/definitions/Operation'
+      OperationalExecutionTime:
+        $ref: '#/definitions/OperationalExecutionTime'
+      OriginatingTimestamp:
+        $ref: '#/definitions/OriginatingTimestamp'
+      ReleaseVersionIndicator:
+        $ref: '#/definitions/ReleaseVersionIndicator'
+      ReqExpirationTimestamp:
+        $ref: '#/definitions/ReqExpirationTimestamp'
+      RequestId:
+        $ref: '#/definitions/RequestId'
+      ResExpirationTimestamp:
+        $ref: '#/definitions/ResExpirationTimestamp'
+      ResponseType:
+        $ref: '#/definitions/ResponseType'
+      ResultContent:
+        $ref: '#/definitions/ResultContent'
+      ResultPersistence:
+        $ref: '#/definitions/ResultPersistence'
+      RoleIDs:
+        $ref: '#/definitions/RoleIDs'
+      SemanticQueryIndicator:
+        $ref: '#/definitions/SemanticQueryIndicator'
+      ToAddress:
+        $ref: '#/definitions/ToAddress'
+      TokenIDs:
+        $ref: '#/definitions/TokenIDs'
+      TokenRequestIndicator:
+        $ref: '#/definitions/TokenRequestIndicator'
+      Tokens:
+        $ref: '#/definitions/Tokens'
+      VendorInformation:
+        $ref: '#/definitions/VendorInformation'
+      content:
+        $ref: '#/definitions/mashupContent'
+      resourceType:
+        $ref: '#/definitions/ResourceType'
+    type: object
+  mashupMember:
+    description: mashupMember
+    type: string
+  memberFilter:
+    description: memberFilter
+    type: string
+  memberStoreType:
+    description: memberStoreType
+    type: string
+  ontologyContent:
+    description: ontologyContent
+    type: string
+  ontologyFormat:
+    description: ontologyFormat
+    type: string
+  ontologyInfo:
+    description: information of ontologyInfo resource
+    example:
+      ontologyInfo:
+        AuthorizationRelationshipIndicator: '{{AuthorizationRelationshipIndicator}}'
+        AuthorizationSignature: '{{AuthorizationSignature}}'
+        AuthorizationSignatureIndicator: '{{AuthorizationSignatureIndicator}}'
+        DeliveryAggregation: '{{DeliveryAggregation}}'
+        DesiredIdentifierResultType: '{{DesiredIdentifierResultType}}'
+        EventCategory: '{{EventCategory}}'
+        FilterCriteria: '{{FilterCriteria}}'
+        FromId: '{{FromId}}'
+        GroupRequestIdentifier: '{{GroupRequestIdentifier}}'
+        GroupRequestTargetMembers: '{{GroupRequestTargetMembers}}'
+        LocalTokenIDs: '{{LocalTokenIDs}}'
+        Operation: '{{Operation}}'
+        OperationalExecutionTime: '{{OperationalExecutionTime}}'
+        OriginatingTimestamp: '{{OriginatingTimestamp}}'
+        ReleaseVersionIndicator: '{{ReleaseVersionIndicator}}'
+        ReqExpirationTimestamp: '{{ReqExpirationTimestamp}}'
+        RequestId: '{{RequestId}}'
+        ResExpirationTimestamp: '{{ResExpirationTimestamp}}'
+        ResponseType: '{{ResponseType}}'
+        ResultContent: '{{ResultContent}}'
+        ResultPersistence: '{{ResultPersistence}}'
+        RoleIDs: '{{RoleIDs}}'
+        SemanticQueryIndicator: '{{SemanticQueryIndicator}}'
+        ToAddress: '{{ToAddress}}'
+        TokenIDs: '{{TokenIDs}}'
+        TokenRequestIndicator: '{{TokenRequestIndicator}}'
+        Tokens: '{{Tokens}}'
+        VendorInformation: '{{VendorInformation}}'
+        content:
+          accessControlPolicyIDs: '{{accessControlPolicyIDs}}'
+          announceTo: '{{announceTo}}'
+          announcedAttribute: '{{announcedAttribute}}'
+          creationTime: '{{creationTime}}'
+          creator: '{{creator}}'
+          description: '{{description}}'
+          dynamicAuthorizationConsultationIDs: '{{dynamicAuthorizationConsultationIDs}}'
+          expirationTime: '{{expirationTime}}'
+          labels: '{{labels}}'
+          lastModifiedTime: '{{lastModifiedTime}}'
+          ontologyContent: '{{ontologyContent}}'
+          ontologyFormat: '{{ontologyFormat}}'
+          parentID: '{{parentID}}'
+          resourceName: '{{resourceName}}'
+          semanticOpExec: '{{semanticOpExec}}'
+        resourceType: '{{resourceType}}'
+    properties:
+      AuthorizationRelationshipIndicator:
+        $ref: '#/definitions/AuthorizationRelationshipIndicator'
+      AuthorizationSignature:
+        $ref: '#/definitions/AuthorizationSignature'
+      AuthorizationSignatureIndicator:
+        $ref: '#/definitions/AuthorizationSignatureIndicator'
+      DeliveryAggregation:
+        $ref: '#/definitions/DeliveryAggregation'
+      DesiredIdentifierResultType:
+        $ref: '#/definitions/DesiredIdentifierResultType'
+      EventCategory:
+        $ref: '#/definitions/EventCategory'
+      FilterCriteria:
+        $ref: '#/definitions/FilterCriteria'
+      FromId:
+        $ref: '#/definitions/FromId'
+      GroupRequestIdentifier:
+        $ref: '#/definitions/GroupRequestIdentifier'
+      GroupRequestTargetMembers:
+        $ref: '#/definitions/GroupRequestTargetMembers'
+      LocalTokenIDs:
+        $ref: '#/definitions/LocalTokenIDs'
+      Operation:
+        $ref: '#/definitions/Operation'
+      OperationalExecutionTime:
+        $ref: '#/definitions/OperationalExecutionTime'
+      OriginatingTimestamp:
+        $ref: '#/definitions/OriginatingTimestamp'
+      ReleaseVersionIndicator:
+        $ref: '#/definitions/ReleaseVersionIndicator'
+      ReqExpirationTimestamp:
+        $ref: '#/definitions/ReqExpirationTimestamp'
+      RequestId:
+        $ref: '#/definitions/RequestId'
+      ResExpirationTimestamp:
+        $ref: '#/definitions/ResExpirationTimestamp'
+      ResponseType:
+        $ref: '#/definitions/ResponseType'
+      ResultContent:
+        $ref: '#/definitions/ResultContent'
+      ResultPersistence:
+        $ref: '#/definitions/ResultPersistence'
+      RoleIDs:
+        $ref: '#/definitions/RoleIDs'
+      SemanticQueryIndicator:
+        $ref: '#/definitions/SemanticQueryIndicator'
+      ToAddress:
+        $ref: '#/definitions/ToAddress'
+      TokenIDs:
+        $ref: '#/definitions/TokenIDs'
+      TokenRequestIndicator:
+        $ref: '#/definitions/TokenRequestIndicator'
+      Tokens:
+        $ref: '#/definitions/Tokens'
+      VendorInformation:
+        $ref: '#/definitions/VendorInformation'
+      content:
+        $ref: '#/definitions/ontologycontent'
+      resourceType:
+        $ref: '#/definitions/ResourceType'
+    type: object
+  ontologyRef:
+    description: ontologyRef
+    type: string
+  ontologyRepositoryInfo:
+    description: information of ontologyRepositoryInfo resource
+    example:
+      ontologyRepositoryInfo:
+        AuthorizationRelationshipIndicator: '{{AuthorizationRelationshipIndicator}}'
+        AuthorizationSignature: '{{AuthorizationSignature}}'
+        AuthorizationSignatureIndicator: '{{AuthorizationSignatureIndicator}}'
+        DeliveryAggregation: '{{DeliveryAggregation}}'
+        DesiredIdentifierResultType: '{{DesiredIdentifierResultType}}'
+        EventCategory: '{{EventCategory}}'
+        FilterCriteria: '{{FilterCriteria}}'
+        FromId: '{{FromId}}'
+        GroupRequestIdentifier: '{{GroupRequestIdentifier}}'
+        GroupRequestTargetMembers: '{{GroupRequestTargetMembers}}'
+        LocalTokenIDs: '{{LocalTokenIDs}}'
+        Operation: '{{Operation}}'
+        OperationalExecutionTime: '{{OperationalExecutionTime}}'
+        OriginatingTimestamp: '{{OriginatingTimestamp}}'
+        ReleaseVersionIndicator: '{{ReleaseVersionIndicator}}'
+        ReqExpirationTimestamp: '{{ReqExpirationTimestamp}}'
+        RequestId: '{{RequestId}}'
+        ResExpirationTimestamp: '{{ResExpirationTimestamp}}'
+        ResponseType: '{{ResponseType}}'
+        ResultContent: '{{ResultContent}}'
+        ResultPersistence: '{{ResultPersistence}}'
+        RoleIDs: '{{RoleIDs}}'
+        SemanticQueryIndicator: '{{SemanticQueryIndicator}}'
+        ToAddress: '{{ToAddress}}'
+        TokenIDs: '{{TokenIDs}}'
+        TokenRequestIndicator: '{{TokenRequestIndicator}}'
+        Tokens: '{{Tokens}}'
+        VendorInformation: '{{VendorInformation}}'
+        content:
+          accessControlPolicyIDs: '{{accessControlPolicyIDs}}'
+          announceTo: '{{announceTo}}'
+          announcedAttribute: '{{announcedAttribute}}'
+          creationTime: '{{creationTime}}'
+          creator: '{{creator}}'
+          dynamicAuthorizationConsultationIDs: '{{dynamicAuthorizationConsultationIDs}}'
+          expirationTime: '{{expirationTime}}'
+          labels: '{{labels}}'
+          lastModifiedTime: '{{lastModifiedTime}}'
+          parentID: '{{parentID}}'
+          resourceName: '{{resourceName}}'
+        resourceType: '{{resourceType}}'
+    properties:
+      AuthorizationRelationshipIndicator:
+        $ref: '#/definitions/AuthorizationRelationshipIndicator'
+      AuthorizationSignature:
+        $ref: '#/definitions/AuthorizationSignature'
+      AuthorizationSignatureIndicator:
+        $ref: '#/definitions/AuthorizationSignatureIndicator'
+      DeliveryAggregation:
+        $ref: '#/definitions/DeliveryAggregation'
+      DesiredIdentifierResultType:
+        $ref: '#/definitions/DesiredIdentifierResultType'
+      EventCategory:
+        $ref: '#/definitions/EventCategory'
+      FilterCriteria:
+        $ref: '#/definitions/FilterCriteria'
+      FromId:
+        $ref: '#/definitions/FromId'
+      GroupRequestIdentifier:
+        $ref: '#/definitions/GroupRequestIdentifier'
+      GroupRequestTargetMembers:
+        $ref: '#/definitions/GroupRequestTargetMembers'
+      LocalTokenIDs:
+        $ref: '#/definitions/LocalTokenIDs'
+      Operation:
+        $ref: '#/definitions/Operation'
+      OperationalExecutionTime:
+        $ref: '#/definitions/OperationalExecutionTime'
+      OriginatingTimestamp:
+        $ref: '#/definitions/OriginatingTimestamp'
+      ReleaseVersionIndicator:
+        $ref: '#/definitions/ReleaseVersionIndicator'
+      ReqExpirationTimestamp:
+        $ref: '#/definitions/ReqExpirationTimestamp'
+      RequestId:
+        $ref: '#/definitions/RequestId'
+      ResExpirationTimestamp:
+        $ref: '#/definitions/ResExpirationTimestamp'
+      ResponseType:
+        $ref: '#/definitions/ResponseType'
+      ResultContent:
+        $ref: '#/definitions/ResultContent'
+      ResultPersistence:
+        $ref: '#/definitions/ResultPersistence'
+      RoleIDs:
+        $ref: '#/definitions/RoleIDs'
+      SemanticQueryIndicator:
+        $ref: '#/definitions/SemanticQueryIndicator'
+      ToAddress:
+        $ref: '#/definitions/ToAddress'
+      TokenIDs:
+        $ref: '#/definitions/TokenIDs'
+      TokenRequestIndicator:
+        $ref: '#/definitions/TokenRequestIndicator'
+      Tokens:
+        $ref: '#/definitions/Tokens'
+      VendorInformation:
+        $ref: '#/definitions/VendorInformation'
+      content:
+        $ref: '#/definitions/ontologyRepositorycontent'
+      resourceType:
+        $ref: '#/definitions/ResourceType'
+    type: object
+  ontologyRepositorycontent:
+    example:
+      accessControlPolicyIDs: ''
+      announceTo: ''
+      announcedAttribute: ''
+      creationTime: ''
+      creator: ''
+      dynamicAuthorizationConsultationIDs: ''
+      expirationTime: ''
+      labels: ''
+      lastModifiedTime: ''
+      parentID: ''
+      resourceName: ''
+    properties:
+      accessControlPolicyIDs:
+        $ref: '#/definitions/accessControlPolicyIDs'
+      announceTo:
+        $ref: '#/definitions/announceTo'
+      announcedAttribute:
+        $ref: '#/definitions/announcedAttribute'
+      creationTime:
+        $ref: '#/definitions/creationTime'
+      creator:
+        $ref: '#/definitions/creator'
+      dynamicAuthorizationConsultationIDs:
+        $ref: '#/definitions/dynamicAuthorizationConsultationIDs'
+      expirationTime:
+        $ref: '#/definitions/expirationTime'
+      labels:
+        $ref: '#/definitions/labels'
+      lastModifiedTime:
+        $ref: '#/definitions/lastModifiedTime'
+      parentID:
+        $ref: '#/definitions/parentID'
+      resourceName:
+        $ref: '#/definitions/resourceName'
+    type: object
+  ontologycontent:
+    example:
+      accessControlPolicyIDs: ''
+      announceTo: ''
+      announcedAttribute: ''
+      creationTime: ''
+      creator: ''
+      description: ''
+      dynamicAuthorizationConsultationIDs: ''
+      expirationTime: ''
+      labels: ''
+      lastModifiedTime: ''
+      ontologyContent: ''
+      ontologyFormat: ''
+      parentID: ''
+      resourceName: ''
+      semanticOpExec: ''
+    properties:
+      accessControlPolicyIDs:
+        $ref: '#/definitions/accessControlPolicyIDs'
+      announceTo:
+        $ref: '#/definitions/announceTo'
+      announcedAttribute:
+        $ref: '#/definitions/announcedAttribute'
+      creationTime:
+        $ref: '#/definitions/creationTime'
+      creator:
+        $ref: '#/definitions/creator'
+      description:
+        $ref: '#/definitions/description'
+      dynamicAuthorizationConsultationIDs:
+        $ref: '#/definitions/dynamicAuthorizationConsultationIDs'
+      expirationTime:
+        $ref: '#/definitions/expirationTime'
+      labels:
+        $ref: '#/definitions/labels'
+      lastModifiedTime:
+        $ref: '#/definitions/lastModifiedTime'
+      ontologyContent:
+        $ref: '#/definitions/ontologyContent'
+      ontologyFormat:
+        $ref: '#/definitions/ontologyFormat'
+      parentID:
+        $ref: '#/definitions/parentID'
+      resourceName:
+        $ref: '#/definitions/resourceName'
+      semanticOpExec:
+        $ref: '#/definitions/semanticOpExec'
+    type: object
+  outputDescriptor:
+    description: outputDescriptor
+    type: string
+  parentID:
+    description: parentID
+    type: string
+  periodForResultGen:
+    description: periodForResultGen
+    type: string
+  relatedSemantics:
+    description: relatedSemantics
+    type: string
+  resourceID:
+    description: resourceID
+    type: string
+  resourceName:
+    description: resourceName
+    type: string
+  resourceType:
+    description: resourceType
+    type: string
+  resultGenType:
+    description: resultGenType
+    type: string
+  semanticDescriptorInfo:
+    description: information of timeSeriesInfo resource
+    example:
+      semanticDescriptorInfo:
+        AuthorizationRelationshipIndicator: '{{AuthorizationRelationshipIndicator}}'
+        AuthorizationSignature: '{{AuthorizationSignature}}'
+        AuthorizationSignatureIndicator: '{{AuthorizationSignatureIndicator}}'
+        DeliveryAggregation: '{{DeliveryAggregation}}'
+        DesiredIdentifierResultType: '{{DesiredIdentifierResultType}}'
+        EventCategory: '{{EventCategory}}'
+        FilterCriteria: '{{FilterCriteria}}'
+        FromId: '{{FromId}}'
+        GroupRequestIdentifier: '{{GroupRequestIdentifier}}'
+        GroupRequestTargetMembers: '{{GroupRequestTargetMembers}}'
+        LocalTokenIDs: '{{LocalTokenIDs}}'
+        Operation: '{{Operation}}'
+        OperationalExecutionTime: '{{OperationalExecutionTime}}'
+        OriginatingTimestamp: '{{OriginatingTimestamp}}'
+        ReleaseVersionIndicator: '{{ReleaseVersionIndicator}}'
+        ReqExpirationTimestamp: '{{ReqExpirationTimestamp}}'
+        RequestId: '{{RequestId}}'
+        ResExpirationTimestamp: '{{ResExpirationTimestamp}}'
+        ResponseType: '{{ResponseType}}'
+        ResultContent: '{{ResultContent}}'
+        ResultPersistence: '{{ResultPersistence}}'
+        RoleIDs: '{{RoleIDs}}'
+        SemanticQueryIndicator: '{{SemanticQueryIndicator}}'
+        ToAddress: '{{ToAddress}}'
+        TokenIDs: '{{TokenIDs}}'
+        TokenRequestIndicator: '{{TokenRequestIndicator}}'
+        Tokens: '{{Tokens}}'
+        VendorInformation: '{{VendorInformation}}'
+        content:
+          accessControlPolicyIDs: '{{accessControlPolicyIDs}}'
+          announceTo: '{{announceTo}}'
+          announcedAttribute: '{{announcedAttribute}}'
+          creationTime: '{{creationTime}}'
+          creator: '{{creator}}'
+          descriptor: '{{descriptor}}'
+          descriptorRepresentation: '{{descriptorRepresentation}}'
+          dynamicAuthorizationConsultationIDs: '{{dynamicAuthorizationConsultationIDs}}'
+          expirationTime: '{{expirationTime}}'
+          labels: '{{labels}}'
+          lastModifiedTime: '{{lastModifiedTime}}'
+          ontologyRef: '{{ontologyRef}}'
+          parentID: '{{parentID}}'
+          relatedSemantics: '{{relatedSemantics}}'
+          resourceID: '{{resourceID}}'
+          resourceName: '{{resourceName}}'
+          resourceType: '{{resourceType}}'
+          semanticOpExec: '{{semanticOpExec}}'
+          semanticValidated: '{{semanticValidated}}'
+          validationEnable: '{{validationEnable}}'
+        resourceType: '{{resourceType}}'
+    properties:
+      AuthorizationRelationshipIndicator:
+        $ref: '#/definitions/AuthorizationRelationshipIndicator'
+      AuthorizationSignature:
+        $ref: '#/definitions/AuthorizationSignature'
+      AuthorizationSignatureIndicator:
+        $ref: '#/definitions/AuthorizationSignatureIndicator'
+      DeliveryAggregation:
+        $ref: '#/definitions/DeliveryAggregation'
+      DesiredIdentifierResultType:
+        $ref: '#/definitions/DesiredIdentifierResultType'
+      EventCategory:
+        $ref: '#/definitions/EventCategory'
+      FilterCriteria:
+        $ref: '#/definitions/FilterCriteria'
+      FromId:
+        $ref: '#/definitions/FromId'
+      GroupRequestIdentifier:
+        $ref: '#/definitions/GroupRequestIdentifier'
+      GroupRequestTargetMembers:
+        $ref: '#/definitions/GroupRequestTargetMembers'
+      LocalTokenIDs:
+        $ref: '#/definitions/LocalTokenIDs'
+      Operation:
+        $ref: '#/definitions/Operation'
+      OperationalExecutionTime:
+        $ref: '#/definitions/OperationalExecutionTime'
+      OriginatingTimestamp:
+        $ref: '#/definitions/OriginatingTimestamp'
+      ReleaseVersionIndicator:
+        $ref: '#/definitions/ReleaseVersionIndicator'
+      ReqExpirationTimestamp:
+        $ref: '#/definitions/ReqExpirationTimestamp'
+      RequestId:
+        $ref: '#/definitions/RequestId'
+      ResExpirationTimestamp:
+        $ref: '#/definitions/ResExpirationTimestamp'
+      ResponseType:
+        $ref: '#/definitions/ResponseType'
+      ResultContent:
+        $ref: '#/definitions/ResultContent'
+      ResultPersistence:
+        $ref: '#/definitions/ResultPersistence'
+      RoleIDs:
+        $ref: '#/definitions/RoleIDs'
+      SemanticQueryIndicator:
+        $ref: '#/definitions/SemanticQueryIndicator'
+      ToAddress:
+        $ref: '#/definitions/ToAddress'
+      TokenIDs:
+        $ref: '#/definitions/TokenIDs'
+      TokenRequestIndicator:
+        $ref: '#/definitions/TokenRequestIndicator'
+      Tokens:
+        $ref: '#/definitions/Tokens'
+      VendorInformation:
+        $ref: '#/definitions/VendorInformation'
+      content:
+        $ref: '#/definitions/semanticDescriptorcontent'
+      resourceType:
+        $ref: '#/definitions/ResourceType'
+    type: object
+  semanticDescriptorcontent:
+    example:
+      accessControlPolicyIDs: ''
+      announceTo: ''
+      announcedAttribute: ''
+      creationTime: ''
+      creator: ''
+      descriptor: ''
+      descriptorRepresentation: ''
+      dynamicAuthorizationConsultationIDs: ''
+      expirationTime: ''
+      labels: ''
+      lastModifiedTime: ''
+      ontologyRef: ''
+      parentID: ''
+      relatedSemantics: ''
+      resourceID: ''
+      resourceName: ''
+      resourceType: ''
+      semanticOpExec: ''
+      semanticValidated: ''
+      validationEnable: ''
+    properties:
+      accessControlPolicyIDs:
+        $ref: '#/definitions/accessControlPolicyIDs'
+      announceTo:
+        $ref: '#/definitions/announceTo'
+      announcedAttribute:
+        $ref: '#/definitions/announcedAttribute'
+      creationTime:
+        $ref: '#/definitions/creationTime'
+      creator:
+        $ref: '#/definitions/creator'
+      descriptor:
+        $ref: '#/definitions/descriptor'
+      descriptorRepresentation:
+        $ref: '#/definitions/descriptorRepresentation'
+      dynamicAuthorizationConsultationIDs:
+        $ref: '#/definitions/dynamicAuthorizationConsultationIDs'
+      expirationTime:
+        $ref: '#/definitions/expirationTime'
+      labels:
+        $ref: '#/definitions/labels'
+      lastModifiedTime:
+        $ref: '#/definitions/lastModifiedTime'
+      ontologyRef:
+        $ref: '#/definitions/ontologyRef'
+      parentID:
+        $ref: '#/definitions/parentID'
+      relatedSemantics:
+        $ref: '#/definitions/relatedSemantics'
+      resourceID:
+        $ref: '#/definitions/resourceID'
+      resourceName:
+        $ref: '#/definitions/resourceName'
+      resourceType:
+        $ref: '#/definitions/resourceType'
+      semanticOpExec:
+        $ref: '#/definitions/semanticOpExec'
+      semanticValidated:
+        $ref: '#/definitions/semanticValidated'
+      validationEnable:
+        $ref: '#/definitions/validationEnable'
+    type: object
+  semanticFanOutPointInfo:
+    description: information of request resource
+    example:
+      semanticFanOutPointInfo:
+        AuthorizationRelationshipIndicator: ''
+        AuthorizationSignature: ''
+        AuthorizationSignatureIndicator: ''
+        DeliveryAggregation: ''
+        DesiredIdentifierResultType: ''
+        EventCategory: ''
+        FilterCriteria: ''
+        FromId: ''
+        GroupRequestIdentifier: ''
+        GroupRequestTargetMembers: ''
+        LocalTokenIDs: ''
+        Operation: ''
+        OperationalExecutionTime: ''
+        OriginatingTimestamp: ''
+        ReleaseVersionIndicator: ''
+        ReqExpirationTimestamp: ''
+        RequestId: ''
+        ResExpirationTimestamp: ''
+        ResponseType: ''
+        ResultContent: ''
+        ResultPersistence: ''
+        RoleIDs: ''
+        SemanticQueryIndicator: ''
+        ToAddress: ''
+        TokenIDs: ''
+        TokenRequestIndicator: ''
+        Tokens: ''
+        VendorInformation: ''
+        content: ''
+        resourceType: ''
+    properties:
+      AuthorizationRelationshipIndicator:
+        $ref: '#/definitions/AuthorizationRelationshipIndicator'
+      AuthorizationSignature:
+        $ref: '#/definitions/AuthorizationSignature'
+      AuthorizationSignatureIndicator:
+        $ref: '#/definitions/AuthorizationSignatureIndicator'
+      DeliveryAggregation:
+        $ref: '#/definitions/DeliveryAggregation'
+      DesiredIdentifierResultType:
+        $ref: '#/definitions/DesiredIdentifierResultType'
+      EventCategory:
+        $ref: '#/definitions/EventCategory'
+      FilterCriteria:
+        $ref: '#/definitions/FilterCriteria'
+      FromId:
+        $ref: '#/definitions/FromId'
+      GroupRequestIdentifier:
+        $ref: '#/definitions/GroupRequestIdentifier'
+      GroupRequestTargetMembers:
+        $ref: '#/definitions/GroupRequestTargetMembers'
+      LocalTokenIDs:
+        $ref: '#/definitions/LocalTokenIDs'
+      Operation:
+        $ref: '#/definitions/Operation'
+      OperationalExecutionTime:
+        $ref: '#/definitions/OperationalExecutionTime'
+      OriginatingTimestamp:
+        $ref: '#/definitions/OriginatingTimestamp'
+      ReleaseVersionIndicator:
+        $ref: '#/definitions/ReleaseVersionIndicator'
+      ReqExpirationTimestamp:
+        $ref: '#/definitions/ReqExpirationTimestamp'
+      RequestId:
+        $ref: '#/definitions/RequestId'
+      ResExpirationTimestamp:
+        $ref: '#/definitions/ResExpirationTimestamp'
+      ResponseType:
+        $ref: '#/definitions/ResponseType'
+      ResultContent:
+        $ref: '#/definitions/ResultContent'
+      ResultPersistence:
+        $ref: '#/definitions/ResultPersistence'
+      RoleIDs:
+        $ref: '#/definitions/RoleIDs'
+      SemanticQueryIndicator:
+        $ref: '#/definitions/SemanticQueryIndicator'
+      ToAddress:
+        $ref: '#/definitions/ToAddress'
+      TokenIDs:
+        $ref: '#/definitions/TokenIDs'
+      TokenRequestIndicator:
+        $ref: '#/definitions/TokenRequestIndicator'
+      Tokens:
+        $ref: '#/definitions/Tokens'
+      VendorInformation:
+        $ref: '#/definitions/VendorInformation'
+      content:
+        $ref: '#/definitions/semanticFanOutPointcontent'
+      resourceType:
+        $ref: '#/definitions/ResourceType'
+    type: object
+  semanticFanOutPointcontent:
+    description: semanticFanOutPointcontent
+    type: string
+  semanticMashupInstanceInfo:
+    description: information of semanticMashupInstanceInfo resource
+    example:
+      semanticMashupInstanceInfo:
+        AuthorizationRelationshipIndicator: '{{AuthorizationRelationshipIndicator}}'
+        AuthorizationSignature: '{{AuthorizationSignature}}'
+        AuthorizationSignatureIndicator: '{{AuthorizationSignatureIndicator}}'
+        DeliveryAggregation: '{{DeliveryAggregation}}'
+        DesiredIdentifierResultType: '{{DesiredIdentifierResultType}}'
+        EventCategory: '{{EventCategory}}'
+        FilterCriteria: '{{FilterCriteria}}'
+        FromId: '{{FromId}}'
+        GroupRequestIdentifier: '{{GroupRequestIdentifier}}'
+        GroupRequestTargetMembers: '{{GroupRequestTargetMembers}}'
+        LocalTokenIDs: '{{LocalTokenIDs}}'
+        Operation: '{{Operation}}'
+        OperationalExecutionTime: '{{OperationalExecutionTime}}'
+        OriginatingTimestamp: '{{OriginatingTimestamp}}'
+        ReleaseVersionIndicator: '{{ReleaseVersionIndicator}}'
+        ReqExpirationTimestamp: '{{ReqExpirationTimestamp}}'
+        RequestId: '{{RequestId}}'
+        ResExpirationTimestamp: '{{ResExpirationTimestamp}}'
+        ResponseType: '{{ResponseType}}'
+        ResultContent: '{{ResultContent}}'
+        ResultPersistence: '{{ResultPersistence}}'
+        RoleIDs: '{{RoleIDs}}'
+        SemanticQueryIndicator: '{{SemanticQueryIndicator}}'
+        ToAddress: '{{ToAddress}}'
+        TokenIDs: '{{TokenIDs}}'
+        TokenRequestIndicator: '{{TokenRequestIndicator}}'
+        Tokens: '{{Tokens}}'
+        VendorInformation: '{{VendorInformation}}'
+        content:
+          accessControlPolicyIDs: '{{accessControlPolicyIDs}}'
+          announceTo: '{{announceTo}}'
+          announcedAttribute: '{{announcedAttribute}}'
+          creationTime: '{{creationTime}}'
+          creator: '{{creator}}'
+          dynamicAuthorizationConsultationIDs: '{{dynamicAuthorizationConsultationIDs}}'
+          expirationTime: '{{expirationTime}}'
+          labels: '{{labels}}'
+          lastModifiedTime: '{{lastModifiedTime}}'
+          mashupMember: '{{mashupMember}}'
+          memberStoreType: '{{memberStoreType}}'
+          parentID: '{{parentID}}'
+          periodForResultGen: '{{periodForResultGen}}'
+          resourceID: '{{resourceID}}'
+          resourceName: '{{resourceName}}'
+          resourceType: '{{resourceType}}'
+          resultGenType: '{{resultGenType}}'
+          smjpID: '{{smjpID}}'
+          smjpInputParameter: '{{smjpInputParameter}}'
+        resourceType: '{{resourceType}}'
+    properties:
+      AuthorizationRelationshipIndicator:
+        $ref: '#/definitions/AuthorizationRelationshipIndicator'
+      AuthorizationSignature:
+        $ref: '#/definitions/AuthorizationSignature'
+      AuthorizationSignatureIndicator:
+        $ref: '#/definitions/AuthorizationSignatureIndicator'
+      DeliveryAggregation:
+        $ref: '#/definitions/DeliveryAggregation'
+      DesiredIdentifierResultType:
+        $ref: '#/definitions/DesiredIdentifierResultType'
+      EventCategory:
+        $ref: '#/definitions/EventCategory'
+      FilterCriteria:
+        $ref: '#/definitions/FilterCriteria'
+      FromId:
+        $ref: '#/definitions/FromId'
+      GroupRequestIdentifier:
+        $ref: '#/definitions/GroupRequestIdentifier'
+      GroupRequestTargetMembers:
+        $ref: '#/definitions/GroupRequestTargetMembers'
+      LocalTokenIDs:
+        $ref: '#/definitions/LocalTokenIDs'
+      Operation:
+        $ref: '#/definitions/Operation'
+      OperationalExecutionTime:
+        $ref: '#/definitions/OperationalExecutionTime'
+      OriginatingTimestamp:
+        $ref: '#/definitions/OriginatingTimestamp'
+      ReleaseVersionIndicator:
+        $ref: '#/definitions/ReleaseVersionIndicator'
+      ReqExpirationTimestamp:
+        $ref: '#/definitions/ReqExpirationTimestamp'
+      RequestId:
+        $ref: '#/definitions/RequestId'
+      ResExpirationTimestamp:
+        $ref: '#/definitions/ResExpirationTimestamp'
+      ResponseType:
+        $ref: '#/definitions/ResponseType'
+      ResultContent:
+        $ref: '#/definitions/ResultContent'
+      ResultPersistence:
+        $ref: '#/definitions/ResultPersistence'
+      RoleIDs:
+        $ref: '#/definitions/RoleIDs'
+      SemanticQueryIndicator:
+        $ref: '#/definitions/SemanticQueryIndicator'
+      ToAddress:
+        $ref: '#/definitions/ToAddress'
+      TokenIDs:
+        $ref: '#/definitions/TokenIDs'
+      TokenRequestIndicator:
+        $ref: '#/definitions/TokenRequestIndicator'
+      Tokens:
+        $ref: '#/definitions/Tokens'
+      VendorInformation:
+        $ref: '#/definitions/VendorInformation'
+      content:
+        $ref: '#/definitions/semanticMashupInstancecontent'
+      resourceType:
+        $ref: '#/definitions/ResourceType'
+    type: object
+  semanticMashupInstancecontent:
+    example:
+      accessControlPolicyIDs: ''
+      announceTo: ''
+      announcedAttribute: ''
+      creationTime: ''
+      creator: ''
+      dynamicAuthorizationConsultationIDs: ''
+      expirationTime: ''
+      labels: ''
+      lastModifiedTime: ''
+      mashupMember: ''
+      memberStoreType: ''
+      parentID: ''
+      periodForResultGen: ''
+      resourceID: ''
+      resourceName: ''
+      resourceType: ''
+      resultGenType: ''
+      smjpID: ''
+      smjpInputParameter: ''
+    properties:
+      accessControlPolicyIDs:
+        $ref: '#/definitions/accessControlPolicyIDs'
+      announceTo:
+        $ref: '#/definitions/announceTo'
+      announcedAttribute:
+        $ref: '#/definitions/announcedAttribute'
+      creationTime:
+        $ref: '#/definitions/creationTime'
+      creator:
+        $ref: '#/definitions/creator'
+      dynamicAuthorizationConsultationIDs:
+        $ref: '#/definitions/dynamicAuthorizationConsultationIDs'
+      expirationTime:
+        $ref: '#/definitions/expirationTime'
+      labels:
+        $ref: '#/definitions/labels'
+      lastModifiedTime:
+        $ref: '#/definitions/lastModifiedTime'
+      mashupMember:
+        $ref: '#/definitions/mashupMember'
+      memberStoreType:
+        $ref: '#/definitions/memberStoreType'
+      parentID:
+        $ref: '#/definitions/parentID'
+      periodForResultGen:
+        $ref: '#/definitions/periodForResultGen'
+      resourceID:
+        $ref: '#/definitions/resourceID'
+      resourceName:
+        $ref: '#/definitions/resourceName'
+      resourceType:
+        $ref: '#/definitions/resourceType'
+      resultGenType:
+        $ref: '#/definitions/resultGenType'
+      smjpID:
+        $ref: '#/definitions/smjpID'
+      smjpInputParameter:
+        $ref: '#/definitions/smjpInputParameter'
+    type: object
+  semanticMashupJobProfileInfo:
+    description: information of timeSeriesInfo resource
+    example:
+      semanticMashupJobProfileInfo:
+        AuthorizationRelationshipIndicator: '{{AuthorizationRelationshipIndicator}}'
+        AuthorizationSignature: '{{AuthorizationSignature}}'
+        AuthorizationSignatureIndicator: '{{AuthorizationSignatureIndicator}}'
+        DeliveryAggregation: '{{DeliveryAggregation}}'
+        DesiredIdentifierResultType: '{{DesiredIdentifierResultType}}'
+        EventCategory: '{{EventCategory}}'
+        FilterCriteria: '{{FilterCriteria}}'
+        FromId: '{{FromId}}'
+        GroupRequestIdentifier: '{{GroupRequestIdentifier}}'
+        GroupRequestTargetMembers: '{{GroupRequestTargetMembers}}'
+        LocalTokenIDs: '{{LocalTokenIDs}}'
+        Operation: '{{Operation}}'
+        OperationalExecutionTime: '{{OperationalExecutionTime}}'
+        OriginatingTimestamp: '{{OriginatingTimestamp}}'
+        ReleaseVersionIndicator: '{{ReleaseVersionIndicator}}'
+        ReqExpirationTimestamp: '{{ReqExpirationTimestamp}}'
+        RequestId: '{{RequestId}}'
+        ResExpirationTimestamp: '{{ResExpirationTimestamp}}'
+        ResponseType: '{{ResponseType}}'
+        ResultContent: '{{ResultContent}}'
+        ResultPersistence: '{{ResultPersistence}}'
+        RoleIDs: '{{RoleIDs}}'
+        SemanticQueryIndicator: '{{SemanticQueryIndicator}}'
+        ToAddress: '{{ToAddress}}'
+        TokenIDs: '{{TokenIDs}}'
+        TokenRequestIndicator: '{{TokenRequestIndicator}}'
+        Tokens: '{{Tokens}}'
+        VendorInformation: '{{VendorInformation}}'
+        content:
+          accessControlPolicyIDs: '{{accessControlPolicyIDs}}'
+          announceTo: '{{announceTo}}'
+          announcedAttribute: '{{announcedAttribute}}'
+          creationTime: '{{creationTime}}'
+          creator: '{{creator}}'
+          dynamicAuthorizationConsultationIDs: '{{dynamicAuthorizationConsultationIDs}}'
+          expirationTime: '{{expirationTime}}'
+          functionDescriptor: '{{functionDescriptor}}'
+          inputDescriptor: '{{inputDescriptor}}'
+          labels: '{{labels}}'
+          lastModifiedTime: '{{lastModifiedTime}}'
+          memberFilter: '{{memberFilter}}'
+          outputDescriptor: '{{outputDescriptor}}'
+          parentID: '{{parentID}}'
+          resourceID: '{{resourceID}}'
+          resourceName: '{{resourceName}}'
+          resourceType: '{{resourceType}}'
+          smiID: '{{smiID}}'
+        resourceType: '{{resourceType}}'
+    properties:
+      AuthorizationRelationshipIndicator:
+        $ref: '#/definitions/AuthorizationRelationshipIndicator'
+      AuthorizationSignature:
+        $ref: '#/definitions/AuthorizationSignature'
+      AuthorizationSignatureIndicator:
+        $ref: '#/definitions/AuthorizationSignatureIndicator'
+      DeliveryAggregation:
+        $ref: '#/definitions/DeliveryAggregation'
+      DesiredIdentifierResultType:
+        $ref: '#/definitions/DesiredIdentifierResultType'
+      EventCategory:
+        $ref: '#/definitions/EventCategory'
+      FilterCriteria:
+        $ref: '#/definitions/FilterCriteria'
+      FromId:
+        $ref: '#/definitions/FromId'
+      GroupRequestIdentifier:
+        $ref: '#/definitions/GroupRequestIdentifier'
+      GroupRequestTargetMembers:
+        $ref: '#/definitions/GroupRequestTargetMembers'
+      LocalTokenIDs:
+        $ref: '#/definitions/LocalTokenIDs'
+      Operation:
+        $ref: '#/definitions/Operation'
+      OperationalExecutionTime:
+        $ref: '#/definitions/OperationalExecutionTime'
+      OriginatingTimestamp:
+        $ref: '#/definitions/OriginatingTimestamp'
+      ReleaseVersionIndicator:
+        $ref: '#/definitions/ReleaseVersionIndicator'
+      ReqExpirationTimestamp:
+        $ref: '#/definitions/ReqExpirationTimestamp'
+      RequestId:
+        $ref: '#/definitions/RequestId'
+      ResExpirationTimestamp:
+        $ref: '#/definitions/ResExpirationTimestamp'
+      ResponseType:
+        $ref: '#/definitions/ResponseType'
+      ResultContent:
+        $ref: '#/definitions/ResultContent'
+      ResultPersistence:
+        $ref: '#/definitions/ResultPersistence'
+      RoleIDs:
+        $ref: '#/definitions/RoleIDs'
+      SemanticQueryIndicator:
+        $ref: '#/definitions/SemanticQueryIndicator'
+      ToAddress:
+        $ref: '#/definitions/ToAddress'
+      TokenIDs:
+        $ref: '#/definitions/TokenIDs'
+      TokenRequestIndicator:
+        $ref: '#/definitions/TokenRequestIndicator'
+      Tokens:
+        $ref: '#/definitions/Tokens'
+      VendorInformation:
+        $ref: '#/definitions/VendorInformation'
+      content:
+        $ref: '#/definitions/semanticMashupJobProfilecontent'
+      resourceType:
+        $ref: '#/definitions/ResourceType'
+    type: object
+  semanticMashupJobProfilecontent:
+    example:
+      accessControlPolicyIDs: ''
+      announceTo: ''
+      announcedAttribute: ''
+      creationTime: ''
+      creator: ''
+      dynamicAuthorizationConsultationIDs: ''
+      expirationTime: ''
+      functionDescriptor: ''
+      inputDescriptor: ''
+      labels: ''
+      lastModifiedTime: ''
+      memberFilter: ''
+      outputDescriptor: ''
+      parentID: ''
+      resourceID: ''
+      resourceName: ''
+      resourceType: ''
+      smiID: ''
+    properties:
+      accessControlPolicyIDs:
+        $ref: '#/definitions/accessControlPolicyIDs'
+      announceTo:
+        $ref: '#/definitions/announceTo'
+      announcedAttribute:
+        $ref: '#/definitions/announcedAttribute'
+      creationTime:
+        $ref: '#/definitions/creationTime'
+      creator:
+        $ref: '#/definitions/creator'
+      dynamicAuthorizationConsultationIDs:
+        $ref: '#/definitions/dynamicAuthorizationConsultationIDs'
+      expirationTime:
+        $ref: '#/definitions/expirationTime'
+      functionDescriptor:
+        $ref: '#/definitions/functionDescriptor'
+      inputDescriptor:
+        $ref: '#/definitions/inputDescriptor'
+      labels:
+        $ref: '#/definitions/labels'
+      lastModifiedTime:
+        $ref: '#/definitions/lastModifiedTime'
+      memberFilter:
+        $ref: '#/definitions/memberFilter'
+      outputDescriptor:
+        $ref: '#/definitions/outputDescriptor'
+      parentID:
+        $ref: '#/definitions/parentID'
+      resourceID:
+        $ref: '#/definitions/resourceID'
+      resourceName:
+        $ref: '#/definitions/resourceName'
+      resourceType:
+        $ref: '#/definitions/resourceType'
+      smiID:
+        $ref: '#/definitions/smiID'
+    type: object
+  semanticMashupResultContent:
+    description: semanticMashupResultContent
+    type: string
+  semanticMashupResultInfo:
+    description: information of request resource
+    example:
+      semanticMashupResultInfo:
+        AuthorizationRelationshipIndicator: ''
+        AuthorizationSignature: ''
+        AuthorizationSignatureIndicator: ''
+        DeliveryAggregation: ''
+        DesiredIdentifierResultType: ''
+        EventCategory: ''
+        FilterCriteria: ''
+        FromId: ''
+        GroupRequestIdentifier: ''
+        GroupRequestTargetMembers: ''
+        LocalTokenIDs: ''
+        Operation: ''
+        OperationalExecutionTime: ''
+        OriginatingTimestamp: ''
+        ReleaseVersionIndicator: ''
+        ReqExpirationTimestamp: ''
+        RequestId: ''
+        ResExpirationTimestamp: ''
+        ResponseType: ''
+        ResultContent: ''
+        ResultPersistence: ''
+        RoleIDs: ''
+        SemanticQueryIndicator: ''
+        ToAddress: ''
+        TokenIDs: ''
+        TokenRequestIndicator: ''
+        Tokens: ''
+        VendorInformation: ''
+        content: ''
+        resourceType: ''
+    properties:
+      AuthorizationRelationshipIndicator:
+        $ref: '#/definitions/AuthorizationRelationshipIndicator'
+      AuthorizationSignature:
+        $ref: '#/definitions/AuthorizationSignature'
+      AuthorizationSignatureIndicator:
+        $ref: '#/definitions/AuthorizationSignatureIndicator'
+      DeliveryAggregation:
+        $ref: '#/definitions/DeliveryAggregation'
+      DesiredIdentifierResultType:
+        $ref: '#/definitions/DesiredIdentifierResultType'
+      EventCategory:
+        $ref: '#/definitions/EventCategory'
+      FilterCriteria:
+        $ref: '#/definitions/FilterCriteria'
+      FromId:
+        $ref: '#/definitions/FromId'
+      GroupRequestIdentifier:
+        $ref: '#/definitions/GroupRequestIdentifier'
+      GroupRequestTargetMembers:
+        $ref: '#/definitions/GroupRequestTargetMembers'
+      LocalTokenIDs:
+        $ref: '#/definitions/LocalTokenIDs'
+      Operation:
+        $ref: '#/definitions/Operation'
+      OperationalExecutionTime:
+        $ref: '#/definitions/OperationalExecutionTime'
+      OriginatingTimestamp:
+        $ref: '#/definitions/OriginatingTimestamp'
+      ReleaseVersionIndicator:
+        $ref: '#/definitions/ReleaseVersionIndicator'
+      ReqExpirationTimestamp:
+        $ref: '#/definitions/ReqExpirationTimestamp'
+      RequestId:
+        $ref: '#/definitions/RequestId'
+      ResExpirationTimestamp:
+        $ref: '#/definitions/ResExpirationTimestamp'
+      ResponseType:
+        $ref: '#/definitions/ResponseType'
+      ResultContent:
+        $ref: '#/definitions/ResultContent'
+      ResultPersistence:
+        $ref: '#/definitions/ResultPersistence'
+      RoleIDs:
+        $ref: '#/definitions/RoleIDs'
+      SemanticQueryIndicator:
+        $ref: '#/definitions/SemanticQueryIndicator'
+      ToAddress:
+        $ref: '#/definitions/ToAddress'
+      TokenIDs:
+        $ref: '#/definitions/TokenIDs'
+      TokenRequestIndicator:
+        $ref: '#/definitions/TokenRequestIndicator'
+      Tokens:
+        $ref: '#/definitions/Tokens'
+      VendorInformation:
+        $ref: '#/definitions/VendorInformation'
+      content:
+        $ref: '#/definitions/semanticMashupResultContent'
+      resourceType:
+        $ref: '#/definitions/ResourceType'
+    type: object
+  semanticOpExec:
+    description: semanticOpExec
+    type: string
+  semanticValidated:
+    description: semanticValidated
+    type: string
+  semanticValidationContent:
+    description: semanticValidationContent
+    type: string
+  semanticValidationInfo:
+    description: information of request resource
+    example:
+      semanticValidationInfo:
+        AuthorizationRelationshipIndicator: '{{AuthorizationRelationshipIndicator}}'
+        AuthorizationSignature: '{{AuthorizationSignature}}'
+        AuthorizationSignatureIndicator: '{{AuthorizationSignatureIndicator}}'
+        DeliveryAggregation: '{{DeliveryAggregation}}'
+        DesiredIdentifierResultType: '{{DesiredIdentifierResultType}}'
+        EventCategory: '{{EventCategory}}'
+        FilterCriteria: '{{FilterCriteria}}'
+        FromId: '{{FromId}}'
+        GroupRequestIdentifier: '{{GroupRequestIdentifier}}'
+        GroupRequestTargetMembers: '{{GroupRequestTargetMembers}}'
+        LocalTokenIDs: '{{LocalTokenIDs}}'
+        Operation: '{{Operation}}'
+        OperationalExecutionTime: '{{OperationalExecutionTime}}'
+        OriginatingTimestamp: '{{OriginatingTimestamp}}'
+        ReleaseVersionIndicator: '{{ReleaseVersionIndicator}}'
+        ReqExpirationTimestamp: '{{ReqExpirationTimestamp}}'
+        RequestId: '{{RequestId}}'
+        ResExpirationTimestamp: '{{ResExpirationTimestamp}}'
+        ResponseType: '{{ResponseType}}'
+        ResultContent: '{{ResultContent}}'
+        ResultPersistence: '{{ResultPersistence}}'
+        RoleIDs: '{{RoleIDs}}'
+        SemanticQueryIndicator: '{{SemanticQueryIndicator}}'
+        ToAddress: '{{ToAddress}}'
+        TokenIDs: '{{TokenIDs}}'
+        TokenRequestIndicator: '{{TokenRequestIndicator}}'
+        Tokens: '{{Tokens}}'
+        VendorInformation: '{{VendorInformation}}'
+        content: '{{content}}'
+        resourceType: '{{resourceType}}'
+    properties:
+      AuthorizationRelationshipIndicator:
+        $ref: '#/definitions/AuthorizationRelationshipIndicator'
+      AuthorizationSignature:
+        $ref: '#/definitions/AuthorizationSignature'
+      AuthorizationSignatureIndicator:
+        $ref: '#/definitions/AuthorizationSignatureIndicator'
+      DeliveryAggregation:
+        $ref: '#/definitions/DeliveryAggregation'
+      DesiredIdentifierResultType:
+        $ref: '#/definitions/DesiredIdentifierResultType'
+      EventCategory:
+        $ref: '#/definitions/EventCategory'
+      FilterCriteria:
+        $ref: '#/definitions/FilterCriteria'
+      FromId:
+        $ref: '#/definitions/FromId'
+      GroupRequestIdentifier:
+        $ref: '#/definitions/GroupRequestIdentifier'
+      GroupRequestTargetMembers:
+        $ref: '#/definitions/GroupRequestTargetMembers'
+      LocalTokenIDs:
+        $ref: '#/definitions/LocalTokenIDs'
+      Operation:
+        $ref: '#/definitions/Operation'
+      OperationalExecutionTime:
+        $ref: '#/definitions/OperationalExecutionTime'
+      OriginatingTimestamp:
+        $ref: '#/definitions/OriginatingTimestamp'
+      ReleaseVersionIndicator:
+        $ref: '#/definitions/ReleaseVersionIndicator'
+      ReqExpirationTimestamp:
+        $ref: '#/definitions/ReqExpirationTimestamp'
+      RequestId:
+        $ref: '#/definitions/RequestId'
+      ResExpirationTimestamp:
+        $ref: '#/definitions/ResExpirationTimestamp'
+      ResponseType:
+        $ref: '#/definitions/ResponseType'
+      ResultContent:
+        $ref: '#/definitions/ResultContent'
+      ResultPersistence:
+        $ref: '#/definitions/ResultPersistence'
+      RoleIDs:
+        $ref: '#/definitions/RoleIDs'
+      SemanticQueryIndicator:
+        $ref: '#/definitions/SemanticQueryIndicator'
+      ToAddress:
+        $ref: '#/definitions/ToAddress'
+      TokenIDs:
+        $ref: '#/definitions/TokenIDs'
+      TokenRequestIndicator:
+        $ref: '#/definitions/TokenRequestIndicator'
+      Tokens:
+        $ref: '#/definitions/Tokens'
+      VendorInformation:
+        $ref: '#/definitions/VendorInformation'
+      content:
+        $ref: '#/definitions/semanticValidationContent'
+      resourceType:
+        $ref: '#/definitions/ResourceType'
+    type: object
+  smiID:
+    description: smiID
+    type: string
+  smjpID:
+    description: smjpID
+    type: string
+  smjpInputParameter:
+    description: smjpInputParameter
+    type: string
+  validationEnable:
+    description: validationEnable
+    type: string
+externalDocs:
+  description: ETSI MEC015 V1.1.1 Bandwidth Management API
+  url: http://www.etsi.org/deliver/etsi_gs/MEC/001_099/015/01.01.01_60/gs_MEC015v010101p.pdf
+host: 127.0.0.1:8080
+info:
+  description: The ETSI IOT Bandwidth Management API described using OpenAPI
+  title: IOT3_API3
+  version: 1.1.1
+parameters:
+  Body.ontologyInfo:
+    description: ontologyInfo with updated information is included as entity body
+      of the request
+    in: body
+    name: ontologyInfo
+    required: true
+    schema:
+      $ref: '#/definitions/ontologyInfo'
+  Body.ontologyRepositoryInfo:
+    description: ontologyRepositoryInfo with updated information is included as entity
+      body of the request
+    in: body
+    name: ontologyRepositoryInfo
+    required: true
+    schema:
+      $ref: '#/definitions/ontologyRepositoryInfo'
+  Body.semanticDescriptorInfo:
+    description: semanticDescriptorInfo with updated information is included as entity
+      body of the request
+    in: body
+    name: semanticDescriptorInfo
+    required: true
+    schema:
+      $ref: '#/definitions/semanticDescriptorInfo'
+  Body.semanticMashupInstanceInfo:
+    description: semanticMashupInstanceInfo with updated information is included as
+      entity body of the request
+    in: body
+    name: semanticMashupInstanceInfo
+    required: true
+    schema:
+      $ref: '#/definitions/semanticMashupInstanceInfo'
+  Body.semanticMashupJobProfileInfo:
+    description: semanticMashupJobProfileInfo with updated information is included
+      as entity body of the request
+    in: body
+    name: semanticMashupJobProfileInfo
+    required: true
+    schema:
+      $ref: '#/definitions/semanticMashupJobProfileInfo'
+  Body.semanticValidationInfo:
+    description: semanticValidationInfo with updated information is included as entity
+      body of the request
+    in: body
+    name: semanticValidationInfo
+    required: true
+    schema:
+      $ref: '#/definitions/semanticValidationInfo'
+paths:
+  /mashup:
+    get:
+      description: This method retrieves information about a list of mashup resources
+      operationId: mashupGET
+      parameters:
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, a response body containing an array of the mashup
+            is returned.
+          schema:
+            $ref: '#/definitions/inline_response_200_mashup'
+      x-swagger-router-controller: Default
+  /ontology:
+    delete:
+      description: 'This method delete the information about a specific ontologyInfo
+        resource. '
+      operationId: ontologyDELETE
+      parameters:
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        204:
+          description: No Content
+      x-swagger-router-controller: Default
+    get:
+      description: This method retrieves information about a list of ontology resources
+      operationId: ontologyGET
+      parameters:
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, a response body containing an array of the ontology
+            is returned.
+          schema:
+            $ref: '#/definitions/inline_response_200_ontology'
+      x-swagger-router-controller: Default
+    post:
+      description: This method is used to create a ontology resource.
+      operationId: ontologyPOST
+      parameters:
+      - description: ontologyInfo with updated information is included as entity body
+          of the request
+        in: body
+        name: ontologyyInfo
+        required: true
+        schema:
+          $ref: '#/definitions/ontologyInfo'
+      produces:
+      - application/json
+      responses:
+        201:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_ontology'
+      x-swagger-router-controller: Default
+    put:
+      description: 'This method updates the information about a specific ontologyInfo
+        resource. '
+      operationId: ontologyPUT
+      parameters:
+      - description: ontologyInfo with updated information is included as entity body
+          of the request
+        in: body
+        name: ontologyInfo
+        required: true
+        schema:
+          $ref: '#/definitions/ontologyInfo'
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_ontology'
+      x-swagger-router-controller: Default
+  /ontologyRepository:
+    delete:
+      description: 'This method delete the information about a specific ontologyRepositoryInfo
+        resource. '
+      operationId: ontologyRepositoryDELETE
+      parameters:
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        204:
+          description: No Content
+      x-swagger-router-controller: Default
+    get:
+      description: This method retrieves information about a list of ontologyRepository
+        resources
+      operationId: ontologyRepositoryGET
+      parameters:
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, a response body containing an array of the ontologyRepository
+            is returned.
+          schema:
+            $ref: '#/definitions/inline_response_200_ontologyRepository'
+      x-swagger-router-controller: Default
+    post:
+      description: This method is used to create a ontologyRepository resource.
+      operationId: ontologyRepositoryPOST
+      parameters:
+      - description: ontologyRepositoryInfo with updated information is included as
+          entity body of the request
+        in: body
+        name: ontologyRepositoryInfo
+        required: true
+        schema:
+          $ref: '#/definitions/ontologyRepositoryInfo'
+      produces:
+      - application/json
+      responses:
+        201:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_ontologyRepository'
+      x-swagger-router-controller: Default
+    put:
+      description: 'This method updates the information about a specific ontologyRepositoryInfo
+        resource. '
+      operationId: ontologyRepositoryPUT
+      parameters:
+      - description: ontologyRepositoryInfo with updated information is included as
+          entity body of the request
+        in: body
+        name: ontologyRepositoryInfo
+        required: true
+        schema:
+          $ref: '#/definitions/ontologyRepositoryInfo'
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_ontologyRepository'
+      x-swagger-router-controller: Default
+  /semanticDescriptor:
+    delete:
+      description: 'This method delete the information about a specific semanticDescriptorInfo
+        resource. '
+      operationId: semanticDescriptorDELETE
+      parameters:
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        204:
+          description: No Content
+      x-swagger-router-controller: Default
+    get:
+      description: This method retrieves information about a list of semanticDescriptor
+        resources
+      operationId: semanticDescriptorGET
+      parameters:
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, a response body containing an array of the semanticDescriptor
+            is returned.
+          schema:
+            $ref: '#/definitions/inline_response_200_semanticDescriptor'
+      x-swagger-router-controller: Default
+    post:
+      description: This method is used to create a semanticDescriptor resource.
+      operationId: semanticDescriptorPOST
+      parameters:
+      - description: semanticDescriptorInfo with updated information is included as
+          entity body of the request
+        in: body
+        name: semanticDescriptorInfo
+        required: true
+        schema:
+          $ref: '#/definitions/semanticDescriptorInfo'
+      produces:
+      - application/json
+      responses:
+        201:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_semanticDescriptor'
+      x-swagger-router-controller: Default
+    put:
+      description: 'This method updates the information about a specific semanticDescriptorInfo
+        resource. '
+      operationId: semanticDescriptorPUT
+      parameters:
+      - description: semanticDescriptorInfo with updated information is included as
+          entity body of the request
+        in: body
+        name: semanticDescriptorInfo
+        required: true
+        schema:
+          $ref: '#/definitions/semanticDescriptorInfo'
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_semanticDescriptor'
+      x-swagger-router-controller: Default
+  /semanticFanOutPoint:
+    get:
+      description: This method retrieves information about a list of semanticFanOutPoint
+        resources
+      operationId: semanticFanOutPointGET
+      parameters:
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, a response body containing an array of the semanticFanOutPoint
+            is returned.
+          schema:
+            $ref: '#/definitions/inline_response_200_semanticFanOutPoint'
+      x-swagger-router-controller: Default
+  /semanticMashupInstance:
+    delete:
+      description: 'This method delete the information about a specific semanticMashupInstanceInfo
+        resource. '
+      operationId: semanticMashupInstanceDELETE
+      parameters:
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        204:
+          description: No Content
+      x-swagger-router-controller: Default
+    get:
+      description: This method retrieves information about a list of semanticMashupInstance
+        resources
+      operationId: semanticMashupInstanceGET
+      parameters:
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, a response body containing an array of the semanticMashupInstance
+            is returned.
+          schema:
+            $ref: '#/definitions/inline_response_200_semanticMashupInstance'
+      x-swagger-router-controller: Default
+    post:
+      description: This method is used to create a semanticMashupInstance resource.
+      operationId: semanticMashupInstancePOST
+      parameters:
+      - description: semanticMashupInstanceInfo with updated information is included
+          as entity body of the request
+        in: body
+        name: semanticMashupInstanceInfo
+        required: true
+        schema:
+          $ref: '#/definitions/semanticMashupInstanceInfo'
+      produces:
+      - application/json
+      responses:
+        201:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_semanticMashupInstance'
+      x-swagger-router-controller: Default
+    put:
+      description: 'This method updates the information about a specific semanticMashupInstanceInfo
+        resource. '
+      operationId: semanticMashupInstancePUT
+      parameters:
+      - description: semanticMashupInstanceInfo with updated information is included
+          as entity body of the request
+        in: body
+        name: semanticMashupInstanceInfo
+        required: true
+        schema:
+          $ref: '#/definitions/semanticMashupInstanceInfo'
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_semanticMashupInstance'
+      x-swagger-router-controller: Default
+  /semanticMashupJobProfile:
+    delete:
+      description: 'This method delete the information about a specific semanticMashupJobProfileInfo
+        resource. '
+      operationId: semanticMashupJobProfileDELETE
+      parameters:
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        204:
+          description: No Content
+      x-swagger-router-controller: Default
+    get:
+      description: This method retrieves information about a list of semanticMashupJobProfile
+        resources
+      operationId: semanticMashupJobProfileGET
+      parameters:
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, a response body containing an array of the semanticMashupJobProfile
+            is returned.
+          schema:
+            $ref: '#/definitions/inline_response_200_semanticMashupJobProfile'
+      x-swagger-router-controller: Default
+    post:
+      description: This method is used to create a semanticMashupJobProfile resource.
+      operationId: semanticMashupJobProfilePOST
+      parameters:
+      - description: semanticMashupJobProfileInfo with updated information is included
+          as entity body of the request
+        in: body
+        name: semanticMashupJobProfileInfo
+        required: true
+        schema:
+          $ref: '#/definitions/semanticMashupJobProfileInfo'
+      produces:
+      - application/json
+      responses:
+        201:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_semanticMashupJobProfile'
+      x-swagger-router-controller: Default
+    put:
+      description: 'This method updates the information about a specific semanticMashupJobProfileInfo
+        resource. '
+      operationId: semanticMashupJobProfilePUT
+      parameters:
+      - description: semanticMashupJobProfileInfo with updated information is included
+          as entity body of the request
+        in: body
+        name: semanticMashupJobProfileInfo
+        required: true
+        schema:
+          $ref: '#/definitions/semanticMashupJobProfileInfo'
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_semanticMashupJobProfile'
+      x-swagger-router-controller: Default
+  /semanticMashupResult:
+    delete:
+      description: 'This method delete the information about a specific semanticMashupResultInfo
+        resource. '
+      operationId: semanticMashupResultDELETE
+      parameters:
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        204:
+          description: No Content
+      x-swagger-router-controller: Default
+    get:
+      description: This method retrieves information about a list of semanticMashupResult
+        resources
+      operationId: semanticMashupResultGET
+      parameters:
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, a response body containing an array of the semanticMashupResult
+            is returned.
+          schema:
+            $ref: '#/definitions/inline_response_200_semanticMashupResult'
+      x-swagger-router-controller: Default
+  /semanticValidation:
+    put:
+      description: 'This method updates the information about a specific semanticValidationInfo
+        resource. '
+      operationId: semanticValidationPUT
+      parameters:
+      - description: semanticValidationInfo with updated information is included as
+          entity body of the request
+        in: body
+        name: semanticValidationInfo
+        required: true
+        schema:
+          $ref: '#/definitions/semanticValidationInfo'
+      - in: query
+        name: ToAddress
+        required: false
+        type: string
+      - in: query
+        name: FromId
+        required: false
+        type: string
+      - in: query
+        name: Operation
+        required: false
+        type: string
+      - in: query
+        name: RequestId
+        required: false
+        type: string
+      - in: query
+        name: ResourceType
+        required: false
+        type: string
+      - in: query
+        name: OriginatingTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ReqExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: ResExpirationTimestamp
+        required: false
+        type: string
+      - in: query
+        name: EventCategory
+        required: false
+        type: string
+      - in: query
+        name: OperationalExecutionTime
+        required: false
+        type: string
+      - in: query
+        name: ResponseType
+        required: false
+        type: string
+      - in: query
+        name: ResultPersistence
+        required: false
+        type: string
+      - in: query
+        name: ResultContent
+        required: false
+        type: string
+      - in: query
+        name: DeliveryAggregation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestIdentifier
+        required: false
+        type: string
+      - in: query
+        name: FilterCriteria
+        required: false
+        type: string
+      - in: query
+        name: DesiredIdentifierResultType
+        required: false
+        type: string
+      - in: query
+        name: TokenRequestIndicator
+        required: false
+        type: string
+      - in: query
+        name: Tokens
+        required: false
+        type: string
+      - in: query
+        name: TokenIDs
+        required: false
+        type: string
+      - in: query
+        name: RoleIDs
+        required: false
+        type: string
+      - in: query
+        name: LocalTokenIDs
+        required: false
+        type: string
+      - in: query
+        name: ReleaseVersionIndicator
+        required: false
+        type: string
+      - in: query
+        name: VendorInformation
+        required: false
+        type: string
+      - in: query
+        name: GroupRequestTargetMembers
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignatureIndicator
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationSignature
+        required: false
+        type: string
+      - in: query
+        name: AuthorizationRelationshipIndicator
+        required: false
+        type: string
+      - in: query
+        name: SemanticQueryIndicator
+        required: false
+        type: string
+      produces:
+      - application/json
+      responses:
+        200:
+          description: Upon success, the HTTP response shall include a "Location"
+            HTTP header that contains the resource URI of the created resource.
+          schema:
+            $ref: '#/definitions/inline_response_200_semanticValidation'
+      x-swagger-router-controller: Default
+produces:
+- application/json
+schemes:
+- http
+- https
+security:
+- OauthSecurity:
+  - all
+swagger: '2.0'
